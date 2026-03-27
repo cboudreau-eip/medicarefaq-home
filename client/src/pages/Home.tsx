@@ -1,25 +1,53 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
-
 /**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+ * MedicareFAQ Homepage
+ * Design: "Clarity System" — Swiss-Inspired Information Design
+ * Color-coded wayfinding: Teal (Start Here), Navy (Plans), Amber (Enrollment), Green (Coverage), Indigo (Library)
+ * Font: Plus Jakarta Sans 400-800
+ * Layout: Strict grid, clean sections, precise micro-interactions
  */
-export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
 
+import UtilityBar from "@/components/UtilityBar";
+import HeaderBar from "@/components/HeaderBar";
+import MegaMenu from "@/components/MegaMenu";
+import MobileNav from "@/components/MobileNav";
+import HeroSection from "@/components/HeroSection";
+import TrustBar from "@/components/TrustBar";
+import JourneySection from "@/components/JourneySection";
+import TopicSection from "@/components/TopicSection";
+import ZipFinderSection from "@/components/ZipFinderSection";
+import ResourcesSection from "@/components/ResourcesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import CTABanner from "@/components/CTABanner";
+import Footer from "@/components/Footer";
+
+export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
+      {/* Navigation — Desktop */}
+      <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
+        <UtilityBar />
+        <HeaderBar />
+        <MegaMenu />
+      </header>
+
+      {/* Navigation — Mobile */}
+      <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
+        <MobileNav />
+      </header>
+
+      {/* Main Content */}
+      <main className="flex-1">
+        <HeroSection />
+        <TrustBar />
+        <JourneySection />
+        <TopicSection />
+        <ZipFinderSection />
+        <ResourcesSection />
+        <TestimonialsSection />
+        <CTABanner />
       </main>
+
+      <Footer />
     </div>
   );
 }
