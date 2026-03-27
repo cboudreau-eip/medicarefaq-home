@@ -9,6 +9,7 @@ import { Link } from "wouter";
 import { Clock, ArrowRight, User, Search } from "lucide-react";
 import { motion } from "framer-motion";
 import { blogPosts, categories } from "@/lib/blog-data";
+import { blogArticles } from "@/lib/blog-articles-data";
 import UtilityBar from "@/components/UtilityBar";
 import HeaderBar from "@/components/HeaderBar";
 import MegaMenu from "@/components/MegaMenu";
@@ -19,7 +20,42 @@ export default function Blog() {
   const [activeCategory, setActiveCategory] = useState("All Posts");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredPosts = blogPosts.filter((post) => {
+  // Merge old static posts with new scraped articles
+  const allPosts = [
+    ...blogPosts,
+    ...blogArticles.map((a) => ({
+      slug: a.slug,
+      title: a.title,
+      excerpt: a.excerpt,
+      category: a.category,
+      categoryColor: a.categoryColor,
+      date: a.date,
+      author: a.author,
+      reviewer: a.reviewer,
+      readTime: a.readTime,
+      featured: a.featured,
+      image: a.image,
+    })),
+  ];
+
+  // Deduplicate by slug
+  const uniquePosts = allPosts.filter(
+    (post, index, self) => self.findIndex((p) => p.slug === post.slug) === index
+  );
+
+  // Merge categories
+  const allCategories = [
+    ...categories,
+    ...blogArticles
+      .map((a) => ({ name: a.category, color: a.categoryColor }))
+      .filter((c) => !categories.some((existing) => existing.name === c.name)),
+  ];
+  // Deduplicate categories
+  const uniqueCategories = allCategories.filter(
+    (cat, index, self) => self.findIndex((c) => c.name === cat.name) === index
+  );
+
+  const filteredPosts = uniquePosts.filter((post) => {
     const matchesCategory =
       activeCategory === "All Posts" || post.category === activeCategory;
     const matchesSearch =
@@ -79,7 +115,7 @@ export default function Blog() {
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
               {/* Category Pills */}
               <div className="flex items-center gap-2 overflow-x-auto pb-1 -mb-1 w-full md:w-auto">
-                {categories.map((cat) => (
+                {uniqueCategories.map((cat) => (
                   <button
                     key={cat.name}
                     onClick={() => setActiveCategory(cat.name)}
