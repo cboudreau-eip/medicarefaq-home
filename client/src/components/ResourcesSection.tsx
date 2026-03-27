@@ -9,6 +9,7 @@ const resources = [
     description:
       "Everything you need to know about Plan G — costs, coverage, and why it's become the most popular Medigap plan.",
     date: "Updated Mar 2026",
+    href: "#",
   },
   {
     type: "FAQ",
@@ -17,6 +18,7 @@ const resources = [
     description:
       "Original Medicare doesn't cover dental implants, but some Medicare Advantage plans do. Here's what to look for.",
     date: "Updated Feb 2026",
+    href: "#",
   },
   {
     type: "Tool",
@@ -25,6 +27,7 @@ const resources = [
     description:
       "Enter your birthday and employment status to see exactly when you should enroll and what deadlines to watch.",
     date: "Updated Jan 2026",
+    href: "/tools/enrollment-timeline",
   },
 ];
 
@@ -57,8 +60,8 @@ export default function ResourcesSection() {
           {resources.map((resource, index) => (
             <motion.a
               key={resource.title}
-              href="#"
-              onClick={(e) => e.preventDefault()}
+              href={resource.href}
+              onClick={(e) => { if (resource.href === "#") e.preventDefault(); }}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
