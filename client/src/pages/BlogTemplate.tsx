@@ -31,6 +31,7 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
+import { blogPosts } from "@/lib/blog-data";
 
 /* ─── FAQ Component ─── */
 function FAQItem({ question, answer }: { question: string; answer: string }) {
@@ -153,6 +154,8 @@ function SectionRenderer({ section }: { section: BlogSectionContent }) {
 export default function BlogTemplate() {
   const params = useParams<{ slug: string }>();
   const article = blogArticles.find((a) => a.slug === params.slug);
+  // Check if it's an old static post without full article content
+  const staticPost = !article ? blogPosts.find((p) => p.slug === params.slug) : null;
 
   const [activeSection, setActiveSection] = useState("");
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
@@ -186,6 +189,62 @@ export default function BlogTemplate() {
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
+
+  // Show a "Coming Soon" page for old static posts that have listing data but no full article
+  if (!article && staticPost) {
+    return (
+      <div className="min-h-screen flex flex-col bg-[#F8F9FB]">
+        <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">
+          <UtilityBar /><HeaderBar /><MegaMenu />
+        </header>
+        <header className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
+          <MobileNav />
+        </header>
+        <main className="flex-1">
+          <section className="bg-[#1B2A4A] py-10 md:py-14">
+            <div className="container max-w-6xl mx-auto">
+              <nav className="text-sm text-white/50 mb-5 flex items-center gap-2 flex-wrap">
+                <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
+                <ChevronRight className="w-3.5 h-3.5" />
+                <Link href="/blog" className="hover:text-white/80 transition-colors">Blog</Link>
+                <ChevronRight className="w-3.5 h-3.5" />
+                <span className="text-white/70">{staticPost.title}</span>
+              </nav>
+              <h1 className="text-2xl md:text-3xl lg:text-[38px] font-extrabold text-white leading-tight mb-6">{staticPost.title}</h1>
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/60">
+                <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />{staticPost.date}</span>
+                <span className="flex items-center gap-1.5"><User className="w-4 h-4" />Written By: {staticPost.author}</span>
+                <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{staticPost.readTime}</span>
+              </div>
+            </div>
+          </section>
+          <section className="py-16">
+            <div className="container max-w-3xl mx-auto text-center">
+              <div className="bg-white border border-[#E5E7EB] rounded-xl p-10 shadow-sm">
+                <div className="w-16 h-16 rounded-full bg-[#FEF3C7] flex items-center justify-center mx-auto mb-6">
+                  <AlertCircle className="w-8 h-8 text-[#D97706]" />
+                </div>
+                <h2 className="text-2xl font-bold text-[#1B2A4A] mb-3">Full Article Coming Soon</h2>
+                <p className="text-[#6B7280] text-[15px] leading-relaxed mb-6 max-w-lg mx-auto">
+                  {staticPost.excerpt}
+                </p>
+                <p className="text-[#9CA3AF] text-sm mb-8">This article is being migrated to our new platform. Check back soon for the full content.</p>
+                <div className="flex items-center justify-center gap-4">
+                  <Link href="/blog" className="inline-flex items-center gap-2 bg-[#1B2A4A] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#243556] transition-colors">
+                    <ArrowRight className="w-4 h-4 rotate-180" /> Browse All Articles
+                  </Link>
+                  <a href="tel:8883358996" className="inline-flex items-center gap-2 border-2 border-[#1B2A4A] text-[#1B2A4A] px-6 py-3 rounded-lg font-semibold hover:bg-[#1B2A4A] hover:text-white transition-colors">
+                    Call (888) 335-8996
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
   if (!article) {
     return (
