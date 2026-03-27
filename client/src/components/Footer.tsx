@@ -5,7 +5,7 @@ const LOGO_URL =
 
 const footerColumns = [
   {
-    title: "START HERE",
+    title: "NEW TO MEDICARE",
     color: "#0D9488",
     links: [
       "Medicare 101 Guide",

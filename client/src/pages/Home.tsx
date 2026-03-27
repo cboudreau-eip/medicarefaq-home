@@ -1,7 +1,7 @@
 /**
  * MedicareFAQ Homepage
  * Design: "Clarity System" — Swiss-Inspired Information Design
- * Color-coded wayfinding: Teal (Start Here), Navy (Plans), Amber (Enrollment), Green (Coverage), Indigo (Library)
+ * Color-coded wayfinding: Teal (New To Medicare), Navy (Plans), Amber (Enrollment), Green (Coverage), Indigo (Library)
  * Font: Plus Jakarta Sans 400-800
  * Layout: Strict grid, clean sections, precise micro-interactions
  */

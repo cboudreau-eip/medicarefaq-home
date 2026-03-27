@@ -51,47 +51,47 @@ export interface NavCategory {
 
 export const navigationData: NavCategory[] = [
   {
-    title: "Start Here",
-    href: "/start-here",
+    title: "New To Medicare",
+    href: "/new-to-medicare",
     color: "#0D9488",
     items: [
       {
         title: "Medicare 101 Guide",
         description: "Everything you need to know about Medicare basics",
         icon: Compass,
-        href: "/start-here/medicare-101",
+        href: "/new-to-medicare/medicare-101",
       },
       {
         title: "Am I Eligible?",
         description: "Find out if you qualify for Medicare coverage",
         icon: HelpCircle,
-        href: "/start-here/eligibility",
+        href: "/new-to-medicare/eligibility",
       },
       {
         title: "Turning 65 Timeline",
         description: "Key dates and deadlines as you approach 65",
         icon: Clock,
-        href: "/start-here/turning-65",
+        href: "/new-to-medicare/turning-65",
       },
       {
         title: "What Does It Cost?",
         description: "Understand premiums, deductibles, and out-of-pocket costs",
         icon: DollarSign,
-        href: "/start-here/costs",
+        href: "/new-to-medicare/costs",
       },
       {
         title: "Getting Started Checklist",
         description: "Step-by-step checklist for new Medicare enrollees",
         icon: CheckSquare,
-        href: "/start-here/checklist",
+        href: "/new-to-medicare/checklist",
       },
     ],
     sidebarTitle: "QUICK START",
     sidebarItems: [
       {
-        title: "New to Medicare? Start Here",
+        title: "New to Medicare? Begin Here",
         description: "Our most popular guide for people approaching 65.",
-        href: "/start-here/medicare-101",
+        href: "/new-to-medicare/medicare-101",
         cta: "Read the Guide",
       },
     ],
