@@ -14,11 +14,11 @@ const resources = [
   {
     type: "FAQ",
     typeColor: "#D97706",
-    title: "Does Medicare Cover Dental Implants?",
+    title: "Does Medicare Cover Life Alert?",
     description:
-      "Original Medicare doesn't cover dental implants, but some Medicare Advantage plans do. Here's what to look for.",
-    date: "Updated Feb 2026",
-    href: "#",
+      "Original Medicare doesn't cover medical alert systems, but some Medicare Advantage plans do. Here's what to look for.",
+    date: "Updated Mar 2026",
+    href: "/faqs/does-medicare-cover-medical-alert-systems",
   },
   {
     type: "Tool",

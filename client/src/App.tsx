@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import BlogArticle from "./pages/BlogArticle";
 import EnrollmentCalculator from "./pages/EnrollmentCalculator";
+import CoverageArticle from "./pages/CoverageArticle";
 
 
 function Router() {
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/blog"} component={Blog} />
       <Route path={"/blog/:slug"} component={BlogArticle} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
+      <Route path={"/faqs/does-medicare-cover-medical-alert-systems"} component={CoverageArticle} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
