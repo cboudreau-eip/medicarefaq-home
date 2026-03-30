@@ -2168,4 +2168,1397 @@ export const coverageArticles: CoverageArticleData[] = [
       text: "Our licensed agents can help you find a Medicare Supplement plan that covers the gaps and gives you predictable monthly costs.",
     },
   },
-];
+  {
+    slug: "does-medicare-cover-life-alert",
+    title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
+    subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
+    category: "Medicare Coverage",
+    dateUpdated: "March 10, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "not-covered",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "not-covered",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Not Covered",
+        icon: "shield",
+        notes: "Does not cover this service directly",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Some Plans",
+        icon: "shield",
+        notes: "Coverage varies by plan and ZIP code",
+      },
+{
+        planType: "Medigap",
+        coverage: "Not Covered",
+        icon: "shield",
+        notes: "Only supplements Original Medicare benefits",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Understanding Medicare and Medical Alert System Coverage",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers durable medical equipment that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
+          "According to Medicare.gov, which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
+          "The distinction matters because Medicare focuses on treating medical conditions rather than preventing potential emergencies.",
+        ],
+      },
+{
+        planName: "Medicare Advantage Plans and Medical Alert Benefits",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "Your best chance for Medicare-related coverage of medical alert systems comes through Medicare Advantage plans. Many Medicare Advantage insurers offer supplemental benefits that go beyond what Original Medicare covers, and some include medical alert devices as part of their wellness programs.",
+          "These benefits typically work in one of two ways. Some plans provide a specific medical alert device at no extra cost, while others offer a monthly allowance that you can apply toward the device of your choice. The allowance might cover the full monthly cost or provide a partial discount.",
+          "However, coverage varies significantly between plans and geographic areas. A Medicare Advantage plan in Florida might offer comprehensive medical alert benefits, while a similar plan in your state might not include this benefit at all.",
+        ],
+      },
+{
+        planName: "Life Alert Costs Without Medicare Coverage",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Since Medicare does not cover Life Alert, you will pay the full cost out of pocket. Life Alert pricing typically includes an activation fee, monthly monitoring fees, and potential equipment costs depending on which package you choose. According to industry pricing reports and Life Alert’s own published information, these costs can vary based on features and service level.",
+          "Typical Medical Alert System Costs (2026)",
+          "| Provider | Monthly Fee | Activation/Setup Fee | Key Features |",
+        ],
+      },
+    ],
+    faqs: [
+{
+        question: "Does Medicare cover Life Alert?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Do any Medicare plans cover medical alert systems?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "How much does Life Alert cost per month?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Are there cheaper alternatives to Life Alert?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Does the VA cover medical alert systems?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+    ],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Coverage</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "is-medicare-free",
+    title: "Is Medicare Free?",
+    subtitle: "Medicare is not free. Each part of Medicare has its own costs. However, you may be eligible to receive some parts of medicare for a $0 monthly premium based on your history working in the U.S. and paying Medicare taxes.",
+    category: "General Medicare",
+    dateUpdated: "February 19, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "Medicare is not free. Each part of Medicare has its own costs. However, you may be eligible to receive some parts of medicare for a $0 monthly premium based on your history working in the U.S. and paying Medicare taxes.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Is Medicare Part A Free?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "A portion of the payroll taxes you pay throughout your working career are set aside in a trust fund to help pay for Medicare Part A. If you or a spouse contribute to Medicare taxes for a minimum of 40 quarters (10 years) in the U.S., then your Medicare Part A benefits will have a $0 monthly premium.",
+          "Beneficiaries who contribute 30-39 quarters will have a monthly premium of $311. Those with fewer than 30 quarters of contributions would pay the full premium, which is $565 in 2026.",
+          "While the premium for Part A may be $0 in some cases, you are still responsible for deductibles, copayments and coinsurance when receiving care.",
+        ],
+      },
+{
+        planName: "Is Medicare Part B Free?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Part B is not free. Most Medicare Part B enrollees have a standard monthly premium that can change from year to year. For 2026, the standard monthly premium is $202.90, up from $185 in 2025.",
+          "Premiums reflect income. Therefore, if you’re in a higher income bracket, you will pay more for coverage, this is known as IRMAA.",
+          "In addition to your premium, Medicare Part B also requires you to pay a deductible, copayments, and coinsurance each time you use your benefits.",
+        ],
+      },
+{
+        planName: "Why Are Some Medicare Advantage Plans Free?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "While some Medicare Advantage plans do have a $0 premium, this does not mean the coverage is entirely “free”. When enrolled in Medicare Advantage, you will still need to pay your Medicare Part B premium.",
+          "There are both pros and cons of Medicare Advantage plans. They may offset the zero-dollar premiums by requiring higher copayments and coinsurance. They also tend to have higher out-of-pocket costs than Medigap Plans.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "25-medicare-qas-you-should-know",
+    title: "25 Medicare Q&As You Should Know in 2026",
+    subtitle: "It is common to have many Medicare-related questions running through your mind at any given time. However, finding the answer to these Medicare questions may prove to be more complex than expected.",
+    category: "General Medicare",
+    dateUpdated: "February 19, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "It is common to have many Medicare-related questions running through your mind at any given time. However, finding the answer to these Medicare questions may prove to be more complex than expected.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Top 25 Medicare Questions in 2026:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The following are the top 25 most asked questions by you – our clients- to our licensed Medicare agents. These questions are listed in no particular order.",
+          "1.  Who is Eligible for Medicare?",
+          "2.  Will I automatically be enrolled in Medicare when I turn 65?",
+        ],
+      },
+{
+        planName: "Who is Eligible for Medicare?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "To be eligible for Original Medicare, you must be a permanent legal resident (green card holder) or an American citizen who has lived in the United States for at least five years AND one of the following:",
+          "*   Under age 65 and receiving Social Security Disability Income for 24 months",
+          "*   Diagnosed with End-Stage Renal Disease or Amyotrophic Lateral Sclerosis",
+        ],
+      },
+{
+        planName: "Will I automatically be enrolled in Medicare when I turn 65?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "You will automatically be enrolled in Medicare at age 65 if you are receiving Social Security benefits or railroad retirement board benefits at least four months before you enroll in Medicare.",
+          "However, suppose you are not receiving Social Security benefits or railroad retirement board benefits. In that case, you will need to contact your local Social Security office to enroll in Medicare up to three months before your 65th birth month.",
+          "If you must contact your local Social Security office, you can sign up for Part A and Part B at the same time. Once you complete the application and provide the required documentation, you will begin receiving benefits on the first day of your 65th birth month.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "new-medicare-changes",
+    title: "New Medicare Changes for 2026",
+    subtitle: "Every year, changes come to Medicare. In 2026, Medicare has several new benefits and adjustments to speak of.",
+    category: "General Medicare",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Every year, changes come to Medicare. In 2026, Medicare has several new benefits and adjustments to speak of.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "What is the Medicare Deductible for 2026?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "The annual Medicare Part B deductible has increased in 2026 to $283, which is $26 more than last year. The standard Part B premium is increased to $202.90 monthly, which is $17.90 more per month.",
+          "Medicare Part A is does not have a premium for most people. However, the premium does increase each year. In 2026, the Medicare Part A deductible will be $1,736 for each benefit period. That makes the increase $60 more than last year. But, those who buy into Medicare could pay a full Part A premium of $565 each month. And, those who paid 30-39 quarters could pay $311 per month.",
+          "The inpatient hospital benefit period costs are rising slightly for 2026. For days 1-60 beneficiaries will continue to pay $0 each day. Days 61-90 now cost $434 per day. Finally, for days 91 and beyond, you’ll pay $868 coinsurance for each day. Now, skilled nursing facility copayments also saw an increase; days 21-100 cost $217 per day.",
+        ],
+      },
+{
+        planName: "New Medicare Benefits for 2026",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The number of Medicare Advantage plans available to the average beneficiary has increased for 2026. Also, telemedicine is growing in availability. Before we go over all the specifics on new Medicare benefits, let’s take a look at the cost of Medicare in 2026.",
+        ],
+      },
+{
+        planName: "What Does Medicare Advantage Look Like for 2026?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage plans are available across the United States. Beneficiaries can also expect to see more plan options, even for those in rural areas. More options and lower costs are good news to beneficiaries opting for Part C insurance.",
+        ],
+      },
+    ],
+    faqs: [
+{
+        question: "When will 2026 Medicare premiums be announced?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "When will 2026 Medicare Advantage plans be available?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Have the Medicare income limits changed for 2026?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Is Plan F still available in 2026?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+    ],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
+    title: "Do Disposable Adult Diaper Manufacturers Have Assistance Programs for Free or Reduced Cost Depends?",
+    subtitle: "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies.",
+    category: "General Medicare",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies. The availability of these programs can vary significantly among different manufacturers, and eligibility criteria and benefits offered may differ from one company to another.",
+          "To access these assistance programs, you should reach out directly to the manufacturers of the adult diapers you use or are interested in. By contacting their customer service or assistance departments, you can inquire about the availability of any financial aid programs, application procedures, and eligibility requirements. Manufacturers often have dedicated resources to help individuals navigate these programs and ensure they receive the support they need.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management",
+    title: "Will Medicare Supplement Plan G Pay for Anesthesia for Pain Management?",
+    subtitle: "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky.",
+    category: "General Medicare",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "2 min read",
+    quickAnswer: {
+      text: "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky. Medicare Supplement Plan G will cover anesthesia costs when they are billed correctly and are associated with a procedure that Medicare covers. This means that if the anesthesia is part of a Medicare-approved treatment, Plan G will generally help cover the associated costs.",
+          "Yet, there are important caveats you should consider. If the anesthesia is billed incorrectly or if it is associated with a procedure that Medicare does not cover, Plan G will not provide coverage. For instance, if the procedure for which anesthesia is being used is considered experimental or not medically necessary under Medicare guidelines, the costs may not be covered by Medicare or Medigap Plan G.",
+          "To avoid unexpected expenses, it is always important to ensure that the anesthesia and related procedures are pre-approved by Medicare and billed correctly. Consulting with your healthcare provider and reviewing the specifics with your insurance carrier can help clarify what costs will be covered under Plan G.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "does-medicare-cover-a-shower-transfer-bench",
+    title: "Does Medicare Cover a Shower Transfer Bench?",
+    subtitle: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
+    category: "General Medicare",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
+      badges: [
+{
+          plan: "Part B",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare (Part B)",
+        coverage: "May Cover",
+        icon: "shield",
+        notes: "Coverage if deemed medically necessary",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Some Plans",
+        icon: "shield",
+        notes: "Coverage varies by plan",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Pays secondary to Original Medicare",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician. To qualify for coverage, the bench must be prescribed as part of a plan to address a specific medical need, such as assisting with mobility and safety in the shower for individuals with certain impairments. The necessity of the bench must be clearly outlined by the prescribing doctor, who will need to documentation to support the claim. This documentation is crucial for ensuring that the item meets Medicare’s criteria for durable medical equipment (DME) coverage.",
+          "However, coverage can vary depending on the supplier and their adherence to Medicare’s guidelines. It is essential to work with a supplier who is enrolled in Medicare and understands the requirements for DME coverage. They will help ensure that the shower transfer bench is appropriately billed to Medicare, and that all paperwork is completed correctly.",
+          "Additionally, id the transfer bench is covered by Medicare, patients may need to pay certain costs out of pocket, such as deductibles or co-insurance, depending on their specific plan and any additional coverage they may have. It is essential to speak with both your healthcare provider and the supply company to confirm the details of coverage and any potential costs before proceeding with the purchase.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-silversneakers-program",
+    title: "SilverSneakers Medicare Gym Membership Program",
+    subtitle: "SilverSneakers is a gym membership program that allows free and discounted gym memberships to eligible seniors. This program helps seniors stay active and engaged as they age.",
+    category: "General Medicare",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "SilverSneakers is a gym membership program that allows free and discounted gym memberships to eligible seniors. This program helps seniors stay active and engaged as they age.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "What is SilverSneakers?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "SilverSneakers is a fitness program available to Medicare beneficiaries. The program promotes optimal health and can help create bonds within communities.",
+          "Group fitness classes, one-on-one lessons, and local gym memberships are just a fraction of the benefits available for SilverSneakers Medicare enrollees. The wellness program is available nationwide and provides members with a network of more than 16,000 fitness centers.",
+          "For those who are tech-savvy, the SilverSneakers GO mobile app allows you to receive a digital membership card and workouts on the go.",
+        ],
+      },
+{
+        planName: "Does Medicare Cover SilverSneakers?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Medicare does not cover the costs of fitness programs and gym memberships. Thus, Original Medicare does not cover the cost of SilverSneakers.",
+          "Medicare Advantage plans can offer additional benefits unavailable through Original Medicare. Often, these plans include some type of gym membership or wellness program.",
+          "Medicare Supplement (Medigap) policies do not include coverage for gym memberships. However, some carriers offer these benefits to their enrollees. The availability of these plans also varies by state, so speaking with a licensed agent is the best way to find out if you can enroll in a Medigap policy that includes coverage for a gym membership.",
+        ],
+      },
+{
+        planName: "SilverSneakers Program Eligibility",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you are a Medicare beneficiary under age 65, you may qualify for a Medicare Advantage plan with SilverSneakers. There is NO age requirement!",
+          "The SilverSneakers program requires the following:",
+          "*   Medicare-eligible.",
+        ],
+      },
+    ],
+    faqs: [
+{
+        question: "How does Silver Sneakers compensate the gym for services when we use their facility at no cost us?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Why is there no Silver Sneakers eligibility for disabled people under 65?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "If I have a supplement plan that includes Silver Sneakers, can I go to any gym that accepts it?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "I have a Medicare Advantage plan that includes Silver Sneakers. Can I switch to a different Advantage plan and keep my Silver Sneakers membership?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+{
+        question: "Is Silver Sneakers available in all states?",
+        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+      },
+    ],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-annual-notice-of-change-letter",
+    title: "Medicare Annual Notice of Change (ANOC) Letter",
+    subtitle: "The Medicare Annual Notice of Change (ANOC) letter is an important document you receive each September. The ANOC outlines any changes to your Medicare plan that will go into effect the following year. It’s important to review your ANOC so that you can determine if you want to make changes to your Medicare plan to ensure you’re getting the right coverage for your needs.",
+    category: "Medicare Enrollment",
+    dateUpdated: "February 18, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "The Medicare Annual Notice of Change (ANOC) letter is an important document you receive each September. The ANOC outlines any changes to your Medicare plan that will go into effect the following year. It’s important to review your ANOC so that you can determine if you want to make changes to your Medicare plan to ensure you’re getting the right coverage for your needs.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Who Will Receive the Medicare ANOC Letter?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "You can expect to receive a Medicare Annual Notice of Change letter if you are a beneficiary with Medicare Advantage or a Medicare Part D prescription drug plan.",
+          "However, you should not expect to receive an Annual Notice of Change for a Medicare Supplement plan. That is because Medicare Supplement (Medigap) Plans do not incur annual changes to benefits. So, the letter is not necessary.",
+        ],
+      },
+{
+        planName: "What is Medicare Annual Notice of Change?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicare Annual Notice of Change letter is something you receive every year from your Medicare Advantage plan or Medicare Part D plan. The ANOC provides all of the information you need on any changes to your plan’s cost and coverage that will take place on January 1st of the following year.",
+          "It’s a good idea to thoroughly review your Annual Notice of Change Medicare updates to see if your current plan will still meet your healthcare needs and budget in the new year.",
+          "You should contact your plan’s insurance company if you do not receive your ANOC.",
+        ],
+      },
+{
+        planName: "Changes to Medicare Plans You Can You Anticipate",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The ANOC letter will include any changes to your Medicare Advantage or Medicare Part D plan. It will outline cost changes and, if applicable, benefit and service area changes.",
+          "Those on Medicare Advantage will receive a letter from their private insurance company providing their coverage. The correspondence will include changes in costs, benefits, and any adjustments to the service area.",
+          "Private insurers offering Medicare Part D plans must also send their beneficiaries an ANOC letter. For Medicare Part D prescription drug plans, the ANOC will outline any cost, service area, and formulary changes.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Enrollment</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-give-back-benefit",
+    title: "Medicare Give Back Benefit",
+    subtitle: "The Medicare Give Back Benefit is specific to certain Medicare Advantage plans. This benefit covers up to the entire Medicare Part B premium for the policyholder.",
+    category: "Medicare Advantage",
+    dateUpdated: "February 17, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "The Medicare Give Back Benefit is specific to certain Medicare Advantage plans. This benefit covers up to the entire Medicare Part B premium for the policyholder.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "What Medicare Give Back Benefit?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicare Give Back Benefit reduces your Part B premiums. This is a great way to lower your healthcare costs if you are a senior on Medicare. Enrolling in a Medicare Advantage plan that offers this benefit means your carriers pay either a part of or the entire premium for your Medicare Part B each month.",
+        ],
+      },
+{
+        planName: "Is the Medicare Give Back Benefit the Same as the Medicare Part B Premium Reduction?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Yes, Medicare Part B Premium Reduction is another term for the Medicare Give Back Benefit. Depending on your region, you may see slightly different names for the program, but just know that they are all Medicare Advantage plans. The benefit functions the same across plans, no matter what it’s called.",
+        ],
+      },
+{
+        planName: "What Medicare Advantage Plans Have the Give Back Benefit?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicare Part B Give Back Program is only available through Medicare Advantage plans. Private insurance companies provide these plans, and their availability can change from carrier to carrier. The best way to identify which plans offer the benefit is to speak with a licensed Medicare agent about your healthcare needs.",
+        ],
+      },
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Advantage</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },];
