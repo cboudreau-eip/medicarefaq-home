@@ -12,6 +12,7 @@ import EnrollmentCalculator from "./pages/EnrollmentCalculator";
 import CoverageArticle from "./pages/CoverageArticle";
 import CoverageTemplate from "./pages/CoverageTemplate";
 import Coverage from "./pages/Coverage";
+import About from "./pages/About";
 
 
 function Router() {
@@ -23,6 +24,7 @@ function Router() {
       <Route path={"/blog/medicare-part-b-annual-deductible-explained-what-youll-pay"} component={BlogArticle} />
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
+      <Route path={"/about"} component={About} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
