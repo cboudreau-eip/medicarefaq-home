@@ -125,21 +125,7 @@ export default function Coverage() {
           </div>
         </section>
 
-        {/* ─── Search Bar ─── */}
-        <section className="bg-white border-b border-[#E5E7EB] sticky top-[132px] lg:top-[133px] z-30">
-          <div className="container max-w-6xl mx-auto py-4">
-            <div className="relative w-full md:w-80">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" />
-              <input
-                type="text"
-                placeholder="Search coverage topics..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:border-[#1B2A4A] focus:ring-1 focus:ring-[#1B2A4A]/20 transition-all duration-150"
-              />
-            </div>
-          </div>
-        </section>
+
 
         {/* ─── Featured / Latest Articles ─── */}
         {showFeatured && (
