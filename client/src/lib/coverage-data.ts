@@ -3561,4 +3561,1640 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+  },
+  {
+    slug: "why-medicare-advantage-plans-are-bad",
+    title: "Why Medicare Advantage Plans Are Bad",
+    subtitle: "Medicare Advantage plans are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
+    category: "Medicare Advantage",
+    dateUpdated: "February 17, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "17 min read",
+    quickAnswer: {
+      text: "Medicare Advantage plans are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "**Excerpt:** Medicare Advantage plans are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
+        ],
+      },{
+        planName: "Full Article Content:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Many seniors turn to Medicare Advantage plans as an alternative to traditional Medicare as healthcare costs continue to rise across the country. However, despite the promises of these plans, they often come with a host of downsides that some overlook. Medicare Advantage plans may include additional benefits like prescription drug coverage, care for vision, dental, hearing aids, and maybe even a free membership to the gym. Yet, people often complain about or criticize these plans. So, what are the disadvantages of Medicare Advantage? Why are Medicare Advantage plans bad?",
+          "Misinformation and a lack of understanding can lead to Medicare Advantage nightmares. So, we are here to help clear the air. Medicare Advantage plans are not bad in every situation. However, they are certainly not a good fit for everyone. You should only enroll in Medicare Advantage coverage if it is the best fit for your unique situation. Below, we clarify why these seemingly too-good-to-be-true plans have a less-than-stellar reputation and answer the much-anticipated question of why Medicare Advantage plans are bad.",
+        ],
+      },{
+        planName: "Why Do Doctors Not Like Medicare Advantage Plans?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "It is no secret that some doctors have expressed their concerns regarding Medicare Advantage plans. If you ask your doctor how they feel about Medicare Advantage plans, the answer may surprise you. There are several reasons doctors do not think fondly of Medicare Advantage Plans. These include:",
+          "Strict network of providers",
+          "The financial structure of the plans",
+        ],
+      },{
+        planName: "Strict Network of Providers",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Doctors may have a variety of reasons for not liking Medicare Advantage plans. One reason is that these plans often have smaller networks of doctors and hospitals than traditional Medicare, which can limit the choice of providers available to patients. This can be frustrating for doctors who want to provide the best possible care for their patients by providing referrals but are constrained by the limitations of the plan.",
+          "When a Medicare Advantage plan offers a limited network, receiving a referral to the best specialist may be more difficult than anticipated.",
+        ],
+      },{
+        planName: "Medicare Advantage Plan Financial Structure",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The average physician is not a fan of Medicare Advantage because these plans put the patients’ financial risk in the hands of the doctor. The Medicare Advantage plan carrier will pay your doctor a set amount of money upfront based on a diagnosis. So, the only way the physician will make a profit is if they stay under budget. This encourages doctors to provide cost-effective care that may create pressure to prioritize cost over care.",
+          "The complex billing and reimbursement process with Medicare Advantage plans is also a common downfall in the eyes of a physician. In addition to needing to stay under budget when providing care, Medicare Advantage plans often have different payment structures and rates than traditional Medicare, which can make it difficult for doctors to understand how they will be paid for their services.",
+        ],
+      },{
+        planName: "Prior Authorization",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Another reason why doctors may not like Medicare Advantage plans is that these plans often require prior authorization for certain treatments or procedures. This means that doctors must get approval from the insurance company before they can perform certain tests, procedures, or treatments.",
+          "Obtaining prior authorization can be extremely time-consuming and can delay the delivery of care, which can be frustrating for both the doctor and the patient.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Advantage</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medigap-vs-medicare-advantage",
+    title: "Medicare Supplement (Medigap) vs Medicare Advantage",
+    subtitle: "If you are new to Medicare or want to change your plans, finding the plan with the right health benefits for you is essential. When deciding which plan to enroll in, your first step should be to choose between Medigap plan vs. Medicare Advantage plans.",
+    category: "Medicare Supplement (Medigap)",
+    dateUpdated: "February 17, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "If you are new to Medicare or want to change your plans, finding the plan with the right health benefits for you is essential. When deciding which plan to enroll in, your first step should be to choose between Medigap plan vs. Medicare Advantage plans.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you are new to Medicare or want to change your plans, finding the plan with the right health benefits for you is essential. When deciding which plan to enroll in, your first step should be to choose between Medigap plan vs. Medicare Advantage plans. Understanding which plan type best fits your needs is top priority when enrolling in coverage.",
+          "Find Medicare Plans in 3 Easy Steps",
+          "Let us help you navigate your Medicare journey",
+        ],
+      },{
+        planName: "What is the Difference Between Medicare Supplement vs. Medicare Advantage?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "While Medicare Supplement plans pay secondary to Original Medicare, Medicare Advantage plans become your primary source of coverage when you enroll.",
+          "Medicare pays a set amount to the carrier for the Medicare Advantage plan in which you enroll to take on your coverage needs for the calendar year.",
+          "Those [new to Medicare]() may notice a considerable amount of Medicare Advantage plan promotion through advertisements and little to no promotion of Medicare Supplement plans.",
+        ],
+      },{
+        planName: "Medicare Supplement vs. Medicare Advantage Pros and Cons",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "There are several differences between Medigap vs. Medicare Advantage plans. A Medicare Advantage plan (Medicare Part C) is structured as an [all-in-one]() option with low monthly premiums.",
+          "Medicare Supplement plans offer additional coverage to Original Medicare with low to no out-of-pocket costs. The chart below reviews the pros and cons of Medicare Advantage and Medicare Supplement plans.",
+          "Find Medicare Plans in 3 Easy Steps",
+        ],
+      },{
+        planName: "Which is Better Medicare Advantage vs. Medicare Supplement (Medigap)?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare does not offer a one-size-fits-all plan. So, the best policy for you is the policy that best meets your healthcare needs.",
+          "Medicare Supplement plans are the best option if you want complete reassurance and predictability with your healthcare but are comfortable paying higher premiums in exchange for lower out-of-pocket costs.",
+          "In contrast, Medicare Advantage plans are the best option if you hope to save on monthly premiums and receive additional benefits while accepting responsibility for additional out-of-pocket costs at the doctor’s office.",
+        ],
+      },{
+        planName: "How Do I Choose Between Medicare Advantage and Medicare Supplement Plans?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Do you want predictable costs, the freedom to choose any doctor, avoid referrals, and peace of mind while traveling? If you answered yes, you are looking for a Medicare Supplement plan.",
+          "Are you comfortable with unpredictable copayments, strict doctor networks, and referrals in exchange for a lower monthly premium and additional benefits? If your answer is yes, Medicare Advantage could work for you.",
+          "The best part about working with agents is that no matter which option you choose, we make sure it is the best for you. Perhaps you are already thinking about making the [switch from a Medicare Advantage to a Medicare Supplement plan](), or the other way around.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Supplement (Medigap)</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-special-enrollment-period",
+    title: "Medicare Special Enrollment Period",
+    subtitle: "Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage.",
+    category: "Medicare Enrollment",
+    dateUpdated: "February 17, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "13 min read",
+    quickAnswer: {
+      text: "Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "**Summary:** Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage. **Estimated Read Time:** 16 mins",
+        ],
+      },{
+        planName: "Table of Contents:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "1.  [What Is a Medicare Special Enrollment Period?]()",
+          "2.  [What Qualifies as a Special Enrollment Period for Medicare?]()",
+          "3.  [What is a Special Enrollment Period for Medicare Part B?]()",
+        ],
+      },{
+        planName: "What Is a Medicare Special Enrollment Period?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Your Medicare Special Enrollment Period, also known as a Special Election Period, is an opportunity to enroll in or change your Medicare coverage when you are experiencing a qualifying life event. While a Medicare SEP is allowed for all beneficiaries, you must have coverage that qualifies and be undergoing a qualifying life event.",
+          "For example, if you decide that you are unhappy with your [Medicare Part C]() coverage and want to switch, but it’s outside of the [Medicare Annual Enrollment Period](), you’ll have to wait until the fall. However, if you are moving to a new city that requires you to enroll in a different plan option, you’d be given the opportunity to make changes because of Special Enrollment Period Medicare provides.",
+          "Everyone experiences different life changes and shouldn’t have to forgo healthcare coverage because of them. Again, you’ll need to undergo a qualifying event, but if you do, you’ll receive a Special Enrollment Period for Medicare. Starting in 2024, there are even more potential SEPs that will become available.",
+        ],
+      },{
+        planName: "What Qualifies as a Special Enrollment Period for Medicare?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Special Enrollment Periods come when a qualifying life event allows you to make changes to your Medicare Advantage and Medicare Part D prescription drug coverage. Here are the most common examples that qualify under Medicare special enrollment qualifications:",
+        ],
+      },{
+        planName: "You’ve Moved to an Area Your Plan Doesn’t Offer Coverage",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The SEP Medicare provides here works in a few ways. Those who notify their carrier before moving will receive a Special Enrollment Period that starts the month before they make the move and will last for two months following the completion of the move.",
+          "If you wait to tell your carrier until after you move, your SEP begins the month your carrier was notified and will last two more months afterward. Anyone who doesn’t enroll in a new Medicare Advantage or Part D plan using an SEP will rely on Original Medicare by default.",
+        ],
+      },{
+        planName: "You’ve Lost Your Coverage From an Employer",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you are no longer receiving coverage from your place of work, here’s how your Special Enrollment Period for Medicare works:",
+          "For Part B coverage, you’ll have eight months following the end of your employer’s plan or your time of employment ends.",
+          "For beneficiaries with Medicare Advantage or Part D plans, you’ll have an SEP for two months following the conclusion of your coverage.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Enrollment</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-advantage-open-enrollment-period",
+    title: "Medicare Advantage Open Enrollment Period | MAOEP",
+    subtitle: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
+    category: "Medicare Enrollment",
+    dateUpdated: "February 17, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "12 min read",
+    quickAnswer: {
+      text: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "**URL:** https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
+          "**Summary:** The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage. The MAOEP is not the time to enroll in Medicare Advantage for the first time. Be sure to use this period to review your plan’s network, coverage, and formulary when applicable to ensure that your coverage meets your healthcare needs. Estimated Read Time: 9 mins",
+          "If you are unhappy with your current Medicare Advantage plan, the Medicare Advantage Open Enrollment Period (MAOEP) is an annual window that allows you to make a one-time change to your existing Medicare Advantage coverage.",
+        ],
+      },{
+        planName: "Do you have to go through underwriting if you switch during the MAOEP period?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Betsy, you will never have to go through underwriting for a Medicare Advantage plan. However, if you leave Medicare Advantage during MAOEP, and wish to enroll in a Medicare Supplement plan, you will need to go through underwriting to enroll in a Medigap plan.",
+        ],
+      },{
+        planName: "Can I change my Part D plan during this period? I am on Original Medicare with a Part D drug plan that is not what I thought it was, based on the numbers I saw on medicare.gov.",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Hello Robert, unfortunately unless you have a special enrollment period, you are not eligible to change your Medicare Part D plan during this time. The annual Medicare Part D enrollment period is October 15-December 7.",
+        ],
+      },{
+        planName: "If I want to disenroll from a MA plan and go back to original medicare, do I simply call to cancel my MA and choose a PDP?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Tina, from January 1 through March 31, you can leave your Medicare Advantage plan and return to Original Medicare. This time is known as the Medicare Advantage Open Enrollment Period. To review your options, complete our online rate form to speak with a licensed agent.",
+        ],
+      },{
+        planName: "I have Medicare Advantage with Kaiser, would like to switch to BLUESHIELD Medigap PPO, can I do it on my Birthday? Or Only bebfore December 7th?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Hi Pravan – today is the last day of the Annual Enrollment Period. However, since you currently have an Advantage plan, you will have another opportunity to switch your Advantage plan during the Medicare Advantage Open Enrollment Period, which will be from January 1 through March 31.",
+        ],
+      },{
+        planName: "Which Medicare program fits best when you also have VA coverage and travel throughout the year often away from home base.",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Hi John! We have a great article on veteran benefits and Medicare that should be able to answer your question!",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Enrollment</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "fehb-and-medicare",
+    title: "Federal Employee Health Benefits (FEHB) and Medicare",
+    subtitle: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
+    category: "General Medicare",
+    dateUpdated: "February 16, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "13 min read",
+    quickAnswer: {
+      text: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Title: Federal Employee Health Benefits (FEHB) and Medicare",
+          "Excerpt: If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
+          "Updated on February 16, 2026",
+        ],
+      },{
+        planName: "Summary:** If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement. **Estimated Read Time: 10 min",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Find Medicare Plans in 3 Easy Steps",
+          "Let us help you navigate your Medicare journey",
+        ],
+      },{
+        planName: "Table of Contents:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "2.  [Federal Employee Health Benefits and Medicare]()",
+          "3.  [How Does Medicare and FEHB Coordinate Benefits?]()",
+          "4.  [FEHB and Medicare Part A]()",
+        ],
+      },{
+        planName: "What is FEHB",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Federal Employees Health Benefits Program, or FEHB, is the world’s largest employer-sponsored group health insurance program. This coverage is for federal workers and retirees, as well as their families and spouses. Through the FEHB, federal employees (retired or currently employed) can choose to enroll in a variety of health insurance plans.",
+          "Individuals who enroll in a health insurance plan through the FEHB program receive a government contribution to their plan costs and can have their coverage continue into retirement. Additionally, those participating in the FEHB program can also change their coverage annually during the Federal Benefits Open Season (occurs in November and December).",
+          "Since FEHB plan coverage can carry into retirement, you may be wondering: what happens when I become eligible for Medicare if I have coverage through the FEHB program? Below, we’ll take a closer look at your options regarding coverage and some considerations to make before making any changes.",
+        ],
+      },{
+        planName: "Federal Employee Health Benefits and Medicare",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Like Medicare, FEHB includes coverage for inpatient and outpatient services. So retired, former, and active federal employees who are eligible for both programs – as well as those who are eligible for FEHB through their [current or former spouse]() – often wonder if they can have both Medicare and FEHB at the same time.",
+          "The short answer is yes. Enrolling in Medicare when you turn 65 will not cause you to lose or be disenrolled from your FEHB plan.",
+          "Depending on your individual needs, it may make sense to:",
+        ],
+      },{
+        planName: "How Does Medicare and FEHB Coordinate Benefits?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "For those on FEHB and enrolling in Medicare, it is important to know that Medicare will always pay secondary to FEHB while you or your spouse are still employed. Although the coverage may look similar, often you will find that Medicare offers more extensive coverage for things like [durable medical equipment](), home health care, and prosthetic devices – to name a few.",
+          "You will have 30 days prior to your Medicare eligibility date to change your current FEHB plan. This enrollment opportunity can only be used once, and you can change to any plan that is currently available. If you’re planning to retire, you may consider switching to a lower cost plan or one that waives some out-of-pocket costs when Medicare is the primary payer.",
+          "Once you retire, Medicare will become your primary payer and your FEHB plan will become the secondary payer. Your FEHB plan premium will not change when Medicare becomes your primary payer. During retirement, you will still have the opportunity to change your FEHB plan during the annual Federal Benefits Open Season.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-creditable-coverage",
+    title: "What is Medicare Creditable Coverage",
+    subtitle: "If you choose to delay your Medicare coverage, you’ll want to ensure you have creditable coverage. Creditable coverage must provide you with benefits that are as good as or better than Medicare’s coverage.",
+    category: "General Medicare",
+    dateUpdated: "February 16, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "If you choose to delay your Medicare coverage, you’ll want to ensure you have creditable coverage. Creditable coverage must provide you with benefits that are as good as or better than Medicare’s coverage.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Table of Contents:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "1.  [What is Creditable Coverage for Medicare Part B?]()",
+          "2.  [What is Creditable Coverage for Medicare Part D?]()",
+          "3.  [Notice of Creditable Coverage]()",
+        ],
+      },{
+        planName: "What is Creditable Coverage for Medicare Part B?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "It is not uncommon to delay Medicare Part B because you are still working and covered under your employer’s health plan. However, not all employer coverage is considered creditable and delaying Medicare Part B without creditable coverage can be detrimental to your wallet in the future.",
+          "If you do not enroll in Medicare Part B as soon as you become eligible for Medicare, you may be subject to a penalty. The [Medicare Part B penalty]() increases incrementally for every year you lack creditable coverage. When you eventually enroll in Medicare Part B, you will pay the penalty plus your [Medicare Part B premium]() each month.",
+          "To know if your coverage is creditable or not, you should receive a letter from your insurance carrier each year to notify the Medicare-eligible members of your household of the credibility of your coverage.",
+        ],
+      },{
+        planName: "Examples of Creditable Coverage for Medicare Part B",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you are approaching Medicare eligibility and wish to delay Medicare Part B without penalty, you must have creditable health coverage. Some of the most common types of creditable coverage include:",
+          "[Large employer group plans]()",
+          "Union-sponsored health plans",
+        ],
+      },{
+        planName: "Examples of Coverage NOT Creditable for Medicare Part B",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "When it comes to creditable coverage, not all plan types qualify. You will want to be sure that your health care plan is considered creditable for Medicare Part B when delaying Part B coverage.",
+          "Examples of coverage that is not creditable for Medicare Part B include:",
+          "TRICARE",
+        ],
+      },{
+        planName: "What is Creditable Coverage for Medicare Part D?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Creditable prescription drug coverage, as defined by Medicare, is “prescription drug coverage that’s expected to pay, on average, at least as much as Medicare drug coverage”.",
+          "In some cases, coverage may be creditable for Medicare Part D but not creditable for Medicare Part B. Thus, it is easier to delay Part D without being subject to the late enrollment penalty.",
+        ],
+      },{
+        planName: "Examples of coverage that could be creditable for Medicare Part D:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Drug coverage from a current or former employer/union",
+          "TRICARE",
+          "Indian Health Service",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-part-d-penalty",
+    title: "Medicare Part D Late Enrollment Penalty",
+    subtitle: "The Medicare Part D late enrollment penalty fee can add up and get expensive if you put off prescription drug coverage for too long. Here, we explain exactly what the Medicare Part D penalty is and how to avoid it.",
+    category: "Medicare Part D",
+    dateUpdated: "February 16, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "The Medicare Part D late enrollment penalty fee can add up and get expensive if you put off prescription drug coverage for too long. Here, we explain exactly what the Medicare Part D penalty is and how to avoid it.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Table of Contents:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "1.  [What is the Medicare Part D Late Enrollment Penalty?]()",
+          "2.  [Is There a Medicare Part D Penalty Under 65?]()",
+          "3.  [Medicare Part D Late Enrollment Penalty Calculator]()",
+        ],
+      },{
+        planName: "What is the Medicare Part D Late Enrollment Penalty?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicare Part D late enrollment penalty is an additional cost on top of your monthly Medicare Part D premium. This extra charge is based on the current year’s national base Medicare Part D premium.",
+          "The Medicare Part D penalty amount is 1% of the national base premium for every month you went without creditable drug coverage when first eligible for Medicare. The penalty is in place to encourage beneficiaries to enroll in a Medicare Part D plan if they lack creditable coverage, meaning drug coverage at least as good as a Medicare drug plan.",
+          "When you first become eligible for Medicare, you receive an Initial Enrollment Period to sign up for Original Medicare. Once you have Original Medicare, you are eligible for Medicare Part D.",
+        ],
+      },{
+        planName: "After your Initial Enrollment Period, you will pay the Medicare Part D late penalty if you go without one of these types of drug plans for 63 days or more:",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "A Medicare Part D plan",
+          "Prescription coverage through Medicare Part C – a Medicare Advantage Prescription Drug (MAPD) plan",
+          "Another healthcare plan that includes prescription drug coverage that is at least as good as the coverage Medicare provides",
+        ],
+      },{
+        planName: "Medicare Part D Penalty Calculator",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a late enrollment penalty.",
+        ],
+      },{
+        planName: "Is There a Medicare Part D Penalty Under 65?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "If you qualify for Medicare due to disability but delay Medicare Part D enrollment, you will incur the Medicare Part D penalty when you pick up the drug coverage before 65. To avoid the Medicare Part D penalty, you must be aware of your Medicare eligibility status, know your Medicare Part A effective date, and sign up for Medicare Part D as soon as possible.",
+          "Being under 65 will not protect you from Medicare’s late enrollment penalties. If you do not have creditable medical or drug coverage after reaching eligibility, you will need to pay the Medicare Part B and Part D penalties, respectively. So, do not delay your enrollment.",
+          "However, when you turn 65, any penalty you incur will be voided, so you will have a clean slate. You will also get a second opportunity to enroll in Medicare Part D to avoid future penalties.",
+        ],
+      },{
+        planName: "Medicare Part D Late Enrollment Penalty Calculator",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicare Part D penalty is based on the number of months you were eligible for Original Medicare without having creditable prescription drug coverage. For each month you go without Medicare Part D or other creditable coverage, you will pay an additional premium of 1% of the current national base Medicare Part D premium.",
+          "Additionally, the Medicare Part D penalty is not a one-time penalty. You will pay the penalty monthly for as long as you have Medicare prescription coverage. The Medicare Part D penalty is rounded to the nearest 10¢ and added to the premium you pay for your Medicare Part D plan.",
+          "Since the Medicare Part D penalty is always based on the current year’s national base premium, it is subject to change or increase each year. The Medicare Part D penalty calculation can be challenging to calculate. So, we provided an example to show how it works.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Part D</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-cost-sharing-plans",
+    title: "What is a Medicare Cost Sharing Plan?",
+    subtitle: "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium.",
+    category: "Medicare Supplement (Medigap)",
+    dateUpdated: "February 16, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Reviewed By: Ashlee Zareczny",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium. Medicare Supplement cost-sharing plans include Plan L, Plan K, and Plan M. Learn more about each option, if you can benefit from them, and how to sign up.",
+        ],
+      },{
+        planName: "What is a Medicare Cost Sharing Plan?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "A Medicare cost-sharing plan is a type of Medicare Supplement coverage that can help beneficiaries enjoy generous benefits while cutting their monthly premium. Medigap cost-sharing plans can be great options for those who do not often require healthcare services. While the premiums are lower, it’s important to note that these coverage options require beneficiaries to cover costs associated with their healthcare, including:",
+          "Deductibles",
+          "Coinsurance",
+        ],
+      },{
+        planName: "What Are the Top Medicare Cost-Sharing Plans for 2026?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "The two most popular Medicare cost-sharing plans are Medicare Supplement Plan L and Plan K. Both have identical benefits but different cost-sharing levels. Each also has an annual out-of-pocket maximum, which protects you from outrageous medical bills by covering 100% of your healthcare costs once the maximum is met.",
+          "Everyone’s healthcare and budget needs will differ, and one of the great things about Medigap plans is that there are varying levels of benefits to help you find benefits that match your individual needs.",
+          "While Medicare cost-sharing plans aren’t included in the best Medicare Supplement plans, they still offer value. Not all carriers offer every plan option, but if you’re looking for a Medigap Plan K or Plan L, speak to a licensed insurance agent that represents the top-rated insurance companies in your area.",
+        ],
+      },{
+        planName: "Plan L Cost-Sharing",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "While Plan L will cover 75% of the cost of covered medical expenses for most services, you’ll be responsible for the other 25%. For example, if 20% not covered by Original Medicare is $100, you’ll only pay $25, and your Medicare Supplement Plan L benefits will cover the other $75.",
+          "Additionally, you must cover the Part B deductible and any Part B excess charges that apply. While some may worry this will lead to being nickel and dimed to death on copayments, safeguards are in place. When you enroll in Medigap Plan L benefits, there is also an out-of-pocket maximum that applies.",
+          "This annual limit is unique to Plan L and a feature not available on Medigap Plan N. Medicare Supplement Plan L is one of the top Medicare cost-sharing plans because it covers Part A coinsurance at 100% and includes the following benefits at 75% coverage:",
+        ],
+      },{
+        planName: "Enrolling in Plan L",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "To enroll in Medicare Supplement Plan L, you’ll need to contact a licensed Medicare insurance agent. Here at MedicareFAQ, our agents are experts and ready to help you find the coverage you need.",
+          "There are many different Medigap companies on the market, but not all companies offer Medigap Plan L. If you work with one of our licensed insurance experts, you can minimize the effort and time put into finding the ideal company and price.",
+          "Our agents specialize in Medicare, their advice doesn’t cost anything, and they even walk you through the enrollment process. Furthermore, rather than trying to sell you a policy, our team is here to help match you with the best benefits that match your specific needs for your healthcare and your budget.",
+        ],
+      },{
+        planName: "Plan K Cost-Sharing",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Supplement Plan K is very similar to Plan L, but instead of 75% coverage, you’ll get 50%. While this means you’ll be responsible for more out-of-pocket costs when receiving healthcare services, you’ll also enjoy a lower premium as a result.",
+          "Medigap Plan K is a top Medicare cost-sharing plan, and just like Plan L, Medicare Supplement Plan K includes a maximum out-of-pocket, limiting the amount you’ll have to pay annually. Your benefits cover you 100% on Medicare-approved healthcare services when you reach your maximum out-of-pocket.",
+          "Medigap Plan K will cover 100% of your Part A coinsurance, just like Plan L, and also includes the following benefits at 50% coverage:",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Supplement (Medigap)</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-maximum-out-of-pocket",
+    title: "Medicare Maximum Out-of-Pocket",
+    subtitle: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
+    category: "General Medicare",
+    dateUpdated: "February 13, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "9 min read",
+    quickAnswer: {
+      text: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything. When enrolling in Original Medicare, it is essential to review your spending limits to understand if your coverage is right for your budget. For many, it may come as a surprise that Original Medicare (Medicare Part A and Part B) does not have a maximum out-of-pocket limit.",
+          "Find Medicare Plans in 3 Easy Steps",
+          "Let us help you navigate your Medicare journey",
+        ],
+      },{
+        planName: "What is the Maximum Out-of-Pocket for Medicare?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Original Medicare does not have a limit on the amount you can spend out-of-pocket on healthcare. But it covers a portion of most medical bills. Once you meet the [Medicare Part B]() deductible you must cover 20% of your healthcare costs through the end of the year.",
+          "However, some Medicare plan options outside of Original Medicare offer out-of-pocket maximums that can put a cap on your healthcare spending. Depending on the plan you choose, you may be responsible for an additional monthly premium. Yet, this premium is often less than the cost you would be spending out-of-pocket without the extra coverage in place.",
+          "Ultimately, adding extra coverage to your health insurance arsenal allows you access to additional benefits at a fraction of the cost.",
+        ],
+      },{
+        planName: "What is the Medicare Advantage Maximum Out-of-Pocket?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage plans offer a maximum out-of-pocket limit to help reduce your out-of-pocket spending with the coverage. However, it is essential to carefully review your plan’s out-of-pocket costs and understand the limitations of the coverage before enrolling.",
+          "The maximum out-of-pocket limits on Medicare Advantage plans vary. Still, they never exceed the limit for the year that the Centers for Medicare & Medicaid Services (CMS) sets. Additionally, there are different limits when receiving care in-network versus out-of-network.",
+          "Find Medicare Plans in 3 Easy Steps",
+        ],
+      },{
+        planName: "What Costs Count Towards the Medicare Advantage Maximum Out-of-Pocket?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage plans allow the costs for the following services to count towards the plan’s maximum out-of-pocket:",
+          "Doctors’ visits",
+          "Emergency room visits",
+        ],
+      },{
+        planName: "Do Medicare Supplement Plans have an Out-of-Pocket Maximum?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Most [Medicare Supplement (Medigap) plans]() do not have a maximum out-of-pocket because it is unnecessary due to the benefits they provide. Medigap plans cover most of the costs Original Medicare leaves behind, so putting a limit on out-of-pocket expenses is unnecessary.",
+          "However, [Medicare Supplement Plan K]() and [Medicare Supplement Plan L]() have maximum out-of-pocket limits because they are cost-sharing plans that do not cover 100% of your costs.",
+        ],
+      },{
+        planName: "Medicare Out-of-Pocket Maximum Limits",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "As discussed, each Part of Medicare has its own out-of-pocket limit when utilizing coverage. The chart below compares all Parts of Medicare and their maximum out-of-pocket spending limits.",
+          "Find Medicare Plans in 3 Easy Steps",
+          "Let us help you navigate your Medicare journey",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>General Medicare</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
+  },
+  {
+    slug: "medicare-annual-enrollment-period",
+    title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
+    subtitle: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
+    category: "Medicare Enrollment",
+    dateUpdated: "February 13, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "20 min read",
+    quickAnswer: {
+      text: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
+      badges: [
+{
+          plan: "Original Medicare",
+          status: "partial",
+        },
+{
+          plan: "Medicare Advantage",
+          status: "partial",
+        },
+{
+          plan: "Medigap",
+          status: "partial",
+        },
+      ],
+    },
+    comparisonTable: [
+{
+        planType: "Original Medicare",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Coverage depends on specific services",
+      },
+{
+        planType: "Medicare Advantage",
+        coverage: "Varies",
+        icon: "shield",
+        notes: "Additional benefits may be available",
+      },
+{
+        planType: "Medigap",
+        coverage: "Supplements",
+        icon: "shield",
+        notes: "Helps cover out-of-pocket costs",
+      },
+    ],
+    planBreakdowns: [
+{
+        planName: "Overview",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "See Details",
+        coverageType: "partial",
+        paragraphs: [
+          "Title: Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
+          "Slug: medicare-annual-enrollment-period",
+          "Excerpt: The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
+        ],
+      }
+    ],
+    faqs: [],
+    quickReference: [
+{
+        icon: "info",
+        text: "<strong>Medicare Enrollment</strong> topic",
+      },
+{
+        icon: "alert",
+        text: "Coverage details vary by plan and location",
+      },
+{
+        icon: "dollar",
+        text: "Compare plans to find the best value",
+      },
+    ],
+    relatedTopics: [
+{
+        title: "Dental Implants",
+        description: "Learn more about dental implants",
+        slug: "does-medicare-cover-dental-implants",
+      },
+{
+        title: "Glasses",
+        description: "Learn more about glasses",
+        slug: "does-medicare-cover-glasses",
+      },
+{
+        title: "Hearing Aids",
+        description: "Learn more about hearing aids",
+        slug: "does-medicare-cover-hearing-aids",
+      },
+{
+        title: "Sleep Apnea",
+        description: "Learn more about sleep apnea",
+        slug: "does-medicare-cover-sleep-apnea",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Dental Implants",
+      "Glasses",
+      "Hearing Aids",
+      "Sleep Apnea",
+    ],
+    ctaBanner: {
+      title: "Get Expert Medicare Guidance",
+      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+    },
   },];
