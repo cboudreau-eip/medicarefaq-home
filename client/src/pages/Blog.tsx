@@ -4,11 +4,10 @@
  * Follows the Clarity System design language
  */
 
-import { useState } from "react";
 import { Link } from "wouter";
-import { Clock, ArrowRight, User, Search } from "lucide-react";
+import { Clock, ArrowRight, User } from "lucide-react";
 import { motion } from "framer-motion";
-import { blogPosts, categories } from "@/lib/blog-data";
+import { blogPosts } from "@/lib/blog-data";
 import { blogArticles } from "@/lib/blog-articles-data";
 import UtilityBar from "@/components/UtilityBar";
 import HeaderBar from "@/components/HeaderBar";
@@ -17,8 +16,7 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 
 export default function Blog() {
-  const [activeCategory, setActiveCategory] = useState("All Posts");
-  const [searchQuery, setSearchQuery] = useState("");
+
 
   // Merge old static posts with new scraped articles
   const allPosts = [
@@ -43,30 +41,8 @@ export default function Blog() {
     (post, index, self) => self.findIndex((p) => p.slug === post.slug) === index
   );
 
-  // Merge categories
-  const allCategories = [
-    ...categories,
-    ...blogArticles
-      .map((a) => ({ name: a.category, color: a.categoryColor }))
-      .filter((c) => !categories.some((existing) => existing.name === c.name)),
-  ];
-  // Deduplicate categories
-  const uniqueCategories = allCategories.filter(
-    (cat, index, self) => self.findIndex((c) => c.name === cat.name) === index
-  );
-
-  const filteredPosts = uniquePosts.filter((post) => {
-    const matchesCategory =
-      activeCategory === "All Posts" || post.category === activeCategory;
-    const matchesSearch =
-      searchQuery === "" ||
-      post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
-
-  const featuredPosts = filteredPosts.filter((p) => p.featured);
-  const regularPosts = filteredPosts.filter((p) => !p.featured);
+  const featuredPosts = uniquePosts.filter((p) => p.featured);
+  const regularPosts = uniquePosts.filter((p) => !p.featured);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -109,49 +85,10 @@ export default function Blog() {
           </div>
         </section>
 
-        {/* Filters & Search */}
-        <section className="bg-white border-b border-[#E5E7EB] sticky top-[132px] lg:top-[133px] z-30">
-          <div className="container py-4">
-            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-              {/* Category Pills */}
-              <div className="flex items-center gap-2 overflow-x-auto pb-1 -mb-1 w-full md:w-auto">
-                {uniqueCategories.map((cat) => (
-                  <button
-                    key={cat.name}
-                    onClick={() => setActiveCategory(cat.name)}
-                    className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold transition-all duration-150 ${
-                      activeCategory === cat.name
-                        ? "text-white shadow-sm"
-                        : "text-[#6B7280] bg-[#F5F7FA] hover:bg-[#E5E7EB]"
-                    }`}
-                    style={
-                      activeCategory === cat.name
-                        ? { backgroundColor: cat.color }
-                        : undefined
-                    }
-                  >
-                    {cat.name}
-                  </button>
-                ))}
-              </div>
 
-              {/* Search */}
-              <div className="relative w-full md:w-64">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" />
-                <input
-                  type="text"
-                  placeholder="Search articles..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:border-[#1B2A4A] focus:ring-1 focus:ring-[#1B2A4A]/20 transition-all duration-150"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Featured Posts */}
-        {featuredPosts.length > 0 && activeCategory === "All Posts" && searchQuery === "" && (
+        {featuredPosts.length > 0 && (
           <section className="bg-white py-10 md:py-14">
             <div className="container">
               <h2 className="text-xs font-bold tracking-wider text-[#C41230] uppercase mb-6">
@@ -216,36 +153,12 @@ export default function Blog() {
         {/* All Posts Grid */}
         <section className="bg-[#F5F7FA] py-10 md:py-14">
           <div className="container">
-            {activeCategory === "All Posts" && searchQuery === "" && (
-              <h2 className="text-xs font-bold tracking-wider text-[#1B2A4A] uppercase mb-6">
-                All Articles
-              </h2>
-            )}
-            {(activeCategory !== "All Posts" || searchQuery !== "") && (
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-xs font-bold tracking-wider text-[#1B2A4A] uppercase">
-                  {searchQuery
-                    ? `Search results for "${searchQuery}"`
-                    : activeCategory}
-                </h2>
-                <span className="text-sm text-[#9CA3AF]">
-                  {filteredPosts.length} article{filteredPosts.length !== 1 ? "s" : ""}
-                </span>
-              </div>
-            )}
+            <h2 className="text-xs font-bold tracking-wider text-[#1B2A4A] uppercase mb-6">
+              All Articles
+            </h2>
 
-            {filteredPosts.length === 0 ? (
-              <div className="text-center py-16">
-                <p className="text-[#9CA3AF] text-lg">
-                  No articles found. Try a different search or category.
-                </p>
-              </div>
-            ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {(activeCategory === "All Posts" && searchQuery === ""
-                  ? regularPosts
-                  : filteredPosts
-                ).map((post, index) => (
+                {regularPosts.map((post, index) => (
                   <motion.div
                     key={post.slug}
                     initial={{ opacity: 0, y: 15 }}
@@ -291,7 +204,6 @@ export default function Blog() {
                   </motion.div>
                 ))}
               </div>
-            )}
           </div>
         </section>
       </main>
