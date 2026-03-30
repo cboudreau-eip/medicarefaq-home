@@ -33,6 +33,20 @@ export const blogPosts: BlogPost[] = [
     featured: true,
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
   },
+  {
+    slug: "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
+    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know",
+    excerpt:
+      "Learn everything you need to know about Medicare Supplement plans and pre-existing conditions. Discover enrollment timing, waiting periods, and guaranteed issue rights.",
+    category: "Medicare Supplement",
+    categoryColor: "#4F46E5",
+    date: "March 10, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "10 min read",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
+  },
 ];
 
 export const articleTableOfContents: ArticleSection[] = [
