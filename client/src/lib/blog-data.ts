@@ -20,7 +20,6 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
-    // FIXED: slug was "medicare-part-b-annual-deductible-explained" — real URL is longer
     slug: "medicare-part-b-annual-deductible-explained-what-youll-pay",
     title: "Medicare Part B Annual Deductible Explained: What You'll Pay",
     excerpt:
@@ -33,130 +32,6 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 min read",
     featured: true,
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
-  },
-  {
-    // FIXED: slug was "medicare-automatic-vs-manual-enrollment" — real URL is different
-    slug: "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
-    title:
-      "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
-    excerpt:
-      "Learn the key differences between automatic and manual Medicare enrollment, and find out which path applies to your situation.",
-    category: "Enrollment",
-    categoryColor: "#D97706",
-    date: "March 10, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "10 min read",
-    featured: true,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
-  },
-  {
-    // FIXED: slug was "medicare-supplement-vs-advantage-transparency" — real URL is different
-    slug: "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
-    title:
-      "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained",
-    excerpt:
-      "Compare how Medicare Supplement and Medicare Advantage plans handle coverage transparency, costs, and provider access.",
-    category: "Medicare Plans",
-    categoryColor: "#1B2A4A",
-    date: "March 5, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "14 min read",
-    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop",
-  },
-  {
-    // FIXED: slug was "medigap-free-look-period" — real URL is different
-    slug: "how-the-medigap-free-look-period-protects-you",
-    title:
-      "Understanding the Medigap Free Look Period: Your 30-Day Safety Net",
-    excerpt:
-      "The Medigap free look period gives you 30 days to try a new Medicare Supplement plan risk-free. Here's how it works.",
-    category: "Medicare Supplement",
-    categoryColor: "#4F46E5",
-    date: "February 28, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
-  },
-  {
-    // NOTE: No exact blog match found on medicarefaq.com — closest is FAQ page
-    // /faqs/medicare-supplement-and-pre-existing-conditions — keeping as blog placeholder
-    // If a real blog URL is found later, update this slug
-    slug: "medicare-supplement-pre-existing-conditions",
-    title:
-      "Medicare Supplement and Pre-Existing Conditions: What You Need to Know",
-    excerpt:
-      "Pre-existing conditions can affect your Medigap options. Learn about guaranteed issue rights and when insurers can use medical underwriting.",
-    category: "Medicare Supplement",
-    categoryColor: "#4F46E5",
-    date: "February 20, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "11 min read",
-    image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=500&fit=crop",
-  },
-  {
-    // NOTE: No exact blog match found — closest is /original-medicare/medicare-parts/medicare-part-d/
-    // Keeping as blog placeholder until real URL is confirmed
-    slug: "medicare-part-d-explained",
-    title: "Medicare Part D: How Prescription Drug Coverage Works in 2026",
-    excerpt:
-      "A complete guide to Medicare Part D prescription drug plans, including costs, coverage stages, and how to choose the right plan.",
-    category: "Medicare Plans",
-    categoryColor: "#1B2A4A",
-    date: "February 15, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "13 min read",
-    image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&h=500&fit=crop",
-  },
-  {
-    // NOTE: No exact blog match — closest is /blog/medicare-starter-guide-what-to-do-in-your-first-90-days
-    // or /blog/your-medicare-roadmap-important-dates-as-you-approach-65
-    // Keeping as blog placeholder until real URL is confirmed
-    slug: "turning-65-medicare-checklist",
-    title: "Turning 65? Your Complete Medicare Enrollment Checklist",
-    excerpt:
-      "Don't miss a deadline. This step-by-step checklist covers everything you need to do before, during, and after turning 65.",
-    category: "Getting Started",
-    categoryColor: "#0D9488",
-    date: "February 10, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "9 min read",
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop",
-  },
-  {
-    // NOTE: No exact blog match — closest is FAQ /faqs/original-medicare-vs-medicare-advantage
-    // Keeping as blog placeholder until real URL is confirmed
-    slug: "medicare-advantage-vs-original-medicare",
-    title: "Medicare Advantage vs. Original Medicare: Which Is Right for You?",
-    excerpt:
-      "Compare the two main paths for Medicare coverage — Original Medicare with Medigap vs. Medicare Advantage — to find your best fit.",
-    category: "Medicare Plans",
-    categoryColor: "#1B2A4A",
-    date: "February 5, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "15 min read",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
-  },
-  {
-    // NOTE: No exact blog match — closest is /faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes
-    // Keeping as blog placeholder until real URL is confirmed
-    slug: "medicare-costs-2026-overview",
-    title: "Medicare Costs in 2026: Premiums, Deductibles, and Out-of-Pocket Expenses",
-    excerpt:
-      "A comprehensive breakdown of all Medicare costs for 2026, including Part A, Part B, Part D, and Medigap premiums.",
-    category: "Medicare Costs",
-    categoryColor: "#C41230",
-    date: "January 28, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "16 min read",
-    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=500&fit=crop",
   },
 ];
 
