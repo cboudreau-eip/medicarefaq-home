@@ -59,7 +59,7 @@ export const navigationData: NavCategory[] = [
         title: "Medicare 101 Guide",
         description: "Everything you need to know about Medicare basics",
         icon: Compass,
-        href: "/new-to-medicare/medicare-101",
+        href: "/medicare-101",
       },
       {
         title: "Am I Eligible?",
@@ -91,7 +91,7 @@ export const navigationData: NavCategory[] = [
       {
         title: "New to Medicare? Begin Here",
         description: "Our most popular guide for people approaching 65.",
-        href: "/new-to-medicare/medicare-101",
+        href: "/medicare-101",
         cta: "Read the Guide",
       },
     ],

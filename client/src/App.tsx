@@ -13,6 +13,7 @@ import CoverageArticle from "./pages/CoverageArticle";
 import CoverageTemplate from "./pages/CoverageTemplate";
 import Coverage from "./pages/Coverage";
 import About from "./pages/About";
+import Medicare101 from "./pages/Medicare101";
 
 
 function Router() {
@@ -25,6 +26,7 @@ function Router() {
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
       <Route path={"/about"} component={About} />
+      <Route path={"/medicare-101"} component={Medicare101} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
