@@ -1,7 +1,25 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { Link } from "wouter";
 import { ChevronDown, ArrowRight } from "lucide-react";
 import { navigationData, type NavCategory } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
+
+/* Routes that actually exist in the app */
+const liveRoutes = new Set([
+  "/",
+  "/blog",
+  "/faqs",
+  "/coverage",
+  "/tools/enrollment-timeline",
+]);
+
+/* Check if a href resolves to a live route (exact or starts with a live prefix like /faqs/...) */
+function isLiveRoute(href: string): boolean {
+  if (liveRoutes.has(href)) return true;
+  if (href.startsWith("/faqs/")) return true;
+  if (href.startsWith("/blog/")) return true;
+  return false;
+}
 
 function MegaMenuPanel({
   category,
@@ -31,6 +49,35 @@ function MegaMenuPanel({
             <div className="grid grid-cols-2 gap-x-8 gap-y-1">
               {category.items.map((item) => {
                 const Icon = item.icon;
+                const live = isLiveRoute(item.href);
+                if (live) {
+                  return (
+                    <Link
+                      key={item.title}
+                      href={item.href}
+                      onClick={() => onClose()}
+                      className="group flex items-start gap-3.5 p-3 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
+                    >
+                      <div
+                        className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 mt-0.5"
+                        style={{
+                          backgroundColor: `${category.color}12`,
+                          color: category.color,
+                        }}
+                      >
+                        <Icon className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <span className="font-semibold text-[#1B2A4A] text-[15px] group-hover:text-[#1B2A4A] block leading-tight">
+                          {item.title}
+                        </span>
+                        <span className="text-[13px] text-[#6B7280] mt-0.5 block leading-snug">
+                          {item.description}
+                        </span>
+                      </div>
+                    </Link>
+                  );
+                }
                 return (
                   <a
                     key={item.title}
@@ -71,32 +118,60 @@ function MegaMenuPanel({
                 {category.sidebarTitle}
               </h4>
               <div className="space-y-4">
-                {category.sidebarItems.map((item) => (
-                  <a
-                    key={item.title}
-                    href={item.href}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      onClose();
-                    }}
-                    className="block p-4 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
-                  >
-                    <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">
-                      {item.title}
-                    </span>
-                    {item.description && (
-                      <span className="text-[13px] text-[#6B7280] mt-1.5 block leading-snug">
-                        {item.description}
+                {category.sidebarItems.map((item) => {
+                  const live = isLiveRoute(item.href);
+                  if (live) {
+                    return (
+                      <Link
+                        key={item.title}
+                        href={item.href}
+                        onClick={() => onClose()}
+                        className="block p-4 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
+                      >
+                        <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">
+                          {item.title}
+                        </span>
+                        {item.description && (
+                          <span className="text-[13px] text-[#6B7280] mt-1.5 block leading-snug">
+                            {item.description}
+                          </span>
+                        )}
+                        {item.cta && (
+                          <span className="inline-flex items-center gap-1 text-[#C41230] font-semibold text-sm mt-2 group-hover:gap-2 transition-all duration-150">
+                            {item.cta}
+                            <ArrowRight className="w-3.5 h-3.5" />
+                          </span>
+                        )}
+                      </Link>
+                    );
+                  }
+                  return (
+                    <a
+                      key={item.title}
+                      href={item.href}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        onClose();
+                      }}
+                      className="block p-4 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
+                    >
+                      <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">
+                        {item.title}
                       </span>
-                    )}
-                    {item.cta && (
-                      <span className="inline-flex items-center gap-1 text-[#C41230] font-semibold text-sm mt-2 group-hover:gap-2 transition-all duration-150">
-                        {item.cta}
-                        <ArrowRight className="w-3.5 h-3.5" />
-                      </span>
-                    )}
-                  </a>
-                ))}
+                      {item.description && (
+                        <span className="text-[13px] text-[#6B7280] mt-1.5 block leading-snug">
+                          {item.description}
+                        </span>
+                      )}
+                      {item.cta && (
+                        <span className="inline-flex items-center gap-1 text-[#C41230] font-semibold text-sm mt-2 group-hover:gap-2 transition-all duration-150">
+                          {item.cta}
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </span>
+                      )}
+                    </a>
+                  );
+                })}
               </div>
             </div>
           )}

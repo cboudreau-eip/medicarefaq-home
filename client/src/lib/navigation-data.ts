@@ -204,53 +204,63 @@ export const navigationData: NavCategory[] = [
   },
   {
     title: "Coverage",
-    href: "/coverage",
+    href: "/faqs",
     color: "#059669",
     items: [
       {
-        title: "Does Medicare Cover...?",
-        description: "Search what Medicare covers and what it doesn't",
+        title: "All Coverage FAQs",
+        description: "Browse all Medicare coverage questions and answers",
         icon: HelpCircle,
-        href: "/coverage/does-medicare-cover",
+        href: "/faqs",
       },
       {
         title: "Dental, Vision & Hearing",
-        description: "Coverage options for dental, vision, and hearing",
+        description: "Coverage for dental implants, glasses, and hearing aids",
         icon: Eye,
-        href: "/coverage/dental-vision-hearing",
+        href: "/faqs/does-medicare-cover-dental-implants",
       },
       {
-        title: "Specialized Care",
-        description: "Coverage for specific conditions and treatments",
+        title: "Medicare Costs in 2026",
+        description: "Premiums, deductibles, and key changes for 2026",
+        icon: DollarSign,
+        href: "/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+      },
+      {
+        title: "Medicare Advantage Extra Benefits",
+        description: "What's really included in MA extra benefits",
+        icon: Heart,
+        href: "/faqs/medicare-advantage-extra-benefits-explained-whats-really-included",
+      },
+      {
+        title: "Medigap vs Medicare Advantage",
+        description: "Crucial questions to ask before enrolling",
         icon: Stethoscope,
-        href: "/coverage/specialized-care",
+        href: "/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
       },
       {
-        title: "Prescription Drugs",
-        description: "How Medicare covers your medications",
-        icon: Pill,
-        href: "/coverage/prescription-drugs",
-      },
-      {
-        title: "Search All Coverage",
-        description: "Browse our complete coverage database",
+        title: "Enrolling While Working",
+        description: "When to enroll if you're still employed past 65",
         icon: Activity,
-        href: "/coverage/search",
+        href: "/faqs/when-should-you-enroll-in-medicare-if-still-working",
       },
     ],
-    sidebarTitle: "COVERAGE QUESTIONS",
+    sidebarTitle: "POPULAR COVERAGE TOPICS",
     sidebarItems: [
       {
-        title: "Does Medicare Cover Dental?",
-        href: "/coverage/dental-vision-hearing",
+        title: "Does Medicare Cover Dental Implants?",
+        href: "/faqs/does-medicare-cover-dental-implants",
       },
       {
         title: "Does Medicare Cover Hearing Aids?",
-        href: "/coverage/dental-vision-hearing",
+        href: "/faqs/does-medicare-cover-hearing-aids",
       },
       {
         title: "Pre-Existing Conditions",
-        href: "/coverage/pre-existing-conditions",
+        href: "/faqs/does-medicare-cover-pre-existing-conditions",
+      },
+      {
+        title: "Veterans Coverage Guide",
+        href: "/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
       },
     ],
   },
@@ -263,7 +273,7 @@ export const navigationData: NavCategory[] = [
         title: "Blog",
         description: "Latest Medicare news, tips, and analysis",
         icon: BookOpen,
-        href: "/library/blog",
+        href: "/blog",
       },
       {
         title: "Guides",
@@ -287,7 +297,7 @@ export const navigationData: NavCategory[] = [
         title: "FAQs",
         description: "Quick answers to common questions",
         icon: MessageCircle,
-        href: "/library/faqs",
+        href: "/faqs",
       },
       {
         title: "About Our Team",
@@ -321,7 +331,7 @@ export const navigationData: NavCategory[] = [
 export const utilityLinks = [
   { title: "About Us", href: "/about" },
   { title: "Blog", href: "/blog" },
-  { title: "Guides", href: "/guides" },
+  { title: "Coverage FAQs", href: "/faqs" },
   { title: "Contact", href: "/contact" },
 ];
 

@@ -1,10 +1,27 @@
 import { useState } from "react";
+import { Link } from "wouter";
 import { Menu, X, ChevronDown, ChevronRight, Search, Phone } from "lucide-react";
-import { navigationData } from "@/lib/navigation-data";
+import { navigationData, utilityLinks } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
+
+/* Routes that actually exist in the app */
+const liveRoutes = new Set([
+  "/",
+  "/blog",
+  "/faqs",
+  "/coverage",
+  "/tools/enrollment-timeline",
+]);
+
+function isLiveRoute(href: string): boolean {
+  if (liveRoutes.has(href)) return true;
+  if (href.startsWith("/faqs/")) return true;
+  if (href.startsWith("/blog/")) return true;
+  return false;
+}
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +37,9 @@ export default function MobileNav() {
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
-        <a href="/">
+        <Link href="/">
           <img src={LOGO_URL} alt="MedicareFAQ" className="h-8 w-auto" />
-        </a>
+        </Link>
         <div className="flex items-center gap-2">
           <button className="w-10 h-10 flex items-center justify-center text-[#1B2A4A]">
             <Search className="w-5 h-5" />
@@ -100,6 +117,25 @@ export default function MobileNav() {
                           <div className="px-4 pb-3 space-y-0.5">
                             {category.items.map((item) => {
                               const Icon = item.icon;
+                              const live = isLiveRoute(item.href);
+                              if (live) {
+                                return (
+                                  <Link
+                                    key={item.title}
+                                    href={item.href}
+                                    onClick={() => setIsOpen(false)}
+                                    className="flex items-center gap-3 py-2.5 pl-4"
+                                  >
+                                    <Icon
+                                      className="w-4 h-4 shrink-0"
+                                      style={{ color: category.color }}
+                                    />
+                                    <span className="text-sm text-[#4B5563]">
+                                      {item.title}
+                                    </span>
+                                  </Link>
+                                );
+                              }
                               return (
                                 <a
                                   key={item.title}
@@ -129,15 +165,30 @@ export default function MobileNav() {
 
                 {/* Utility links */}
                 <div className="px-4 pt-4 space-y-3">
-                  {["About Us", "Blog", "Guides", "Contact"].map((link) => (
-                    <a
-                      key={link}
-                      href={`/${link.toLowerCase().replace(" ", "-")}`}
-                      className="block text-sm text-[#6B7280] font-medium"
-                    >
-                      {link}
-                    </a>
-                  ))}
+                  {utilityLinks.map((link) => {
+                    const live = isLiveRoute(link.href);
+                    if (live) {
+                      return (
+                        <Link
+                          key={link.title}
+                          href={link.href}
+                          onClick={() => setIsOpen(false)}
+                          className="block text-sm text-[#6B7280] font-medium"
+                        >
+                          {link.title}
+                        </Link>
+                      );
+                    }
+                    return (
+                      <a
+                        key={link.title}
+                        href={link.href}
+                        className="block text-sm text-[#6B7280] font-medium"
+                      >
+                        {link.title}
+                      </a>
+                    );
+                  })}
                 </div>
 
                 <div className="px-4 pt-6">

@@ -11,6 +11,7 @@ import BlogTemplate from "./pages/BlogTemplate";
 import EnrollmentCalculator from "./pages/EnrollmentCalculator";
 import CoverageArticle from "./pages/CoverageArticle";
 import CoverageTemplate from "./pages/CoverageTemplate";
+import Coverage from "./pages/Coverage";
 
 
 function Router() {
@@ -23,6 +24,9 @@ function Router() {
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
+      {/* Coverage landing page */}
+      <Route path={"/faqs"} component={Coverage} />
+      <Route path={"/coverage"} component={Coverage} />
       {/* Original hardcoded coverage article */}
       <Route path={"/faqs/does-medicare-cover-medical-alert-systems"} component={CoverageArticle} />
       {/* Data-driven coverage articles */}
