@@ -103,7 +103,7 @@ export default function BlogArticle() {
     .slice(0, 4);
 
   // Only render the Part B article content for the matching slug
-  if (slug !== "medicare-part-b-annual-deductible-explained") {
+  if (slug !== "medicare-part-b-annual-deductible-explained-what-youll-pay") {
     return (
       <div className="min-h-screen flex flex-col">
         <header className="hidden lg:block sticky top-0 z-50 bg-white shadow-sm">

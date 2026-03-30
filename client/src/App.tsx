@@ -18,8 +18,8 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/blog"} component={Blog} />
-      {/* Original hardcoded blog article for the Part B deductible */}
-      <Route path={"/blog/medicare-part-b-annual-deductible-explained"} component={BlogArticle} />
+      {/* Original hardcoded blog article for the Part B deductible — slug matches real medicarefaq.com URL */}
+      <Route path={"/blog/medicare-part-b-annual-deductible-explained-what-youll-pay"} component={BlogArticle} />
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
