@@ -43,24 +43,19 @@ function deriveCategories(articles: typeof coverageArticles) {
 }
 
 export default function Coverage() {
-  const [activeCategory, setActiveCategory] = useState("All Topics");
   const [searchQuery, setSearchQuery] = useState("");
-
-  const categories = useMemo(() => deriveCategories(coverageArticles), []);
 
   const filteredArticles = useMemo(() => {
     return coverageArticles.filter((a) => {
-      const matchesCategory =
-        activeCategory === "All Topics" || a.category === activeCategory;
       const q = searchQuery.toLowerCase();
-      const matchesSearch =
+      return (
         q === "" ||
         a.title.toLowerCase().includes(q) ||
         a.subtitle.toLowerCase().includes(q) ||
-        a.category.toLowerCase().includes(q);
-      return matchesCategory && matchesSearch;
+        a.category.toLowerCase().includes(q)
+      );
     });
-  }, [activeCategory, searchQuery]);
+  }, [searchQuery]);
 
   // Separate the newer informational articles (non "does-medicare-cover") as featured
   const featuredArticles = filteredArticles.filter(
@@ -71,7 +66,7 @@ export default function Coverage() {
   );
 
   const showFeatured =
-    activeCategory === "All Topics" && searchQuery === "" && featuredArticles.length > 0;
+    searchQuery === "" && featuredArticles.length > 0;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8F9FB]">
@@ -130,52 +125,18 @@ export default function Coverage() {
           </div>
         </section>
 
-        {/* ─── Filters & Search ─── */}
+        {/* ─── Search Bar ─── */}
         <section className="bg-white border-b border-[#E5E7EB] sticky top-[132px] lg:top-[133px] z-30">
           <div className="container max-w-6xl mx-auto py-4">
-            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-              {/* Category Pills */}
-              <div className="flex items-center gap-2 overflow-x-auto pb-1 -mb-1 w-full md:w-auto scrollbar-hide">
-                {categories.map((cat) => (
-                  <button
-                    key={cat.name}
-                    onClick={() => setActiveCategory(cat.name)}
-                    className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold transition-all duration-150 flex items-center gap-1.5 ${
-                      activeCategory === cat.name
-                        ? "text-white shadow-sm"
-                        : "text-[#6B7280] bg-[#F5F7FA] hover:bg-[#E5E7EB]"
-                    }`}
-                    style={
-                      activeCategory === cat.name
-                        ? { backgroundColor: getCategoryColor(cat.name) }
-                        : undefined
-                    }
-                  >
-                    {cat.name}
-                    <span
-                      className={`text-xs ${
-                        activeCategory === cat.name
-                          ? "text-white/70"
-                          : "text-[#9CA3AF]"
-                      }`}
-                    >
-                      ({cat.count})
-                    </span>
-                  </button>
-                ))}
-              </div>
-
-              {/* Search */}
-              <div className="relative w-full md:w-72">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" />
-                <input
-                  type="text"
-                  placeholder="Search coverage topics..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:border-[#1B2A4A] focus:ring-1 focus:ring-[#1B2A4A]/20 transition-all duration-150"
-                />
-              </div>
+            <div className="relative w-full md:w-80">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" />
+              <input
+                type="text"
+                placeholder="Search coverage topics..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:border-[#1B2A4A] focus:ring-1 focus:ring-[#1B2A4A]/20 transition-all duration-150"
+              />
             </div>
           </div>
         </section>
@@ -252,7 +213,7 @@ export default function Coverage() {
         <section className="bg-[#F5F7FA] py-10 md:py-14">
           <div className="container max-w-6xl mx-auto">
             {/* Section header */}
-            {activeCategory === "All Topics" && searchQuery === "" ? (
+            {searchQuery === "" ? (
               <h2 className="text-xs font-bold tracking-wider text-[#1B2A4A] uppercase mb-6 flex items-center gap-2">
                 <Shield className="w-3.5 h-3.5" />
                 All Coverage Topics
@@ -260,9 +221,7 @@ export default function Coverage() {
             ) : (
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-xs font-bold tracking-wider text-[#1B2A4A] uppercase">
-                  {searchQuery
-                    ? `Search results for "${searchQuery}"`
-                    : activeCategory}
+                  {`Search results for "${searchQuery}"`}
                 </h2>
                 <span className="text-sm text-[#9CA3AF]">
                   {filteredArticles.length} article
@@ -283,7 +242,7 @@ export default function Coverage() {
               </div>
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-                {(activeCategory === "All Topics" && searchQuery === ""
+                {(searchQuery === ""
                   ? coverageQA
                   : filteredArticles
                 ).map((article, index) => (
