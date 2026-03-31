@@ -467,7 +467,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "does-paying-a-higher-premium-mean-more-coverage", title: "Does Paying a Higher Premium Mean More Coverage?" },
       { id: "a-cost-versus-value-analysis", title: "A Cost Versus Value Analysis" },
