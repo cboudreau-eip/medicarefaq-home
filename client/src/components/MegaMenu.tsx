@@ -30,6 +30,10 @@ const liveRoutes = new Set([
   "/enrollment/annual-changes",
   "/enrollment/late-penalties",
   "/enrollment/how-to-enroll",
+  "/library/guides",
+  "/library/podcast",
+  "/library/videos",
+  "/library/about",
 ]);
 
 /* Check if a href resolves to a live route (exact or starts with a live prefix like /faqs/...) */

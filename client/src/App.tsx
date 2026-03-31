@@ -31,6 +31,10 @@ import WorkingPast65 from "./pages/enrollment/WorkingPast65";
 import AnnualChanges from "./pages/enrollment/AnnualChanges";
 import LatePenalties from "./pages/enrollment/LatePenalties";
 import HowToEnroll from "./pages/enrollment/HowToEnroll";
+import Guides from "./pages/library/Guides";
+import Podcast from "./pages/library/Podcast";
+import Videos from "./pages/library/Videos";
+import AboutTeam from "./pages/library/AboutTeam";
 
 
 function Router() {
@@ -62,6 +66,11 @@ function Router() {
       <Route path={"/enrollment/late-penalties"} component={LatePenalties} />
       <Route path={"/enrollment/how-to-enroll"} component={HowToEnroll} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
+      {/* Medicare Library pages */}
+      <Route path={"/library/guides"} component={Guides} />
+      <Route path={"/library/podcast"} component={Podcast} />
+      <Route path={"/library/videos"} component={Videos} />
+      <Route path={"/library/about"} component={AboutTeam} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
       <Route path={"/coverage"} component={Coverage} />

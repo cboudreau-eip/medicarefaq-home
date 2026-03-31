@@ -33,6 +33,10 @@ const liveRoutes = new Set([
   "/enrollment/annual-changes",
   "/enrollment/late-penalties",
   "/enrollment/how-to-enroll",
+  "/library/guides",
+  "/library/podcast",
+  "/library/videos",
+  "/library/about",
 ]);
 
 function isLiveRoute(href: string): boolean {
