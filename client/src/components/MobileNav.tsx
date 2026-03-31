@@ -16,6 +16,10 @@ const liveRoutes = new Set([
   "/about",
   "/medicare-101",
   "/tools/enrollment-timeline",
+  "/new-to-medicare/eligibility",
+  "/new-to-medicare/turning-65",
+  "/new-to-medicare/costs",
+  "/new-to-medicare/checklist",
 ]);
 
 function isLiveRoute(href: string): boolean {

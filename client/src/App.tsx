@@ -14,6 +14,10 @@ import CoverageTemplate from "./pages/CoverageTemplate";
 import Coverage from "./pages/Coverage";
 import About from "./pages/About";
 import Medicare101 from "./pages/Medicare101";
+import Eligibility from "./pages/Eligibility";
+import Turning65 from "./pages/Turning65";
+import MedicareCosts from "./pages/MedicareCosts";
+import Checklist from "./pages/Checklist";
 
 
 function Router() {
@@ -27,6 +31,10 @@ function Router() {
       <Route path={"/blog/:slug"} component={BlogTemplate} />
       <Route path={"/about"} component={About} />
       <Route path={"/medicare-101"} component={Medicare101} />
+      <Route path={"/new-to-medicare/eligibility"} component={Eligibility} />
+      <Route path={"/new-to-medicare/turning-65"} component={Turning65} />
+      <Route path={"/new-to-medicare/costs"} component={MedicareCosts} />
+      <Route path={"/new-to-medicare/checklist"} component={Checklist} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
