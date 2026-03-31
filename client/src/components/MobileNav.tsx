@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Menu, X, ChevronDown, ChevronRight, Search, Phone } from "lucide-react";
 import { navigationData, utilityLinks } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
@@ -38,6 +38,7 @@ const liveRoutes = new Set([
   "/library/videos",
   "/library/about",
   "/contact",
+  "/search",
 ]);
 
 function isLiveRoute(href: string): boolean {
@@ -50,6 +51,7 @@ function isLiveRoute(href: string): boolean {
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+  const [, navigate] = useLocation();
 
   return (
     <div className="lg:hidden">
@@ -65,7 +67,10 @@ export default function MobileNav() {
           <img src={LOGO_URL} alt="MedicareFAQ" className="h-8 w-auto" />
         </Link>
         <div className="flex items-center gap-2">
-          <button className="w-10 h-10 flex items-center justify-center text-[#1B2A4A]">
+          <button
+            onClick={() => navigate("/search")}
+            className="w-10 h-10 flex items-center justify-center text-[#1B2A4A]"
+          >
             <Search className="w-5 h-5" />
           </button>
           <a

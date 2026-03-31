@@ -35,6 +35,7 @@ const liveRoutes = new Set([
   "/library/videos",
   "/library/about",
   "/contact",
+  "/search",
 ]);
 
 /* Check if a href resolves to a live route (exact or starts with a live prefix like /faqs/...) */
