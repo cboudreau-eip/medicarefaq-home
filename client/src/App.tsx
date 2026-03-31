@@ -18,6 +18,14 @@ import Eligibility from "./pages/Eligibility";
 import Turning65 from "./pages/Turning65";
 import MedicareCosts from "./pages/MedicareCosts";
 import Checklist from "./pages/Checklist";
+import OriginalMedicare from "./pages/OriginalMedicare";
+import MedicareSupplement from "./pages/MedicareSupplement";
+import MedicareAdvantage from "./pages/MedicareAdvantage";
+import PartD from "./pages/PartD";
+import ComparePlans from "./pages/ComparePlans";
+import PlanCosts from "./pages/PlanCosts";
+import SupplementVsAdvantage from "./pages/SupplementVsAdvantage";
+import BestSupplementPlans from "./pages/BestSupplementPlans";
 
 
 function Router() {
@@ -35,6 +43,14 @@ function Router() {
       <Route path={"/new-to-medicare/turning-65"} component={Turning65} />
       <Route path={"/new-to-medicare/costs"} component={MedicareCosts} />
       <Route path={"/new-to-medicare/checklist"} component={Checklist} />
+      <Route path={"/medicare-plans/original-medicare"} component={OriginalMedicare} />
+      <Route path={"/medicare-plans/medicare-supplement"} component={MedicareSupplement} />
+      <Route path={"/medicare-plans/medicare-advantage"} component={MedicareAdvantage} />
+      <Route path={"/medicare-plans/part-d"} component={PartD} />
+      <Route path={"/medicare-plans/compare"} component={ComparePlans} />
+      <Route path={"/medicare-plans/costs"} component={PlanCosts} />
+      <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />
+      <Route path={"/medicare-plans/best-supplement-plans"} component={BestSupplementPlans} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />

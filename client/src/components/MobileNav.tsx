@@ -20,6 +20,14 @@ const liveRoutes = new Set([
   "/new-to-medicare/turning-65",
   "/new-to-medicare/costs",
   "/new-to-medicare/checklist",
+  "/medicare-plans/original-medicare",
+  "/medicare-plans/medicare-supplement",
+  "/medicare-plans/medicare-advantage",
+  "/medicare-plans/part-d",
+  "/medicare-plans/compare",
+  "/medicare-plans/costs",
+  "/medicare-plans/supplement-vs-advantage",
+  "/medicare-plans/best-supplement-plans",
 ]);
 
 function isLiveRoute(href: string): boolean {
