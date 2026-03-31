@@ -134,7 +134,15 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
           <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: `${data.iconColor}15` }}>
             <Icon className="w-5 h-5" style={{ color: data.iconColor }} />
           </div>
-          <h3 className="font-bold text-[#1B2A4A] text-lg">{data.planName}</h3>
+          <div>
+            <h3 className="font-bold text-[#1B2A4A] text-lg">{data.planName}</h3>
+            {data.statusBadge && (
+              <span className={`text-xs font-semibold mt-1 inline-block ${
+                data.coverageType === "not-covered" ? "text-red-600" :
+                data.coverageType === "partial" ? "text-amber-600" : "text-emerald-600"
+              }`}>{data.statusBadge}</span>
+            )}
+          </div>
         </div>
         <span className={`px-3 py-1 rounded-full text-xs font-bold ${coverageBg}`}>{data.coverageLabel}</span>
       </div>
@@ -142,6 +150,51 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
         {data.paragraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}
+
+        {/* What It Covers / Doesn't Cover columns */}
+        {(data.whatItCovers || data.whatItDoesntCover) && (
+          <div className="grid sm:grid-cols-2 gap-4 mt-4">
+            {data.whatItCovers && data.whatItCovers.length > 0 && (
+              <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+                <h4 className="font-bold text-emerald-800 text-sm mb-2 flex items-center gap-1.5">
+                  <CheckCircle2 className="w-4 h-4" /> What It Covers
+                </h4>
+                <ul className="space-y-1.5">
+                  {data.whatItCovers.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-emerald-700 text-sm">
+                      <CheckCircle2 className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {data.whatItDoesntCover && data.whatItDoesntCover.length > 0 && (
+              <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                <h4 className="font-bold text-red-800 text-sm mb-2 flex items-center gap-1.5">
+                  <XCircle className="w-4 h-4" /> What It Doesn't Cover
+                </h4>
+                <ul className="space-y-1.5">
+                  {data.whatItDoesntCover.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-red-700 text-sm">
+                      <XCircle className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Cost Note */}
+        {data.costNote && (
+          <div className="flex items-start gap-2 bg-[#F0FDF4] border border-emerald-200 rounded-lg p-3 mt-3">
+            <DollarSign className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+            <p className="text-emerald-800 text-sm font-medium">{data.costNote}</p>
+          </div>
+        )}
+
         {data.callout && (() => {
           const style = calloutStyles[data.callout.type] || calloutStyles.info;
           const CalloutIcon = style.icon;
@@ -181,6 +234,8 @@ function buildTOC(article: CoverageArticleData) {
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
   if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
+  if (article.exceptionsSection) toc.push({ id: "exceptions", label: "Important Exceptions" });
+  if (article.legislativeUpdate) toc.push({ id: "legislative-update", label: "Legislative Update" });
   if (article.alternativesSection) toc.push({ id: "alternatives", label: "Alternatives" });
   if (article.relatedEquipment) toc.push({ id: "related-equipment", label: article.relatedEquipment.title });
   if (article.medicaidSection) toc.push({ id: "medicaid-programs", label: "Medicaid & State Programs" });
@@ -288,6 +343,21 @@ export default function CoverageTemplate() {
             </motion.div>
           </div>
         </section>
+
+        {/* ─── Sub-Navigation Bar ─── */}
+        {article.subNavLinks && article.subNavLinks.length > 0 && (
+          <div className="bg-white border-b border-[#E5E7EB] sticky top-[120px] lg:top-[140px] z-30">
+            <div className="container max-w-6xl mx-auto">
+              <div className="flex items-center gap-1 overflow-x-auto py-2 scrollbar-hide">
+                {article.subNavLinks.map((link, i) => (
+                  <Link key={i} href={link.href} className="whitespace-nowrap px-4 py-2 text-sm font-medium text-[#4B5563] hover:text-[#1B2A4A] hover:bg-[#F5F7FA] rounded-lg transition-colors">
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* ─── Content + Sidebar ─── */}
         <section className="py-8 md:py-12">
@@ -408,6 +478,68 @@ export default function CoverageTemplate() {
                       <div className="px-6 py-3 bg-[#F5F7FA] text-xs text-[#6B7280] border-t border-[#E5E7EB]">{article.costTable.footnote}</div>
                     )}
                   </div>
+                )}
+
+                {/* Exceptions Section */}
+                {article.exceptionsSection && (
+                  <>
+                    <h2 id="exceptions" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10 flex items-center gap-2">
+                      <span className="text-[#D97706]">✦</span> {article.exceptionsSection.title}
+                    </h2>
+                    <div className="space-y-4 mb-8">
+                      {article.exceptionsSection.items.map((item, i) => (
+                        <div key={i} className="bg-[#FEF3C7] border border-[#FDE68A] rounded-xl p-5 shadow-sm">
+                          <h3 className="font-bold text-[#92400E] text-base mb-2 flex items-center gap-2">
+                            <AlertTriangle className="w-5 h-5 text-[#D97706]" />
+                            {item.title}
+                          </h3>
+                          <p className="text-[#78350F] text-[15px] leading-relaxed">{item.text}</p>
+                          {item.highlight && (
+                            <div className="mt-3 bg-white/60 border border-[#FDE68A] rounded-lg p-3">
+                              <p className="text-[#92400E] text-sm font-semibold">{item.highlight}</p>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
+
+                {/* Legislative Update */}
+                {article.legislativeUpdate && (
+                  <>
+                    <h2 id="legislative-update" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10 flex items-center gap-2">
+                      <span className="text-[#D97706]">✦</span> {article.legislativeUpdate.title}
+                    </h2>
+                    <div className="space-y-4 mb-8">
+                      {article.legislativeUpdate.items.map((item, i) => {
+                        const statusColors: Record<string, string> = {
+                          Passed: "bg-emerald-100 text-emerald-800",
+                          Pending: "bg-amber-100 text-amber-800",
+                          Failed: "bg-red-100 text-red-800",
+                          Proposed: "bg-blue-100 text-blue-800",
+                        };
+                        return (
+                          <div key={i} className="bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm">
+                            <div className="flex items-start gap-3">
+                              <div className="w-10 h-10 rounded-lg bg-[#1B2A4A]/10 flex items-center justify-center shrink-0">
+                                <FileText className="w-5 h-5 text-[#1B2A4A]" />
+                              </div>
+                              <div className="flex-1">
+                                <div className="flex items-center gap-2 mb-2 flex-wrap">
+                                  <h3 className="font-bold text-[#1B2A4A] text-base">{item.title}</h3>
+                                  <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${statusColors[item.status] || statusColors.Pending}`}>
+                                    {item.status}
+                                  </span>
+                                </div>
+                                <p className="text-[#4B5563] text-[15px] leading-relaxed">{item.description}</p>
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </>
                 )}
 
                 {/* Alternatives Section */}

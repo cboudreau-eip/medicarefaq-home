@@ -28,12 +28,16 @@ export interface PlanBreakdownData {
   iconColor: string;
   coverageLabel: string;
   coverageType: "covered" | "not-covered" | "partial";
+  statusBadge?: string; // e.g. "Does NOT cover hearing aids"
   paragraphs: string[];
+  whatItCovers?: string[];
+  whatItDoesntCover?: string[];
   callout?: {
     type: "warning" | "info" | "success" | "tip";
     title: string;
     text: string;
   };
+  costNote?: string; // e.g. "$ Cost: Most people pay $0 in premiums..."
 }
 
 export interface CostTableRow {
@@ -97,8 +101,25 @@ export interface CoverageArticleData {
   planBreakdowns: PlanBreakdownData[];
 
   // Optional sections — not every article has all of these
+  subNavLinks?: { label: string; href: string }[];
   advantageSteps?: StepListData;
   costTable?: CostTableData;
+  exceptionsSection?: {
+    title: string;
+    items: {
+      title: string;
+      text: string;
+      highlight?: string;
+    }[];
+  };
+  legislativeUpdate?: {
+    title: string;
+    items: {
+      title: string;
+      status: "Passed" | "Pending" | "Failed" | "Proposed";
+      description: string;
+    }[];
+  };
   alternativesSection?: {
     title: string;
     paragraphs: string[];
