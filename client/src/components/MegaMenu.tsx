@@ -25,6 +25,11 @@ const liveRoutes = new Set([
   "/medicare-plans/costs",
   "/medicare-plans/supplement-vs-advantage",
   "/medicare-plans/best-supplement-plans",
+  "/enrollment/turning-65",
+  "/enrollment/working-past-65",
+  "/enrollment/annual-changes",
+  "/enrollment/late-penalties",
+  "/enrollment/how-to-enroll",
 ]);
 
 /* Check if a href resolves to a live route (exact or starts with a live prefix like /faqs/...) */

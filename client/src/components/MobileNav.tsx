@@ -28,6 +28,11 @@ const liveRoutes = new Set([
   "/medicare-plans/costs",
   "/medicare-plans/supplement-vs-advantage",
   "/medicare-plans/best-supplement-plans",
+  "/enrollment/turning-65",
+  "/enrollment/working-past-65",
+  "/enrollment/annual-changes",
+  "/enrollment/late-penalties",
+  "/enrollment/how-to-enroll",
 ]);
 
 function isLiveRoute(href: string): boolean {

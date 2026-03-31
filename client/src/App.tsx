@@ -26,6 +26,11 @@ import ComparePlans from "./pages/ComparePlans";
 import PlanCosts from "./pages/PlanCosts";
 import SupplementVsAdvantage from "./pages/SupplementVsAdvantage";
 import BestSupplementPlans from "./pages/BestSupplementPlans";
+import Turning65Enrollment from "./pages/enrollment/Turning65Enrollment";
+import WorkingPast65 from "./pages/enrollment/WorkingPast65";
+import AnnualChanges from "./pages/enrollment/AnnualChanges";
+import LatePenalties from "./pages/enrollment/LatePenalties";
+import HowToEnroll from "./pages/enrollment/HowToEnroll";
 
 
 function Router() {
@@ -51,6 +56,11 @@ function Router() {
       <Route path={"/medicare-plans/costs"} component={PlanCosts} />
       <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />
       <Route path={"/medicare-plans/best-supplement-plans"} component={BestSupplementPlans} />
+      <Route path={"/enrollment/turning-65"} component={Turning65Enrollment} />
+      <Route path={"/enrollment/working-past-65"} component={WorkingPast65} />
+      <Route path={"/enrollment/annual-changes"} component={AnnualChanges} />
+      <Route path={"/enrollment/late-penalties"} component={LatePenalties} />
+      <Route path={"/enrollment/how-to-enroll"} component={HowToEnroll} />
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
