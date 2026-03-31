@@ -764,7 +764,7 @@ export default function CoverageTemplate() {
                     <ul className="space-y-2">
                       {article.sidebarRelatedLinks.map((topic, i) => (
                         <li key={i}>
-                          <a href="#" onClick={(e) => e.preventDefault()} className="text-sm text-[#2563EB] hover:text-[#1B2A4A] hover:underline transition-colors flex items-center gap-1">
+                          <a href={`/search?q=${encodeURIComponent(topic)}`} className="text-sm text-[#2563EB] hover:text-[#1B2A4A] hover:underline transition-colors flex items-center gap-1">
                             <ChevronRight className="w-3 h-3" /> {topic}
                           </a>
                         </li>
@@ -795,7 +795,7 @@ export default function CoverageTemplate() {
               <a href="tel:8883358996" className="flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3 rounded-lg hover:bg-white/90 transition-colors">
                 <Phone className="w-5 h-5" /> Call (888) 335-8996
               </a>
-              <a href="#" onClick={(e) => e.preventDefault()} className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
+              <a href="/medicare-plans/compare" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
                 Compare Plans <ArrowRight className="w-5 h-5" />
               </a>
             </div>

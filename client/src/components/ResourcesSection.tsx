@@ -9,7 +9,7 @@ const resources = [
     description:
       "Everything you need to know about Plan G — costs, coverage, and why it's become the most popular Medigap plan.",
     date: "Updated Mar 2026",
-    href: "#",
+    href: "/library/guides",
   },
   {
     type: "FAQ",
@@ -61,7 +61,7 @@ export default function ResourcesSection() {
             <motion.a
               key={resource.title}
               href={resource.href}
-              onClick={(e) => { if (resource.href === "#") e.preventDefault(); }}
+
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

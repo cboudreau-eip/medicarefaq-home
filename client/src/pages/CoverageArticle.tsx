@@ -265,14 +265,14 @@ export default function CoverageArticle() {
                 </Link>
                 <ChevronRight className="w-3.5 h-3.5" />
                 <Link
-                  href="#"
+                  href="/faqs"
                   className="hover:text-white/80 transition-colors"
                 >
                   FAQs
                 </Link>
                 <ChevronRight className="w-3.5 h-3.5" />
                 <Link
-                  href="#"
+                  href="/faqs"
                   className="hover:text-white/80 transition-colors"
                 >
                   Medicare Coverage
@@ -1030,8 +1030,7 @@ export default function CoverageArticle() {
                     ].map((topic, i) => (
                       <a
                         key={i}
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
+                        href="/faqs"
                         className="group bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#C41230]/30 transition-all"
                       >
                         <div className="flex items-start gap-3">
@@ -1134,20 +1133,19 @@ export default function CoverageArticle() {
                     </h3>
                     <ul className="space-y-2">
                       {[
-                        "Medicare Dental Coverage",
-                        "Medicare Vision Coverage",
-                        "Medicare Advantage Plans",
-                        "Medicare Supplement Plans",
-                        "Medicare Guide & FAQs",
+                        { label: "Medicare Dental Coverage", href: "/faqs/does-medicare-cover-dental-implants" },
+                        { label: "Medicare Vision Coverage", href: "/faqs" },
+                        { label: "Medicare Advantage Plans", href: "/medicare-plans/medicare-advantage" },
+                        { label: "Medicare Supplement Plans", href: "/medicare-plans/medicare-supplement" },
+                        { label: "Medicare Guide & FAQs", href: "/faqs" },
                       ].map((topic, i) => (
                         <li key={i}>
                           <a
-                            href="#"
-                            onClick={(e) => e.preventDefault()}
+                            href={topic.href}
                             className="text-sm text-[#2563EB] hover:text-[#1B2A4A] hover:underline transition-colors flex items-center gap-1"
                           >
                             <ChevronRight className="w-3 h-3" />
-                            {topic}
+                            {topic.label}
                           </a>
                         </li>
                       ))}
@@ -1196,8 +1194,7 @@ export default function CoverageArticle() {
                 Call (888) 335-8996
               </a>
               <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
+                href="/medicare-plans/compare"
                 className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
               >
                 Compare Plans

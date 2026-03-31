@@ -270,8 +270,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
             Call (888) 335-8996
           </a>
           <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
+            href="/contact"
             className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
           >
             Get Started Online
