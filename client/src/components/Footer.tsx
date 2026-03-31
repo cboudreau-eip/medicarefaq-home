@@ -1,4 +1,5 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
+import { Link } from "wouter";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
@@ -8,51 +9,58 @@ const footerColumns = [
     title: "NEW TO MEDICARE",
     color: "#0D9488",
     links: [
-      "Medicare 101 Guide",
-      "Am I Eligible?",
-      "Turning 65 Timeline",
-      "What Does It Cost?",
-      "Getting Started Checklist",
+      { label: "Medicare 101 Guide", href: "/medicare-101" },
+      { label: "Am I Eligible?", href: "/new-to-medicare/eligibility" },
+      { label: "Turning 65 Timeline", href: "/new-to-medicare/turning-65" },
+      { label: "What Does It Cost?", href: "/new-to-medicare/costs" },
+      { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
     ],
   },
   {
     title: "MEDICARE PLANS",
     color: "#1B2A4A",
     links: [
-      "Original Medicare",
-      "Medicare Supplement",
-      "Medicare Advantage",
-      "Part D (Rx Plans)",
-      "Compare All Plans",
-      "Medicare Costs",
+      { label: "Original Medicare", href: "/medicare-plans/original-medicare" },
+      { label: "Medicare Supplement", href: "/medicare-plans/medicare-supplement" },
+      { label: "Medicare Advantage", href: "/medicare-plans/medicare-advantage" },
+      { label: "Part D (Rx Plans)", href: "/medicare-plans/part-d" },
+      { label: "Compare All Plans", href: "/medicare-plans/compare" },
+      { label: "Medicare Costs", href: "/medicare-plans/costs" },
     ],
   },
   {
     title: "ENROLLMENT",
     color: "#D97706",
     links: [
-      "Turning 65 Enrollment",
-      "Working Past 65",
-      "Annual Changes",
-      "Late Penalties",
-      "How to Enroll",
+      { label: "Turning 65 Enrollment", href: "/enrollment/turning-65" },
+      { label: "Working Past 65", href: "/enrollment/working-past-65" },
+      { label: "Annual Changes", href: "/enrollment/annual-changes" },
+      { label: "Late Penalties", href: "/enrollment/late-penalties" },
+      { label: "How to Enroll", href: "/enrollment/how-to-enroll" },
     ],
   },
   {
     title: "COVERAGE",
     color: "#059669",
     links: [
-      "Does Medicare Cover...?",
-      "Dental, Vision & Hearing",
-      "Specialized Care",
-      "Prescription Drugs",
-      "Search All Coverage",
+      { label: "Does Medicare Cover...?", href: "/faqs" },
+      { label: "Dental, Vision & Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
+      { label: "Specialized Care", href: "/faqs" },
+      { label: "Prescription Drugs", href: "/faqs" },
+      { label: "Search All Coverage", href: "/faqs" },
     ],
   },
   {
     title: "RESOURCES",
     color: "#4F46E5",
-    links: ["Blog", "Guides", "Podcast", "Videos", "FAQs", "About Team"],
+    links: [
+      { label: "Blog", href: "/blog" },
+      { label: "Guides", href: "/library/guides" },
+      { label: "Podcast", href: "/library/podcast" },
+      { label: "Videos", href: "/library/videos" },
+      { label: "FAQs", href: "/faqs" },
+      { label: "About Team", href: "/library/about" },
+    ],
   },
 ];
 
@@ -72,14 +80,13 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2.5">
                 {column.links.map((link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
+                  <li key={link.label}>
+                    <Link
+                      href={link.href}
                       className="text-sm text-white/60 hover:text-white transition-colors duration-150"
                     >
-                      {link}
-                    </a>
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -119,15 +126,15 @@ export default function Footer() {
             affiliated entity not endorsed by any government agency.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-white/70 transition-colors">
+            <Link href="/privacy-policy" className="hover:text-white/70 transition-colors">
               Privacy Policy
-            </a>
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-white/70 transition-colors">
+            </Link>
+            <Link href="/terms-of-use" className="hover:text-white/70 transition-colors">
               Terms of Use
-            </a>
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-white/70 transition-colors">
+            </Link>
+            <Link href="/contact" className="hover:text-white/70 transition-colors">
               Accessibility
-            </a>
+            </Link>
           </div>
         </div>
       </div>
