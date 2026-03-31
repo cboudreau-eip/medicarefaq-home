@@ -35,6 +35,7 @@ import {
   Stethoscope,
   Ear,
   Eye,
+  Play,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import UtilityBar from "@/components/UtilityBar";
@@ -365,6 +366,38 @@ export default function CoverageTemplate() {
             <div className="flex gap-8 lg:gap-10">
               {/* ─── Main Article Content ─── */}
               <article className="flex-1 min-w-0">
+                {/* YouTube Video Embed */}
+                {article.youtubeVideoId && (
+                  <div className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden mb-8 shadow-sm">
+                    <div className="bg-[#1B2A4A] px-6 py-3 flex items-center gap-3">
+                      <Play className="w-5 h-5 text-white fill-white" />
+                      <h2 className="font-bold text-white text-base">Watch the Video</h2>
+                    </div>
+                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                      <iframe
+                        className="absolute inset-0 w-full h-full"
+                        src={`https://www.youtube.com/embed/${article.youtubeVideoId}?rel=0`}
+                        title={article.youtubeVideoTitle || article.title}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                    {article.youtubeVideoTitle && (
+                      <div className="px-6 py-3 border-t border-[#E5E7EB] flex items-center justify-between">
+                        <span className="text-sm text-[#4B5563] font-medium">{article.youtubeVideoTitle}</span>
+                        <a
+                          href={`https://www.youtube.com/watch?v=${article.youtubeVideoId}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs text-[#C41230] hover:underline flex items-center gap-1"
+                        >
+                          Watch on YouTube <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+                    )}
+                  </div>
+                )}
+
                 {/* Quick Answer */}
                 <div id="quick-answer" className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
                   <div className="flex items-center gap-2 mb-4">

@@ -94,6 +94,8 @@ export interface CoverageArticleData {
   author: AuthorData;
   reviewer: AuthorData;
   readTime: string;
+  youtubeVideoId?: string;
+  youtubeVideoTitle?: string;
 
   quickAnswer: QuickAnswerData;
   comparisonTable: ComparisonRow[];
@@ -193,6 +195,8 @@ export interface BlogArticleData {
   readTime: string;
   featured?: boolean;
   image: string;
+  youtubeVideoId?: string;
+  youtubeVideoTitle?: string;
 
   // Full article content
   keyTakeaways?: string[];
