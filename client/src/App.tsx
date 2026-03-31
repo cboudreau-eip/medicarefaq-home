@@ -35,6 +35,7 @@ import Guides from "./pages/library/Guides";
 import Podcast from "./pages/library/Podcast";
 import Videos from "./pages/library/Videos";
 import AboutTeam from "./pages/library/AboutTeam";
+import Contact from "./pages/Contact";
 
 
 function Router() {
@@ -47,6 +48,7 @@ function Router() {
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
       <Route path={"/about"} component={About} />
+      <Route path={"/contact"} component={Contact} />
       <Route path={"/medicare-101"} component={Medicare101} />
       <Route path={"/new-to-medicare/eligibility"} component={Eligibility} />
       <Route path={"/new-to-medicare/turning-65"} component={Turning65} />

@@ -37,6 +37,7 @@ const liveRoutes = new Set([
   "/library/podcast",
   "/library/videos",
   "/library/about",
+  "/contact",
 ]);
 
 function isLiveRoute(href: string): boolean {
