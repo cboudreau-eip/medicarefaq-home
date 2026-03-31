@@ -22,7 +22,7 @@ const journeyPaths = [
       "What Does It Cost?",
       "Getting Started Checklist",
     ],
-    href: "/new-to-medicare",
+    href: "/medicare-101",
   },
   {
     title: "Working Past 65",

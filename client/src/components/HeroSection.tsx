@@ -58,7 +58,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row flex-wrap gap-3"
           >
             <a
-              href="/new-to-medicare"
+              href="/medicare-101"
               className="group inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25"
             >
               I'm New to Medicare

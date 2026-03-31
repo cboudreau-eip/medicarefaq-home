@@ -52,7 +52,7 @@ export interface NavCategory {
 export const navigationData: NavCategory[] = [
   {
     title: "New To Medicare",
-    href: "/new-to-medicare",
+    href: "/medicare-101",
     color: "#0D9488",
     items: [
       {
@@ -197,7 +197,7 @@ export const navigationData: NavCategory[] = [
         title: "When Should I Enroll?",
         description:
           "Timing matters. Find your enrollment window and avoid penalties.",
-        href: "/enrollment/when-to-enroll",
+        href: "/enrollment/turning-65",
         cta: "Check Your Timeline",
       },
     ],
@@ -310,19 +310,19 @@ export const navigationData: NavCategory[] = [
     sidebarItems: [
       {
         title: "Medicare Supplement Guide 2026",
-        href: "/library/guides/supplement-guide",
+        href: "/medicare-plans/medicare-supplement",
       },
       {
         title: "Understanding Medicare Costs",
-        href: "/library/guides/understanding-costs",
+        href: "/new-to-medicare/costs",
       },
       {
         title: "When to Enroll in Medicare",
-        href: "/library/guides/when-to-enroll",
+        href: "/enrollment/how-to-enroll",
       },
       {
         title: "Medicare vs. Medicaid",
-        href: "/library/guides/medicare-vs-medicaid",
+        href: "/medicare-101",
       },
     ],
   },
