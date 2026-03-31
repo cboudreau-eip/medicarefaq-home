@@ -1,5 +1,6 @@
 import { ArrowRight, CheckCircle, Compass, Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 
 const JOURNEY_NEW =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-new-YLAZRxoSj2yuXGqtyALKVr.webp";
@@ -7,6 +8,11 @@ const JOURNEY_WORKING =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-working-mGXrKWystdAAjbLGresKYV.webp";
 const JOURNEY_ENROLLED =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-enrolled-ZrHfua7GiB6WEzN7uGCCp3.webp";
+
+interface JourneyLink {
+  label: string;
+  href: string;
+}
 
 const journeyPaths = [
   {
@@ -16,12 +22,12 @@ const journeyPaths = [
     color: "#0D9488",
     image: JOURNEY_NEW,
     links: [
-      "Medicare 101 Guide",
-      "Am I Eligible?",
-      "Turning 65 Timeline",
-      "What Does It Cost?",
-      "Getting Started Checklist",
-    ],
+      { label: "Medicare 101 Guide", href: "/medicare-101" },
+      { label: "Am I Eligible?", href: "/new-to-medicare/eligibility" },
+      { label: "Turning 65 Timeline", href: "/new-to-medicare/turning-65" },
+      { label: "What Does It Cost?", href: "/new-to-medicare/costs" },
+      { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
+    ] as JourneyLink[],
     href: "/medicare-101",
   },
   {
@@ -31,12 +37,12 @@ const journeyPaths = [
     color: "#D97706",
     image: JOURNEY_WORKING,
     links: [
-      "Medicare & Employer Coverage",
-      "When to Enroll if Working",
-      "HSA & Medicare Rules",
-      "COBRA vs. Medicare",
-      "Retirement Planning Guide",
-    ],
+      { label: "Medicare & Employer Coverage", href: "/enrollment/working-past-65" },
+      { label: "When to Enroll if Working", href: "/faqs/when-should-you-enroll-in-medicare-if-still-working" },
+      { label: "HSA & Medicare Rules", href: "/enrollment/working-past-65#hsa-rules" },
+      { label: "COBRA vs. Medicare", href: "/enrollment/working-past-65#cobra-vs-medicare" },
+      { label: "Retirement Planning Guide", href: "/new-to-medicare/costs" },
+    ] as JourneyLink[],
     href: "/enrollment/working-past-65",
   },
   {
@@ -46,12 +52,12 @@ const journeyPaths = [
     color: "#4F46E5",
     image: JOURNEY_ENROLLED,
     links: [
-      "Compare Your Plan Options",
-      "Annual Enrollment Guide",
-      "Switch Plans: When & How",
-      "Lower Your Costs",
-      "Coverage Gaps to Watch",
-    ],
+      { label: "Compare Your Plan Options", href: "/medicare-plans/compare" },
+      { label: "Annual Enrollment Guide", href: "/enrollment/annual-changes" },
+      { label: "Switch Plans: When & How", href: "/enrollment/how-to-enroll" },
+      { label: "Lower Your Costs", href: "/medicare-plans/costs" },
+      { label: "Coverage Gaps to Watch", href: "/faqs" },
+    ] as JourneyLink[],
     href: "/medicare-plans/compare",
   },
 ];
@@ -117,30 +123,28 @@ export default function JourneySection() {
                 <div className="p-5">
                   <ul className="space-y-2.5 mb-5">
                     {path.links.map((link) => (
-                      <li key={link} className="flex items-center gap-2.5">
+                      <li key={link.label} className="flex items-center gap-2.5">
                         <span
                           className="w-1 h-1 rounded-full shrink-0"
                           style={{ backgroundColor: path.color }}
                         />
-                        <a
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
+                        <Link
+                          href={link.href}
                           className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors"
                         >
-                          {link}
-                        </a>
+                          {link.label}
+                        </Link>
                       </li>
                     ))}
                   </ul>
-                  <a
+                  <Link
                     href={path.href}
-                    onClick={(e) => e.preventDefault()}
                     className="inline-flex items-center gap-1.5 font-semibold text-sm group-hover:gap-2.5 transition-all duration-150"
                     style={{ color: path.color }}
                   >
                     Explore This Path
                     <ArrowRight className="w-4 h-4" />
-                  </a>
+                  </Link>
                 </div>
               </motion.div>
             );
