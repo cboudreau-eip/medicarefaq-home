@@ -11,7 +11,6 @@ import HeaderBar from "@/components/HeaderBar";
 import MegaMenu from "@/components/MegaMenu";
 import MobileNav from "@/components/MobileNav";
 import HeroSection from "@/components/HeroSection";
-import TrustBar from "@/components/TrustBar";
 import JourneySection from "@/components/JourneySection";
 import TopicSection from "@/components/TopicSection";
 import ZipFinderSection from "@/components/ZipFinderSection";
@@ -38,7 +37,6 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-1">
         <HeroSection />
-        <TrustBar />
         <JourneySection />
         <TopicSection />
         <ZipFinderSection />
