@@ -1,10 +1,80 @@
 import { MapPin, Search } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { toast } from "sonner";
 
 const ZIP_BG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/zip-finder-bg-gNTJcKEjmhG5w7ALCC56EK.webp";
+
+function buildMedicareComparedUrl(zip: string): string {
+  const now = new Date();
+  const dateStr = now.toISOString().split("T")[0];
+  const sessionTime = now.toISOString();
+  const currentUrl = window.location.href;
+  const screenW = window.screen.width;
+  const screenH = window.screen.height;
+  const isMobile = /Mobi|Android/i.test(navigator.userAgent) ? "mobile" : "desktop";
+  const browser = /Chrome/i.test(navigator.userAgent)
+    ? "Chrome"
+    : /Firefox/i.test(navigator.userAgent)
+    ? "Firefox"
+    : /Safari/i.test(navigator.userAgent)
+    ? "Safari"
+    : "Other";
+  const os = /Windows/i.test(navigator.userAgent)
+    ? "Windows"
+    : /Mac/i.test(navigator.userAgent)
+    ? "Mac"
+    : /Linux/i.test(navigator.userAgent)
+    ? "Linux"
+    : "Other";
+
+  const params = new URLSearchParams({
+    postalCode: zip,
+    "marketing_Original-Lead-Ad-Source": "direct",
+    "marketing_Original-Lead-Medium": "search",
+    "marketing_Original-Lead-Ad-Campaign": "",
+    "marketing_Original-Lead-Ad-Group": "",
+    "marketing_Original-Lead-Date": dateStr,
+    "marketing_Original-Lead-URL": currentUrl,
+    "marketing_Original-Lead-Network": "",
+    "marketing_Original-Lead-Match-Type": "",
+    "marketing_Original-Lead-Keywords": "",
+    "marketing_Original-Lead-Query-String": "",
+    "marketing_Original-Lead-Content": "",
+    "marketing_Original-Lead-Extension": "",
+    "marketing_Original-Lead-Location": "",
+    "marketing_Original-Lead-Placement": "",
+    "marketing_Original-Lead-Ad-Position": "",
+    "marketing_Original-Lead-Screen-Height": String(screenH),
+    "marketing_Original-Lead-Screen-Width": String(screenW),
+    "marketing_Original-Lead-Landing-Page": currentUrl,
+    "marketing_Original-Lead-Referring-URL": document.referrer || "",
+    "marketing_Original-Lead-Campaign-ID": "",
+    "marketing_Original-Lead-Ad-Group-ID": "",
+    "marketing_Original-Lead-Keyword-ID": "",
+    "marketing_Original-Lead-Extension-ID": "",
+    "marketing_Original-Lead-Device": isMobile,
+    "marketing_Original-Lead-Device-Brand": isMobile,
+    "marketing_Original-Lead-Device-Name": "",
+    "marketing_Original-Lead-Lead-OS-Version": "",
+    "marketing_Original-Lead-Browser": browser,
+    "marketing_Original-Lead-Operating-System": os,
+    sessionStartTime: sessionTime,
+    leadLandingPage: currentUrl,
+    leadReferringUrl: document.referrer ? new URL(document.referrer).hostname : "medicarefaq.com",
+    "marketing_Phone-Ad-Type": "direct-search",
+    utm_source: "direct",
+    utm_medium: "search",
+    utm_content: "",
+    utm_campaign: "",
+    device: isMobile,
+    leadURL: currentUrl,
+    leadBrand: "medicarefaq",
+    Coverage_Multi__c: "Medicare Supplement (Medigap)",
+  });
+
+  return `https://demographics.medicarecompared.com/ms/?${params.toString()}`;
+}
 
 export default function ZipFinderSection() {
   const [zip, setZip] = useState("");
@@ -12,7 +82,7 @@ export default function ZipFinderSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (zip.length === 5) {
-      toast.info("Plan finder feature coming soon!");
+      window.location.href = buildMedicareComparedUrl(zip);
     }
   };
 
@@ -60,7 +130,8 @@ export default function ZipFinderSection() {
             </div>
             <button
               type="submit"
-              className="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 flex items-center gap-2 whitespace-nowrap shadow-lg shadow-[#C41230]/25"
+              disabled={zip.length !== 5}
+              className="bg-[#C41230] hover:bg-[#A30F28] disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 flex items-center gap-2 whitespace-nowrap shadow-lg shadow-[#C41230]/25"
             >
               <Search className="w-4 h-4" />
               Find Plans

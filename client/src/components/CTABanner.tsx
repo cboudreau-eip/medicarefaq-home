@@ -30,7 +30,7 @@ export default function CTABanner() {
               Call Us Now
             </a>
             <a
-              href="/contact"
+              href="/medicare-plans/compare"
               className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30"
             >
               Get Started Online

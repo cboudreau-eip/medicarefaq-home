@@ -623,7 +623,7 @@ export default function About() {
                 Call (888) 335-8996
               </a>
               <Link
-                href="/"
+                href="/medicare-plans/compare"
                 className="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg hover:bg-white/20 transition-colors"
               >
                 Get Started Free
