@@ -33,7 +33,7 @@ export default function HeroSection() {
       </div>
 
       {/* Hero content */}
-      <div className="container relative z-10 pt-16 md:pt-24 lg:pt-28 pb-0">
+      <div className="container relative z-10 pt-8 md:pt-12 lg:pt-14 pb-0">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
