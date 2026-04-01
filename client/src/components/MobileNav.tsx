@@ -102,7 +102,7 @@ export default function MobileNav() {
             >
               <div className="p-4">
                 <a
-                  href="/contact"
+                  href="/medicare-plans/compare"
                   className="block w-full bg-[#C41230] text-white text-center font-bold py-3 rounded-lg mb-4"
                 >
                   Get Started Free

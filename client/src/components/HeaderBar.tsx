@@ -57,7 +57,7 @@ export default function HeaderBar() {
             (888) 335-8996
           </a>
           <a
-            href="/contact"
+            href="/medicare-plans/compare"
             className="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
           >
             Get Started Free
