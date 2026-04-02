@@ -96,6 +96,9 @@ export interface CoverageArticleData {
   readTime: string;
   youtubeVideoId?: string;
   youtubeVideoTitle?: string;
+  buzzsproutUrl?: string;    // Direct MP3 URL from Buzzsprout for podcast player
+  podcastDate?: string;      // e.g. "March 12, 2026"
+  podcastDuration?: string;  // e.g. "5:14"
 
   quickAnswer: QuickAnswerData;
   comparisonTable: ComparisonRow[];

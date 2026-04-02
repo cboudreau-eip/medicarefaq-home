@@ -5,7 +5,7 @@
  * plan-by-plan breakdowns, cost table, sticky TOC sidebar, FAQ accordion, related topics.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "wouter";
 import {
   Clock,
@@ -36,6 +36,10 @@ import {
   Ear,
   Eye,
   Play,
+  Pause,
+  Volume2,
+  VolumeX,
+  Headphones,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import UtilityBar from "@/components/UtilityBar";
@@ -50,6 +54,7 @@ import type {
   QuickReferenceItem,
 } from "@/lib/article-types";
 import { coverageArticles } from "@/lib/coverage-data";
+import PodcastPlayer from "@/components/PodcastPlayer";
 
 /* ─── Icon Map ─── */
 const iconMap: Record<string, React.ElementType> = {
@@ -366,6 +371,16 @@ export default function CoverageTemplate() {
             <div className="flex gap-8 lg:gap-10">
               {/* ─── Main Article Content ─── */}
               <article className="flex-1 min-w-0">
+                {/* Podcast Player */}
+                {article.buzzsproutUrl && (
+                  <PodcastPlayer
+                    audioUrl={article.buzzsproutUrl}
+                    title={article.title}
+                    date={article.podcastDate || article.dateUpdated}
+                    duration={article.podcastDuration || ""}
+                  />
+                )}
+
                 {/* YouTube Video Embed */}
                 {article.youtubeVideoId && (
                   <div className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden mb-8 shadow-sm">

@@ -1521,6 +1521,9 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
     },
     readTime: "7 min read",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18821985-when-should-you-enroll-in-medicare-if-still-working.mp3?download=true",
+    podcastDate: "March 12, 2026",
+    podcastDuration: "5:14",
     quickAnswer: {
       text: "If your employer has 20+ employees and offers creditable coverage, you can safely delay Part B. If your employer has fewer than 20 employees, you must enroll in both Part A and Part B at 65 to avoid coverage gaps and penalties.",
       badges: [
