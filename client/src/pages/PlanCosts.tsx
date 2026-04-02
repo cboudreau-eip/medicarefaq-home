@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   ChevronDown,
@@ -135,6 +136,13 @@ const faqs = [
 ];
 
 export default function PlanCosts() {
+  useSEO({
+    title: "Medicare Plan Costs 2026 | Premiums, Deductibles & More | MedicareFAQ",
+    description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
+    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);

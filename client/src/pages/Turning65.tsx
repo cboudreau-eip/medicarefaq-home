@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -208,6 +209,13 @@ const faqs = [
 /* ------------------------------------------------------------------ */
 
 export default function Turning65() {
+  useSEO({
+    title: "Turning 65 and Medicare | What You Need to Do | MedicareFAQ",
+    description: "Turning 65? Learn everything you need to know about enrolling in Medicare, your coverage options, and the steps to take before your 65th birthday.",
+    canonical: "https://www.medicarefaq.com/medicare-enrollment/turning-65/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 

@@ -4,6 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -114,6 +115,13 @@ const faqs = [
 ];
 
 export default function BestSupplementPlans() {
+  useSEO({
+    title: "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked | MedicareFAQ",
+    description: "Find the best Medicare Supplement plans for 2026. We compare Plan G, Plan N, and other top Medigap options by cost, coverage, and value.",
+    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);

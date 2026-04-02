@@ -5,6 +5,7 @@
  */
 
 import { useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   FileText,
@@ -139,6 +140,13 @@ const topicGuides = [
 ];
 
 export default function Guides() {
+  useSEO({
+    title: "Medicare Guides & Resources | Free Medicare Education | MedicareFAQ",
+    description: "Browse free Medicare guides and educational resources from MedicareFAQ. Learn about Medicare plans, enrollment, costs, and coverage in plain language.",
+    canonical: "https://www.medicarefaq.com/library/guides/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "website",
+  });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   ArrowRightLeft,
@@ -68,6 +69,13 @@ const faqs = [
 ];
 
 export default function AnnualChanges() {
+  useSEO({
+    title: "Medicare Annual Enrollment Period | AEP Dates & Changes | MedicareFAQ",
+    description: "The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make and how to review your coverage for the coming year.",
+    canonical: "https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 

@@ -4,6 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -100,6 +101,13 @@ const faqs = [
 ];
 
 export default function SupplementVsAdvantage() {
+  useSEO({
+    title: "Medicare Supplement vs. Medicare Advantage | Which Is Better? | MedicareFAQ",
+    description: "Should you choose Medicare Supplement (Medigap) or Medicare Advantage? Compare costs, coverage, flexibility, and networks to find the right plan for you.",
+    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);

@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -103,6 +104,13 @@ const faqs = [
 ];
 
 export default function ComparePlans() {
+  useSEO({
+    title: "Compare Medicare Plans | Supplement vs. Advantage | MedicareFAQ",
+    description: "Compare Medicare Supplement and Medicare Advantage plans side by side. Find out which type of coverage is right for your health needs and budget.",
+    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/compare/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
