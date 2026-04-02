@@ -196,6 +196,7 @@ export interface BlogSectionContent {
 
 export interface BlogArticleData {
   slug: string;
+  seo?: ArticleSEO;
   title: string;
   excerpt: string;
   category: string;

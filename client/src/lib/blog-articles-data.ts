@@ -9,6 +9,12 @@ import type { BlogArticleData } from "./article-types";
 export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-costs-2025",
+  seo: {
+    title: "Medicare Costs 2025 | MedicareFAQ",
+    description: "Learn about Medicare costs in 2025 including premiums, deductibles, and out-of-pocket expenses for Part A, Part B, and Medicare Advantage plans.",
+    canonical: "https://www.medicarefaq.com/blog/medicare-costs-2025/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Costs-in-2025.jpg",
+  },
     title: "Medicare Costs 2025",
     excerpt: "In 2025, several Medicare costs are going up, so it’s important to know what to expect. Here, we’ll review key changes to Medicare premiums and deductibles so you’re not caught off guard.",
     category: "Medicare News",
@@ -52,6 +58,12 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "how-is-medicare-part-d-changing-in-2026",
+  seo: {
+    title: "How is Medicare Part D Changing in 2026? | MedicareFAQ",
+    description: "This year, CMS has projected a decrease in Medicare Part D costs. Plus, learn about exciting news about major changes in Part D benefits.",
+    canonical: "https://www.medicarefaq.com/blog/how-is-medicare-part-d-changing-in-2026/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-is-medicare-part-d-changing-in-2024.jpg",
+  },
     title: "How is Medicare Part D Changing in 2026?",
     excerpt: "Projected Costs are now available for 2026 Medicare Part D plans. Plus, exciting changes in federal healthcare drug coverage are available that will change how you pay for high-cost prescription drugs",
     category: "Medicare News",
@@ -102,6 +114,12 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+  seo: {
+    title: "The Essentials: Medicare Supplement vs. Medicare Advantage Explained | MedicareFAQ",
+    description: "Deciding between Medicare Supplement (Medigap) and Medicare Advantage? Our clear guide explains the key differences in cost, doctor choice, travel coverage, and more to help you choose the right plan for your health and budget.",
+    canonical: "https://www.medicarefaq.com/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/The-Essentials-Medicare-Supplement-vs-Medicare-Advantage-Explained.jpg",
+  },
     title: "The Essentials: Medicare Supplement vs. Medicare Advantage Explained",
     excerpt: "Navigating your Medicare options can feel like learning a new language. Once you are enrolled in Original Medicare (Parts A and B), you face a key decision: how will you handle the costs that Medicare",
     category: "Healthcare",
@@ -160,6 +178,12 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+  seo: {
+    title: "Your Guide to Medicare Enrollment Periods: When to Sign Up | MedicareFAQ",
+    description: "Understanding Medicare enrollment periods is crucial for timely coverage. Learn about Initial, General, Annual, and Special Enrollment Periods, Medigap options, and penalties.",
+    canonical: "https://www.medicarefaq.com/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+  },
     title: "Your Guide to Medicare Enrollment Periods: When to Sign Up",
     excerpt: "Navigating the world of Medicare can sometimes feel like learning a new language, especially when it comes to understanding when you can enroll or make changes to your coverage. The timing of your enr",
     category: "Medicare News",
@@ -215,6 +239,12 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
+  seo: {
+    title: "10 Questions to Ask Before Buying a Medicare Supplement Plan | MedicareFAQ",
+    description: "Learn the key questions to ask before purchasing a Medicare Supplement Plan, including coverage details, costs, enrollment timing, and how to choose the best plan for your needs.",
+    canonical: "https://www.medicarefaq.com/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan/",
+    ogImage: "https://medicarefaq.com/wp-content/uploads/2023/07/medicare-supplement-plans-1.png",
+  },
     title: "10 Questions to Ask Before Buying a Medicare Supplement Plan",
     excerpt: "Medicare Supplement (Medigap) plans are one of the most popular ways to cover the out-of-pocket costs left behind by Original Medicare. But with so many options, it’s normal to feel unsure about which",
     category: "Healthcare",

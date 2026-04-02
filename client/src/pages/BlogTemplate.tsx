@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link, useParams } from "wouter";
 import {
   Clock,
@@ -158,6 +159,20 @@ export default function BlogTemplate() {
   const article = blogArticles.find((a) => a.slug === params.slug);
   // Check if it's an old static post without full article content
   const staticPost = !article ? blogPosts.find((p) => p.slug === params.slug) : null;
+
+  useSEO(article?.seo ? {
+    title: article.seo.title,
+    description: article.seo.description,
+    canonical: article.seo.canonical,
+    ogImage: article.seo.ogImage,
+    ogType: "article",
+  } : {
+    title: article ? `${article.title} | MedicareFAQ` : "Medicare Blog | MedicareFAQ",
+    description: article?.excerpt ?? "Read the latest Medicare news, tips, and guides from MedicareFAQ.",
+    canonical: article ? `https://www.medicarefaq.com/blog/${article.slug}/` : "https://www.medicarefaq.com/blog/",
+    ogImage: article?.image ?? "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
 
   const [activeSection, setActiveSection] = useState("");
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
