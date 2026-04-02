@@ -9,6 +9,12 @@ import type { CoverageArticleData } from "./article-types";
 export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-dental-implants",
+    seo: {
+      title: "Does Medicare Cover Dental Implants? | MedicareFAQ",
+      description: "Original Medicare does not cover dental implants, but there may be other plans available to help cover dental implants. Read more to find out.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-dental-implants/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-dental-implants.jpg",
+    },
     title: "Does Medicare Cover Dental Implants",
     subtitle: "Dental implants permanently anchor prosthetic teeth, but Original Medicare doesn't cover them. However, beneficiaries have other plan options for dental implant coverage.",
     category: "Medicare Coverage",
@@ -102,6 +108,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-glasses",
+    seo: {
+      title: "Does Medicare Cover Glasses? | MedicareFAQ",
+      description: "Medicare covers many health care services but does not cover routine eye care. In some cases, Medicare covers glasses. Learn more here.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-glasses/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-glasses.jpg",
+    },
     title: "Does Medicare Cover Glasses?",
     subtitle: "As we age, our vision tends to deteriorate. By age 65, close to 75% of all people require some kind of vision correction. However, Original Medicare typically does not cover eye exams or glasses.",
     category: "Medicare Coverage",
@@ -196,6 +208,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-hearing-aids",
+    seo: {
+      title: "Does Medicare Cover Hearing Aids",
+      description: "Medicare alone does not cover hearing aids. Find out if your supplemental Medicare benefits include coverage for hearing aids here.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg",
+    },
     title: "Does Medicare Cover Hearing Aids?",
     subtitle: "No, Original Medicare does not cover hearing aids or exams for fitting hearing aids. However, some Medicare Advantage plans may include hearing benefits. Learn about your options, costs, and important exceptions.",
     category: "Medicare Coverage",
@@ -389,6 +407,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-chiropractic-care",
+    seo: {
+      title: "Medicare Chiropractic Care | Is Coverage Available?",
+      description: "Learn if Medicare covers chiropractic care, how much chiropractic care costs, and Medicare guidelines for chiropractic services.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-chiropractic-care/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Chiropractic-Care.jpg",
+    },
     title: "Does Medicare Cover Chiropractic Care?",
     subtitle: "Medicare only covers chiropractic care services for manipulations to correct a misaligned spine. But, if you need care for a stiff neck or back pain, you can expect to pay for those services yourself.",
     category: "Medicare Coverage",
@@ -484,6 +508,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-acupuncture",
+    seo: {
+      title: "Does Medicare Cover Acupuncture for Chronic Pain | MedicareFAQ",
+      description: "Medicare does cover acupuncture for the pain that affects your lower back that's considered chronic. Find out what you need to know here.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-acupuncture/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-acupuncture.jpg",
+    },
     title: "Does Medicare Cover Acupuncture",
     subtitle: "Medicare does cover some acupuncture treatments. But, Acupuncture is only covered if it treats chronic lower back pain. Medicare won’t pay for other types of acupuncture treatments. But, some Advantag",
     category: "Medicare Coverage",
@@ -577,6 +607,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-sleep-apnea",
+    seo: {
+      title: "Does Medicare Cover Sleep Apnea | MedicareFAQ",
+      description: "Medicare covers sleep studies to diagnose sleep apnea, as well as devices to treat the condition. Learn more about coverage here.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-sleep-apnea/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-sleep-apnea.jpg",
+    },
     title: "Does Medicare Cover Sleep Apnea",
     subtitle: "Sleep apnea is a common condition with which many people struggle. Medicare Part B provides coverage for sleep apnea, including doctor visits, sleep studies, and equipment to treat the disorder when a",
     category: "Medicare Coverage",
@@ -675,6 +711,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-cataract-surgery",
+    seo: {
+      title: "Does Medicare Cover Cataract Surgery? - Medicare Cataract Surgery",
+      description: "Does Medicare cover cataract surgery? It can, but how you're covered, what is covered, and when all depend on a litany of factors. Learn more.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cataract-surgery/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Cataract-Surgery.jpg",
+    },
     title: "Does Medicare Cover Cataract Surgery? - Medicare Cataract Surgery",
     subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
     category: "General Medicare",
@@ -769,6 +811,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-hospice",
+    seo: {
+      title: "Does Medicare Cover Hospice and Palliative Care?",
+      description: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. Learn about coverage, guidelines, and costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hospice/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hospice.jpg",
+    },
     title: "Does Medicare Cover Hospice and Palliative Care?",
     subtitle: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. However, not all circumstances warrant Medicare coverage for hospic",
     category: "Medicare Coverage",
@@ -859,6 +907,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-dentures",
+    seo: {
+      title: "Does Medicare Pay and Cover the Cost of Dentures?",
+      description: "Does Medicare pay and cover the cost of dentures? This article breaks down the process and options available for Medicare dental coverage for dentures.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-dentures/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Dentures.jpg",
+    },
     title: "Does Medicare Pay and Cover the Cost of Dentures?",
     subtitle: "Dentures for seniors on Medicare is available, but only under certain circumstances. Original Medicare doesn’t ordinarily provide coverage for dental care, but other options are available, primarily t",
     category: "General Medicare",
@@ -950,6 +1004,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-mental-health",
+    seo: {
+      title: "Medicare Mental Health Coverage: What You Need to Know in 2026",
+      description: "Learn how Medicare covers mental health services, including therapy, counseling, inpatient care, and prescription drugs. Compare options and avoid costly mistakes.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-mental-health/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-mental-health-services.jpg",
+    },
     title: "Medicare Mental Health Coverage: What You Need to Know in 2026",
     subtitle: "Yes, Medicare covers mental health services, including therapy, counseling, and inpatient psychiatric care. Medicare Part B covers outpatient services, while Part A covers inpatient care. Additional c",
     category: "Medicare Coverage",
@@ -1040,6 +1100,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-ozempic",
+    seo: {
+      title: "Does Medicare Cover Ozempic? - Learn About Your Coverage Options",
+      description: "Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. Find out how Medicare covers Ozempic, costs, and savings programs.",
+      canonical: "https://www.medicarefaq.com/ozempic-coverage",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Does Medicare Cover Ozempic? 2026 Guide to Costs, Coverage, and Savings",
     subtitle: "Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. With rising healthcare costs, understanding h",
     category: "Medicare Part D",
@@ -1136,6 +1202,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-speech-therapy",
+    seo: {
+      title: "Does Medicare Cover Speech Therapy",
+      description: "Medicare speech therapy coverage is available, but different coverages provide different benefits. Learn more about your options.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-speech-therapy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-speech-therapy.jpg",
+    },
     title: "Does Medicare Cover Speech Therapy",
     subtitle: "Medicare will cover speech therapy services if you meet specific requirements set by the Center for Medicare and Medicaid Services (CMS). Medicare speech therapy benefits are only available when it is",
     category: "Medicare Coverage",
@@ -1227,6 +1299,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-copd",
+    seo: {
+      title: "Finding a Pulmonologist on Medicare | MedicareFAQ",
+      description: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable. Thankfully, your Medicare plan may offer coverage for treatment costs if they are medically necessary. Medicare Part B provides annual lung cancer screening coverage with Low Dose Computed Tomography (LDCT) for qualifying beneficiaries.",
+      canonical: "https://www.medicarefaq.com/medicare-benefits/finding-a-pulmonologist-on-medicare/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Finding a Pulmonologist on Medicare",
     subtitle: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable.",
     category: "Medicare Coverage",
@@ -1318,6 +1396,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-pre-existing-conditions",
+    seo: {
+      title: "Does Medicare Cover Pre-Existing Health Conditions | MedicareFAQ",
+      description: "If you're just aging into Medicare, knowing what pre-existing conditions are, and are not covered by Medicare, is important. Learn more here.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-pre-existing-conditions/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-pre-existing-conditions.jpg",
+    },
     title: "Does Medicare Cover Pre-Existing Health Conditions",
     subtitle: "Medicare isn’t dependent on the status of your health. Meaning pre-existing health conditions won’t impact eligibility as long as you apply at the right time.",
     category: "General Medicare",
@@ -1410,6 +1494,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-prosthetic-devices",
+    seo: {
+      title: "Does Medicare Cover Prosthetics | MedicareFAQ",
+      description: "Does Medicare cover prosthetics? Learn how to help cover the cost of your prosthetic devices with Medicare benefits.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-prosthetic-devices/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-prosthetics.jpg",
+    },
     title: "Does Medicare Cover Prosthetics",
     subtitle: "Original Medicare will cover a variety of prosthetics to replace a body part or function when medically necessary. When you think of prosthetics, arms and legs may be the first things that come to min",
     category: "Medicare Coverage",
@@ -1504,6 +1594,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "when-should-you-enroll-in-medicare-if-still-working",
+    seo: {
+      title: "When Should You Enroll in Medicare If Still Working? | MedicareFAQ",
+      description: "Discover exactly when you should enroll in Medicare if still working. Learn how employer health coverage coordinates with Medicare and why Medicare Supplement plans offer superior protection.",
+      canonical: "https://www.medicarefaq.com/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/When-Should-You-Enroll-in-Medicare-If-Still-Working.jpg",
+    },
     title: "When Should You Enroll in Medicare If Still Working?",
     subtitle: "Many individuals continue working past 65. Understanding when to enroll in Medicare while still employed is critical to avoid penalties and coverage gaps.",
     category: "Medicare Enrollment",
@@ -1667,6 +1763,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
+    seo: {
+      title: "Medicare Advantage Extra Benefits Explained: What’s Really Included | MedicareFAQ",
+      description: "Medicare Advantage plans often include extra benefits like dental, vision, hearing, over-the-counter (OTC) allowances, and transportation services not covered by Original Medicare. These benefits vary by plan and often have limitations such as annual caps or network restrictions.",
+      canonical: "https://medicarefaq.com/medicare-advantage-extra-benefits-explained/",
+      ogImage: "https://medicarefaq.com/wp-content/uploads/2023/02/Medicare-Advantage-Extra-Benefits-Explained.png",
+    },
     title: "Medicare Advantage Extra Benefits Explained: What's Really Included",
     subtitle: "Medicare Advantage plans advertise appealing extras like dental, vision, and grocery allowances. Understanding what's actually included and what the limitations are is crucial before making your decision.",
     category: "Medicare Advantage",
@@ -1838,6 +1940,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
+    seo: {
+      title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask Before Enrolling | MedicareFAQ",
+      description: "Compare Medicare Supplement vs Medicare Advantage to find the best healthcare coverage. Learn vital questions to ask regarding costs, networks, and long-term stability before enrolling.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-vs-Medicare-Advantage-Crucial-Questions-to-Ask-Before-Enrolling.jpg",
+    },
     title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask Before Enrolling",
     subtitle: "When comparing Medicare Supplement vs Medicare Advantage, the details truly matter. Understanding the fundamental differences between these paths will help you secure the peace of mind you deserve.",
     category: "Medicare Supplement (Medigap)",
@@ -1990,6 +2098,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
+    seo: {
+      title: "Medicare Supplement vs. Medicare Advantage for Veterans: Choosing the Right Coverage | MedicareFAQ",
+      description: "Compare Medicare Supplement vs. Medicare Advantage for veterans. Learn how Medigap provides nationwide doctor access, predictable costs, and freedom alongside your VA benefits.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-vs.-Medicare-Advantage-for-Veterans-Choosing-the-Right-Coverage.jpg",
+    },
     title: "Medicare Supplement vs Medicare Advantage for Veterans: Choosing the Right Coverage",
     subtitle: "As a veteran, combining VA benefits with Medicare provides a crucial safety net for your retirement years. Understanding the difference between Medicare Supplement and Medicare Advantage is vital.",
     category: "Medicare Supplement (Medigap)",
@@ -2107,6 +2221,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+    seo: {
+      title: "Medicare Costs in 2026: Premiums, Deductibles, and Key Changes | MedicareFAQ",
+      description: "Find out the latest Medicare costs for 2026, including premiums, deductibles, and key changes to help you budget and plan your healthcare coverage.",
+      canonical: "https://medicarefaq.com/medicare-costs-2026",
+      ogImage: "https://medicarefaq.com/images/medicare-costs-2026.jpg",
+    },
     title: "Medicare Costs in 2026: Premiums, Deductibles, and Key Changes",
     subtitle: "The official 2026 Medicare numbers have been released. Understanding these cost adjustments is essential for budgeting and ensuring you have the right healthcare coverage.",
     category: "Medicare Coverage",
@@ -2277,6 +2397,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-life-alert",
+    seo: {
+      title: "Page not found | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
     subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
     category: "Medicare Coverage",
@@ -2440,6 +2566,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "is-medicare-free",
+    seo: {
+      title: "Is Medicare Free? | Free Parts of Medicare",
+      description: "Part A is free if you pay a minimum of 40 quarters or ten years in Medicare taxes. On the other hand, Parts B through D are not free.",
+      canonical: "https://www.medicarefaq.com/faqs/is-medicare-free/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/is-medicare-free.jpg",
+    },
     title: "Is Medicare Free?",
     subtitle: "Medicare is not free. Each part of Medicare has its own costs. However, you may be eligible to receive some parts of medicare for a $0 monthly premium based on your history working in the U.S. and paying Medicare taxes.",
     category: "General Medicare",
@@ -2581,6 +2713,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "25-medicare-qas-you-should-know",
+    seo: {
+      title: "25 Medicare Q&As You Should Know in 2026 | MedicareFAQ",
+      description: "Find answers to the top 25 most frequently asked Medicare questions in 2026, including eligibility, costs, plans, and coverage details.",
+      canonical: "https://medicarefaq.com/25-medicare-questions-2026",
+      ogImage: "https://medicarefaq.com/images/medicare-2026.png",
+    },
     title: "25 Medicare Q&As You Should Know in 2026",
     subtitle: "It is common to have many Medicare-related questions running through your mind at any given time. However, finding the answer to these Medicare questions may prove to be more complex than expected.",
     category: "General Medicare",
@@ -2723,6 +2861,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "new-medicare-changes",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/new-medicare-changes/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "New Medicare Changes for 2026",
     subtitle: "Every year, changes come to Medicare. In 2026, Medicare has several new benefits and adjustments to speak of.",
     category: "General Medicare",
@@ -2878,6 +3022,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
+    seo: {
+      title: "Do Disposable Adult Diaper Manufacturers Have Assistance Programs for Free or Reduced Cost Depends? | MedicareFAQ",
+      description: "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to...",
+      canonical: "https://www.medicarefaq.com/faqs/do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Do-Disposable-Adult-Diaper-Manufacturers-Have-Assistance-Programs-for-Free-or-Reduced-Cost-Depends.jpg",
+    },
     title: "Do Disposable Adult Diaper Manufacturers Have Assistance Programs for Free or Reduced Cost Depends?",
     subtitle: "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies.",
     category: "General Medicare",
@@ -2995,6 +3145,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management",
+    seo: {
+      title: "Will Medicare Supplement Plan G Pay for Anesthesia for Pain Management? | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Will-Medicare-Supplement-Plan-G-Pay-for-Anesthesia-for-Pain-Management.jpg",
+    },
     title: "Will Medicare Supplement Plan G Pay for Anesthesia for Pain Management?",
     subtitle: "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky.",
     category: "General Medicare",
@@ -3113,6 +3269,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "does-medicare-cover-a-shower-transfer-bench",
+    seo: {
+      title: "Does Medicare Cover a Shower Transfer Bench? | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-a-shower-transfer-bench/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-a-Shower-Transfer-Bench.jpg",
+    },
     title: "Does Medicare Cover a Shower Transfer Bench?",
     subtitle: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
     category: "General Medicare",
@@ -3231,6 +3393,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-silversneakers-program",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-silversneakers-program/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "SilverSneakers Medicare Gym Membership Program",
     subtitle: "SilverSneakers is a gym membership program that allows free and discounted gym memberships to eligible seniors. This program helps seniors stay active and engaged as they age.",
     category: "General Medicare",
@@ -3394,6 +3562,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-annual-notice-of-change-letter",
+    seo: {
+      title: "Medicare Annual Notice of Change (ANOC) Letter",
+      description: "A Medicare Annual Notice of Change (ANOC) letter arrives each September outlining changes to your Medicare plan. Learn what to expect.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-annual-notice-of-change-letter/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-annual-notice-of-change-letter.jpg",
+    },
     title: "Medicare Annual Notice of Change (ANOC) Letter",
     subtitle: "The Medicare Annual Notice of Change (ANOC) letter is an important document you receive each September. The ANOC outlines any changes to your Medicare plan that will go into effect the following year. It’s important to review your ANOC so that you can determine if you want to make changes to your Medicare plan to ensure you’re getting the right coverage for your needs.",
     category: "Medicare Enrollment",
@@ -3535,6 +3709,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-give-back-benefit",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-give-back-benefit/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Medicare Give Back Benefit",
     subtitle: "The Medicare Give Back Benefit is specific to certain Medicare Advantage plans. This benefit covers up to the entire Medicare Part B premium for the policyholder.",
     category: "Medicare Advantage",
@@ -3671,6 +3851,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "why-medicare-advantage-plans-are-bad",
+    seo: {
+      title: "Why Medicare Advantage Plans Are Bad",
+      description: "Find out the disadvantages of Medicare Advantage plans, including limited provider networks, high out-of-pocket costs, plan benefit changes, and more. Learn if they are right for you.",
+      canonical: "https://medicarefaq.com/why-medicare-advantage-plans-are-bad/",
+      ogImage: "https://example.com/path-to-image.jpg",
+    },
     title: "Why Medicare Advantage Plans Are Bad",
     subtitle: "Medicare Advantage plans are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
     category: "Medicare Advantage",
@@ -3838,6 +4024,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medigap-vs-medicare-advantage",
+    seo: {
+      title: "Medigap vs. Medicare Advantage: Which Is Right for You? | MedicareFAQ",
+      description: "Compare Medigap (Medicare Supplement) and Medicare Advantage plans side by side. Learn the key differences in costs, coverage, and flexibility to choose the right plan.",
+      canonical: "https://www.medicarefaq.com/faqs/medigap-vs-medicare-advantage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Medicare Supplement (Medigap) vs Medicare Advantage",
     subtitle: "If you are new to Medicare or want to change your plans, finding the plan with the right health benefits for you is essential. When deciding which plan to enroll in, your first step should be to choose between Medigap plan vs. Medicare Advantage plans.",
     category: "Medicare Supplement (Medigap)",
@@ -4000,6 +4192,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-special-enrollment-period",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-special-enrollment-period/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Medicare Special Enrollment Period",
     subtitle: "Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage.",
     category: "Medicare Enrollment",
@@ -4168,6 +4366,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-advantage-open-enrollment-period",
+    seo: {
+      title: "Medicare Advantage Open Enrollment Period | MAOEP",
+      description: "The Medicare Advantage Open Enrollment Period runs annually between January 1 and March 31. Find what changes you can make to your MA plans.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-advantage-open-enrollment-period.jpeg",
+    },
     title: "Medicare Advantage Open Enrollment Period | MAOEP",
     subtitle: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
     category: "Medicare Enrollment",
@@ -4331,6 +4535,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "fehb-and-medicare",
+    seo: {
+      title: "Federal Employee Health Benefits (FEHB) and Medicare",
+      description: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement. Estimated Read Time: 10 min",
+      canonical: "https://www.medicarefaq.com/faqs/fehb-and-medicare/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Federal Employee Health Benefits (FEHB) and Medicare",
     subtitle: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
     category: "General Medicare",
@@ -4503,6 +4713,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-creditable-coverage",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-creditable-coverage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "What is Medicare Creditable Coverage",
     subtitle: "If you choose to delay your Medicare coverage, you’ll want to ensure you have creditable coverage. Creditable coverage must provide you with benefits that are as good as or better than Medicare’s coverage.",
     category: "General Medicare",
@@ -4675,6 +4891,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-part-d-penalty",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-part-d-penalty/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "Medicare Part D Late Enrollment Penalty",
     subtitle: "The Medicare Part D late enrollment penalty fee can add up and get expensive if you put off prescription drug coverage for too long. Here, we explain exactly what the Medicare Part D penalty is and how to avoid it.",
     category: "Medicare Part D",
@@ -4846,6 +5068,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-cost-sharing-plans",
+    seo: {
+      title: "Medicare FAQ | MedicareFAQ",
+      description: "Get clear, unbiased answers to your Medicare questions.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-cost-sharing-plans/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
     title: "What is a Medicare Cost Sharing Plan?",
     subtitle: "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium.",
     category: "Medicare Supplement (Medigap)",
@@ -5017,6 +5245,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-maximum-out-of-pocket",
+    seo: {
+      title: "Understanding the Medicare Maximum Out-of-Pocket for 2025",
+      description: "Your Medicare maximum out-of-pocket limit is determined by which Parts of Medicare you enroll in. Learn about the out-of-pocket limit here.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-maximum-out-of-pocket/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-maximum-out-of-pocket.jpg",
+    },
     title: "Medicare Maximum Out-of-Pocket",
     subtitle: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
     category: "General Medicare",
@@ -5189,6 +5423,12 @@ export const coverageArticles: CoverageArticleData[] = [
   },
   {
     slug: "medicare-annual-enrollment-period",
+    seo: {
+      title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
+      description: "The Medicare Annual Enrollment Period, also known as the Medicare Fall Open Enrollment Period, runs each year from October 15 to December 7. Learn how you can benefit.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/image-1-1.png",
+    },
     title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
     subtitle: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
     category: "Medicare Enrollment",

@@ -85,8 +85,16 @@ export interface AuthorData {
   bio: string;
 }
 
+export interface ArticleSEO {
+  title: string;
+  description: string;
+  canonical: string;
+  ogImage: string;
+}
+
 export interface CoverageArticleData {
   slug: string;
+  seo?: ArticleSEO;
   title: string;
   subtitle: string;
   category: string;

@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect, useRef } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link, useParams } from "wouter";
 import {
   Clock,
