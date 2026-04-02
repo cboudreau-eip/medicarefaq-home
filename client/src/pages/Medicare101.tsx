@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -243,6 +244,13 @@ const fadeUp = {
 /* ------------------------------------------------------------------ */
 
 export default function Medicare101() {
+  useSEO({
+    title: "Medicare101 | MedicareFAQ",
+    description: "Medicare provides health insurance coverage for Americans over age 65 and individuals with qualified disabilities. Learn everything you need to know about Medicare.",
+    canonical: "https://www.medicarefaq.com/medicare101/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-101.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("what-is-medicare");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 

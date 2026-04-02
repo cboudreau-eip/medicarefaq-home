@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   FileText,
@@ -71,6 +72,13 @@ const faqs = [
 ];
 
 export default function HowToEnroll() {
+  useSEO({
+    title: "How to Enroll in Medicare | Step-by-Step Guide | MedicareFAQ",
+    description: "Learn how to enroll in Medicare step by step. Find out when to sign up, how to apply online or by phone, and what to do if you missed your enrollment window.",
+    canonical: "https://www.medicarefaq.com/medicare-enrollment/how-to-enroll/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 

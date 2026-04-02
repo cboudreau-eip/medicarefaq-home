@@ -5,6 +5,7 @@
  */
 
 import { useEffect, useState } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   Phone,
@@ -55,6 +56,13 @@ const quickLinks = [
 ];
 
 export default function Contact() {
+  useSEO({
+    title: "Contact MedicareFAQ | Speak With a Licensed Medicare Agent",
+    description: "Have questions about Medicare? Contact MedicareFAQ to speak with a licensed Medicare agent. We're here to help you understand your options at no cost.",
+    canonical: "https://www.medicarefaq.com/contact/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "website",
+  });
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",

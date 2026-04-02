@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -69,6 +70,13 @@ const faqs = [
 ];
 
 export default function OriginalMedicare() {
+  useSEO({
+    title: "Original Medicare | What Is Original Medicare? | MedicareFAQ",
+    description: "Original Medicare is the traditional fee-for-service health insurance program offered by the federal government. Learn about Parts A and B, what they cover, and how they work.",
+    canonical: "https://www.medicarefaq.com/original-medicare/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
