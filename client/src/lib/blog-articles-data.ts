@@ -307,7 +307,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans",
+    seo: {
+    title: "Key Questions to Ask When Comparing Medicare Advantage Plans | MedicareFAQ",
+    description: "Discover the essential questions to ask when comparing Medicare Advantage Plans (MAPD). Learn how to choose the right plan for your doctors, hospitals, benefits, and medications.",
+    canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Key-Questions-to-Ask-When-Comparing-Medicare-Advantage-Plans.jpg",
+  },
+  slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans",
     title: "Key Questions to Ask When Comparing Medicare Advantage Plans",
     excerpt: "If you’ve decided to enroll in a Medicare Advantage plan, then choosing the right Advantage Plan is one of the most important decisions you’ll make about your healthcare.",
     category: "Healthcare",
@@ -379,7 +385,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
+    seo: {
+    title: "Top 5 Medicare Annual Enrollment Mistakes to Avoid | MedicareFAQ",
+    description: "Learn the top 5 Medicare Annual Enrollment mistakes and how to avoid them. Review plans, compare drug coverage, and explore options to get the right coverage.",
+    canonical: "https://www.medicarefaq.com/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/The-Top-5-Mistakes-People-Make-During-Medicare-Annual-Enrollment-and-How-to-Avoid-Them.jpg",
+  },
+  slug: "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
     title: "The Top 5 Mistakes People Make During Medicare Annual Enrollment and How to Avoid Them",
     excerpt: "The Medicare Annual Enrollment Period, from October 15 through December 7, is the one time each year when most Medicare beneficiaries can review and make changes to their coverage. Despite its importa",
     category: "Healthcare",
@@ -423,7 +435,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "new-in-2025-medicares-part-d-payment-plan-explained",
+    seo: {
+    title: "New in 2025: Medicare's Part D Payment Plan Explained | MedicareFAQ",
+    description: "Learn about Medicare's new Part D Payment Plan in 2025, who qualifies, how it works, benefits, enrollment tips, and answers to common questions for Medicare beneficiaries.",
+    canonical: "https://www.medicarefaq.com/blog/new-in-2025-medicares-part-d-payment-plan-explained/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/New-in-2025-Medicares-Part-D-Payment-Plan-Explained.jpg",
+  },
+  slug: "new-in-2025-medicares-part-d-payment-plan-explained",
     title: "New in 2025: Medicare’s Part D Payment Plan Explained",
     excerpt: "As Medicare evolves, new programs are introduced to help beneficiaries manage their prescription drug costs. One important update for 2025 is the Medicare Part D Payment Plan. If you’re enrolled or en",
     category: "Medicare News",
@@ -487,7 +505,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage",
+    seo: {
+    title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage? | MedicareFAQ",
+    description: "Is a higher Medicare Supplement premium worth it? Learn why Medigap plan prices vary and if paying more actually means better coverage.",
+    canonical: "https://www.medicarefaq.com/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-Medigap-Premiums-Does-a-Higher-Price-Mean-Better-Coverage.jpg",
+  },
+  slug: "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage",
     title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage?",
     excerpt: "When you begin shopping for a Medicare Supplement (Medigap) plan, you will quickly notice something interesting: the prices for the very same plan can vary significantly from one insurance company to",
     category: "Medicare News",
@@ -535,7 +559,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "how-medigap-plans-affect-your-overall-medicare-costs",
+    seo: {
+    title: "How Medigap Plans Affect Your Overall Medicare Costs | MedicareFAQ",
+    description: "Learn how Medigap plans help control your Medicare costs by covering deductibles and coinsurance. Compare plans to reduce your financial risk.",
+    canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-Medigap-Plans-Affect-Your-Overall-Costs.jpg",
+  },
+  slug: "how-medigap-plans-affect-your-overall-medicare-costs",
     title: "How Medigap Plans Affect Your Overall Medicare Costs",
     excerpt: "When you first enroll in Original Medicare, it provides a great sense of security. Knowing you have reliable health coverage is a cornerstone of a comfortable retirement.",
     category: "Medicare News",
