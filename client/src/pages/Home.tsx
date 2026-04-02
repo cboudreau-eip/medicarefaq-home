@@ -18,8 +18,17 @@ import ResourcesSection from "@/components/ResourcesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function Home() {
+  useSEO({
+    title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
+    description:
+      "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
+    canonical: "https://www.medicarefaq.com/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    ogType: "website",
+  });
   return (
     <div className="min-h-screen flex flex-col">
       {/* Navigation — Desktop */}
