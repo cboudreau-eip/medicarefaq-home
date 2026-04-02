@@ -5,6 +5,7 @@
  */
 
 import { Link } from "wouter";
+import { useSEO } from "@/hooks/useSEO";
 import { motion } from "framer-motion";
 import {
   Shield,
@@ -106,6 +107,13 @@ const fadeUp = {
 };
 
 export default function About() {
+  useSEO({
+    title: "About Us | MedicareFAQ",
+    description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
+    canonical: "https://www.medicarefaq.com/about-us/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/xxbdybfbexe.jpg",
+    ogType: "article",
+  });
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* Navigation — Desktop */}

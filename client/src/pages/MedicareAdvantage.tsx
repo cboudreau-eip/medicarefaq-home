@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   Heart,
@@ -77,6 +78,13 @@ const faqs = [
 ];
 
 export default function MedicareAdvantage() {
+  useSEO({
+    title: "Medicare Part C | What is Medicare Part C? (Medicare Advantage)",
+    description: "Medicare Part C is health insurance from a private insurance company that becomes your primary source of coverage and assumes your risk from Original Medicare.",
+    canonical: "https://www.medicarefaq.com/medicare-part-c/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-part-c.jpeg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
