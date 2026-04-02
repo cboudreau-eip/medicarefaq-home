@@ -4,6 +4,7 @@
  * Follows the Clarity System design language
  */
 
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { Clock, ArrowRight, User } from "lucide-react";
 import { motion } from "framer-motion";
@@ -16,6 +17,13 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 
 export default function Blog() {
+  useSEO({
+    title: "Blog | MedicareFAQ",
+    description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
+    canonical: "https://www.medicarefaq.com/blog/",
+    ogImage: OG_DEFAULT,
+    ogType: "website",
+  });
 
 
   // Merge old static posts with new scraped articles

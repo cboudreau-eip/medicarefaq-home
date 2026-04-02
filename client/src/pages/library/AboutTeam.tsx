@@ -5,6 +5,7 @@
  */
 
 import { useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   UserCheck,
@@ -81,6 +82,13 @@ const stats = [
 ];
 
 export default function AboutTeam() {
+  useSEO({
+    title: "About Us | MedicareFAQ",
+    description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
+    canonical: "https://www.medicarefaq.com/about-us/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/xxbdybfbexe.jpg",
+    ogType: "website",
+  });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -8,6 +8,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   Clock,
@@ -185,6 +186,13 @@ function PlanSection({
 
 /* ─── Main Component ─── */
 export default function CoverageArticle() {
+  useSEO({
+    title: "Does Medicare Cover Life Alert? 2026 Cost & Coverage Guide | MedicareFAQ",
+    description: "Is Life Alert cost covered by Medicare? Learn what Medicare pays for, what it does not cover, and typical medical alert system costs in 2026.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-wearable-alert-devices.jpg",
+    ogType: "article",
+  });
   const [activeSection, setActiveSection] = useState("");
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
 

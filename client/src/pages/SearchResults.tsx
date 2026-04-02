@@ -5,6 +5,7 @@
  */
 
 import { useState, useMemo, useEffect, useCallback } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link, useSearch } from "wouter";
 import {
   Search,
@@ -62,6 +63,13 @@ const popularSearches = [
 ];
 
 export default function SearchResults() {
+  useSEO({
+    title: "Search Medicare Topics | MedicareFAQ",
+    description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
+    canonical: "https://www.medicarefaq.com/search/",
+    ogImage: OG_DEFAULT,
+    ogType: "website",
+  });
   const searchParams = useSearch();
   const params = new URLSearchParams(searchParams);
   const initialQuery = params.get("q") || "";

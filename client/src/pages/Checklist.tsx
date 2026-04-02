@@ -5,6 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -271,6 +272,13 @@ const phases: ChecklistPhase[] = [
 /* ------------------------------------------------------------------ */
 
 export default function Checklist() {
+  useSEO({
+    title: "Medicare Enrollment Checklist | Steps to Enroll in Medicare | MedicareFAQ",
+    description: "Use our Medicare enrollment checklist to make sure you don't miss any important steps when signing up for Medicare. Get ready for coverage in minutes.",
+    canonical: "https://www.medicarefaq.com/medicare-enrollment/checklist/",
+    ogImage: OG_DEFAULT,
+    ogType: "article",
+  });
   const [checked, setChecked] = useState<Set<string>>(() => {
     try {
       const saved = localStorage.getItem("medicare-checklist");

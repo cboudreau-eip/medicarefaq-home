@@ -6,6 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link, useRoute } from "wouter";
 import {
   Clock,
@@ -62,6 +63,13 @@ function FAQItem({
 }
 
 export default function BlogArticle() {
+  useSEO({
+    title: "Medicare Part B Annual Deductible Explained: What You'll Pay | MedicareFAQ",
+    description: "Discover how the Medicare Part B annual deductible works, what you will pay, and how Medicare Supplement plans protect your retirement savings.",
+    canonical: "https://www.medicarefaq.com/blog/medicare-part-b-annual-deductible-explained-what-youll-pay/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Part-B-Annual-Deductible-Explained-What-Youll-Pay.jpg",
+    ogType: "article",
+  });
   const [, params] = useRoute("/blog/:slug");
   const slug = params?.slug;
   const [activeSection, setActiveSection] = useState("");

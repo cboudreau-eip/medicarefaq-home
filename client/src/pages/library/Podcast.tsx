@@ -5,6 +5,7 @@
  */
 
 import { useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import {
   Headphones,
@@ -145,6 +146,13 @@ function getCategoryColor(cat: string): string {
 }
 
 export default function Podcast() {
+  useSEO({
+    title: "Medicare Podcasts | Listen & Learn About Medicare | MedicareFAQ",
+    description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
+    canonical: "https://www.medicarefaq.com/podcasts/",
+    ogImage: OG_DEFAULT,
+    ogType: "website",
+  });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
