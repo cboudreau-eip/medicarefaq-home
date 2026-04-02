@@ -305,7 +305,7 @@ export default function EnrollmentCalculator() {
     title: "Medicare Enrollment Timeline Calculator | When to Enroll | MedicareFAQ",
     description: "Use our free Medicare enrollment timeline calculator to find out exactly when your Initial Enrollment Period starts and ends based on your birthday.",
     canonical: "https://www.medicarefaq.com/tools/enrollment-timeline/",
-    ogImage: OG_DEFAULT,
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });
   const [birthMonth, setBirthMonth] = useState<number>(0);

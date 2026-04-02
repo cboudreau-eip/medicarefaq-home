@@ -48,7 +48,7 @@ export default function Coverage() {
     title: "Medicare FAQs | Answers to Common Medicare Questions | MedicareFAQ",
     description: "Browse hundreds of Medicare FAQs covering plans, enrollment, costs, and coverage. Get clear, unbiased answers to your Medicare questions.",
     canonical: "https://www.medicarefaq.com/faqs/",
-    ogImage: OG_DEFAULT,
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });
   const [searchQuery, setSearchQuery] = useState("");

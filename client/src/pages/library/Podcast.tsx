@@ -150,7 +150,7 @@ export default function Podcast() {
     title: "Medicare Podcasts | Listen & Learn About Medicare | MedicareFAQ",
     description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
     canonical: "https://www.medicarefaq.com/podcasts/",
-    ogImage: OG_DEFAULT,
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });
   useEffect(() => {

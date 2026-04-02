@@ -21,7 +21,7 @@ export default function Blog() {
     title: "Blog | MedicareFAQ",
     description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
     canonical: "https://www.medicarefaq.com/blog/",
-    ogImage: OG_DEFAULT,
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });
 

@@ -67,7 +67,7 @@ export default function SearchResults() {
     title: "Search Medicare Topics | MedicareFAQ",
     description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
     canonical: "https://www.medicarefaq.com/search/",
-    ogImage: OG_DEFAULT,
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });
   const searchParams = useSearch();
