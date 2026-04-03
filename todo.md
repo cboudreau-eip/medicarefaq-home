@@ -26,25 +26,20 @@
 - [x] Batch-updated all 29 standalone page files to use useCMSSEO (DB overrides take precedence)
 - [x] Wrote and passed 10 vitest tests for CMS router (get, list, upsert procedures)
 - [x] Verified database persistence: saved overrides survive page reload
-- [x] Seeded cmsMeta table with all 89 static meta values (29 pages, 40 coverage, 20 blog) from page files and data files
-- [x] Fixed Admin.tsx COVERAGE_SLUGS and BLOG_SLUGS to match actual data file slugs (was using placeholder/future slugs)
+- [x] Seeded cmsMeta table with all 89 static meta values from page files and data files
+- [x] Fixed Admin.tsx COVERAGE_SLUGS and BLOG_SLUGS to match actual data file slugs
+- [x] Added 2 missing hardcoded standalone article pages to CMS admin panel (91 total)
+- [x] Rebuilt CMS admin panel with Option B layout: sidebar + card grid + slide-over drawer
+- [x] Audited every footer link — fixed 3 broken coverage links, removed Accessibility dead link
+- [x] Created Privacy Policy page (/privacy-policy) with full legal content
+- [x] Created Terms of Use page (/terms-of-use) with full legal content
+- [x] Added Privacy Policy and Terms of Use to CMS admin panel (now 33 standalone pages)
+- [x] Seeded Privacy Policy and Terms of Use meta into the database
+- [x] Added Tailwind Typography plugin for proper prose styling on legal pages
 
 ## Upcoming / Next Steps
 
-- [ ] Generate sitemap.xml listing all 93 URLs
+- [ ] Generate sitemap.xml listing all URLs
 - [ ] Add JSON-LD structured data (FAQPage schema for coverage articles, Article schema for blog posts)
 - [ ] Consider expanding CMS to manage article content (not just meta tags)
 - [ ] Astro migration (planned for production deployment)
-
-## In Progress
-
-_(none)_
-
-## In Progress
-
-- [x] Add 2 missing hardcoded standalone article pages to CMS admin panel: BlogArticle (/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) and CoverageArticle (/faqs/does-medicare-cover-medical-alert-systems)
-- [x] Seed their meta values into the database
-
-## In Progress
-
-- [x] Rebuild CMS admin panel with Option B layout: sidebar + card grid + slide-over drawer

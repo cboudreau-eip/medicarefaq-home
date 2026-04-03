@@ -45,8 +45,8 @@ const footerColumns = [
     links: [
       { label: "Does Medicare Cover...?", href: "/faqs" },
       { label: "Dental, Vision & Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
-      { label: "Specialized Care", href: "/faqs" },
-      { label: "Prescription Drugs", href: "/faqs" },
+      { label: "Specialized Care", href: "/faqs/does-medicare-cover-chiropractic-care" },
+      { label: "Prescription Drugs", href: "/medicare-plans/part-d" },
       { label: "Search All Coverage", href: "/faqs" },
     ],
   },
@@ -131,9 +131,6 @@ export default function Footer() {
             </Link>
             <Link href="/terms-of-use" className="hover:text-white/70 transition-colors">
               Terms of Use
-            </Link>
-            <Link href="/contact" className="hover:text-white/70 transition-colors">
-              Accessibility
             </Link>
           </div>
         </div>

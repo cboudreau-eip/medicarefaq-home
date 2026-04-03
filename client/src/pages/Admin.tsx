@@ -58,6 +58,8 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "search", label: "Search Results", path: "/search" },
   { slug: "blog-medicare-part-b-deductible", label: "Blog: Medicare Part B Deductible", path: "/blog/medicare-part-b-annual-deductible-explained-what-youll-pay" },
   { slug: "faqs-does-medicare-cover-medical-alert-systems", label: "Coverage: Medical Alert Systems", path: "/faqs/does-medicare-cover-medical-alert-systems" },
+  { slug: "privacy-policy", label: "Privacy Policy", path: "/privacy-policy" },
+  { slug: "terms-of-use", label: "Terms of Use", path: "/terms-of-use" },
 ];
 
 const COVERAGE_SLUGS = [

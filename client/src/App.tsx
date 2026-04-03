@@ -39,6 +39,8 @@ import AboutTeam from "./pages/library/AboutTeam";
 import Contact from "./pages/Contact";
 import SearchResults from "./pages/SearchResults";
 import Admin from "./pages/Admin";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -85,6 +87,8 @@ function Router() {
       <Route path={"/faqs/does-medicare-cover-medical-alert-systems"} component={CoverageArticle} />
       {/* Data-driven coverage articles */}
       <Route path={"/faqs/:slug"} component={CoverageTemplate} />
+      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
+      <Route path={"/terms-of-use"} component={TermsOfUse} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
