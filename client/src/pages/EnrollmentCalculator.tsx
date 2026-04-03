@@ -4,7 +4,7 @@
  * Colors: Navy (#1B2A4A) header, teal/amber/green accents for timeline events
  */
 import { useState, useMemo } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Calendar,
@@ -301,7 +301,9 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
 }
 
 export default function EnrollmentCalculator() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "enrollment-calculator",
     title: "Medicare Enrollment Timeline Calculator | When to Enroll | MedicareFAQ",
     description: "Use our free Medicare enrollment timeline calculator to find out exactly when your Initial Enrollment Period starts and ends based on your birthday.",
     canonical: "https://www.medicarefaq.com/tools/enrollment-timeline/",

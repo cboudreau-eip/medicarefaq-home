@@ -4,7 +4,7 @@
  * Follows the Clarity System design language
  */
 
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { Clock, ArrowRight, User } from "lucide-react";
 import { motion } from "framer-motion";
@@ -17,7 +17,9 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 
 export default function Blog() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "blog",
     title: "Blog | MedicareFAQ",
     description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
     canonical: "https://www.medicarefaq.com/blog/",

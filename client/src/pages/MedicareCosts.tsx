@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -157,7 +157,9 @@ const faqs = [
 /* ------------------------------------------------------------------ */
 
 export default function MedicareCosts() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "medicare-costs",
     title: "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket | MedicareFAQ",
     description: "Learn what Medicare costs in 2026 — including Part A and Part B premiums, deductibles, and out-of-pocket expenses. Find out how to reduce your Medicare costs.",
     canonical: "https://www.medicarefaq.com/original-medicare/costs/",

@@ -5,7 +5,7 @@
  */
 
 import { useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Video,
@@ -131,7 +131,9 @@ function getCategoryColor(cat: string): string {
 }
 
 export default function Videos() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "videos",
     title: "Medicare Videos | Watch & Learn About Medicare | MedicareFAQ",
     description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
     canonical: "https://www.medicarefaq.com/library/videos/",

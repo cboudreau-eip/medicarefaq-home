@@ -25,4 +25,22 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+/**
+ * CMS meta overrides table.
+ * Stores owner-edited meta fields that take precedence over static data file values.
+ * contentType: "page" | "coverage" | "blog"
+ * slug: unique identifier for the page/article (e.g. "about", "when-should-you-enroll-in-medicare-if-still-working")
+ */
+export const cmsMeta = mysqlTable("cms_meta", {
+  id: int("id").autoincrement().primaryKey(),
+  contentType: mysqlEnum("contentType", ["page", "coverage", "blog"]).notNull(),
+  slug: varchar("slug", { length: 255 }).notNull(),
+  metaTitle: text("metaTitle"),
+  metaDescription: text("metaDescription"),
+  ogImage: text("ogImage"),
+  imageAltText: text("imageAltText"),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type CmsMeta = typeof cmsMeta.$inferSelect;
+export type InsertCmsMeta = typeof cmsMeta.$inferInsert;

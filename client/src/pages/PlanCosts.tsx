@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   ChevronDown,
@@ -136,7 +136,9 @@ const faqs = [
 ];
 
 export default function PlanCosts() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "plan-costs",
     title: "Medicare Plan Costs 2026 | Premiums, Deductibles & More | MedicareFAQ",
     description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",

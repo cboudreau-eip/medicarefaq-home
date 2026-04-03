@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect, useRef } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link, useParams } from "wouter";
 import {
   Clock,
@@ -291,6 +291,16 @@ export default function CoverageTemplate() {
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
+
+  useCMSSEO({
+    contentType: "coverage",
+    slug: params.slug ?? "",
+    title: article?.seo?.title ?? article?.title ?? "",
+    description: article?.seo?.description ?? "",
+    canonical: article?.seo?.canonical,
+    ogImage: article?.seo?.ogImage,
+    ogType: "article",
+  });
 
   if (!article) {
     return (

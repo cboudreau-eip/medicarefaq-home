@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -104,7 +104,9 @@ const faqs = [
 ];
 
 export default function ComparePlans() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "compare-plans",
     title: "Compare Medicare Plans | Supplement vs. Advantage | MedicareFAQ",
     description: "Compare Medicare Supplement and Medicare Advantage plans side by side. Find out which type of coverage is right for your health needs and budget.",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/compare/",

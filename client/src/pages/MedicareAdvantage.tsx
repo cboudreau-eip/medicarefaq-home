@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Heart,
@@ -78,7 +78,9 @@ const faqs = [
 ];
 
 export default function MedicareAdvantage() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "medicare-advantage",
     title: "Medicare Part C | What is Medicare Part C? (Medicare Advantage)",
     description: "Medicare Part C is health insurance from a private insurance company that becomes your primary source of coverage and assumes your risk from Original Medicare.",
     canonical: "https://www.medicarefaq.com/medicare-part-c/",

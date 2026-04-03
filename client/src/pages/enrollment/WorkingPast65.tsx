@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Briefcase,
@@ -70,7 +70,9 @@ const faqs = [
 ];
 
 export default function WorkingPast65() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "working-past-65",
     title: "Working Past 65 and Medicare | What You Need to Know | MedicareFAQ",
     description: "If you're still working past 65 with employer coverage, you may be able to delay Medicare without penalty. Learn how employer insurance coordinates with Medicare and when to enroll.",
     canonical: "https://www.medicarefaq.com/faqs/when-should-you-enroll-in-medicare-if-still-working/",

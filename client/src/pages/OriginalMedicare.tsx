@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -70,7 +70,9 @@ const faqs = [
 ];
 
 export default function OriginalMedicare() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "original-medicare",
     title: "Original Medicare | What Is Original Medicare? | MedicareFAQ",
     description: "Original Medicare is the traditional fee-for-service health insurance program offered by the federal government. Learn about Parts A and B, what they cover, and how they work.",
     canonical: "https://www.medicarefaq.com/original-medicare/",

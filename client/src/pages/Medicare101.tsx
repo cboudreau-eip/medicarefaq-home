@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -244,7 +244,9 @@ const fadeUp = {
 /* ------------------------------------------------------------------ */
 
 export default function Medicare101() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "medicare-101",
     title: "Medicare101 | MedicareFAQ",
     description: "Medicare provides health insurance coverage for Americans over age 65 and individuals with qualified disabilities. Learn everything you need to know about Medicare.",
     canonical: "https://www.medicarefaq.com/medicare101/",

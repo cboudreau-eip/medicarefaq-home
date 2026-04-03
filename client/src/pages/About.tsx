@@ -5,7 +5,7 @@
  */
 
 import { Link } from "wouter";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { motion } from "framer-motion";
 import {
   Shield,
@@ -107,7 +107,9 @@ const fadeUp = {
 };
 
 export default function About() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "about",
     title: "About Us | MedicareFAQ",
     description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
     canonical: "https://www.medicarefaq.com/about-us/",

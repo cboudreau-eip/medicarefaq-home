@@ -5,7 +5,7 @@
  */
 
 import { useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   FileText,
@@ -140,7 +140,9 @@ const topicGuides = [
 ];
 
 export default function Guides() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "guides",
     title: "Medicare Guides & Resources | Free Medicare Education | MedicareFAQ",
     description: "Browse free Medicare guides and educational resources from MedicareFAQ. Learn about Medicare plans, enrollment, costs, and coverage in plain language.",
     canonical: "https://www.medicarefaq.com/library/guides/",

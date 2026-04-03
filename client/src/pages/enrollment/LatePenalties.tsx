@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   AlertCircle,
@@ -68,7 +68,9 @@ const faqs = [
 ];
 
 export default function LatePenalties() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "late-penalties",
     title: "Medicare Late Enrollment Penalties: What They Are & How to Avoid Them | MedicareFAQ",
     description: "Missing your Medicare enrollment window can result in permanent late penalties on Part A, Part B, and Part D. Learn how the penalties work and how to avoid them.",
     canonical: "https://www.medicarefaq.com/medicare-enrollment/late-enrollment-penalty/",

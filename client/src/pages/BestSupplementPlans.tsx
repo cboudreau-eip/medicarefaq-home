@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -115,7 +115,9 @@ const faqs = [
 ];
 
 export default function BestSupplementPlans() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "best-supplement-plans",
     title: "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked | MedicareFAQ",
     description: "Find the best Medicare Supplement plans for 2026. We compare Plan G, Plan N, and other top Medigap options by cost, coverage, and value.",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",

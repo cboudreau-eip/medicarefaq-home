@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useState } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Phone,
@@ -56,7 +56,9 @@ const quickLinks = [
 ];
 
 export default function Contact() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "contact",
     title: "Contact MedicareFAQ | Speak With a Licensed Medicare Agent",
     description: "Have questions about Medicare? Contact MedicareFAQ to speak with a licensed Medicare agent. We're here to help you understand your options at no cost.",
     canonical: "https://www.medicarefaq.com/contact/",

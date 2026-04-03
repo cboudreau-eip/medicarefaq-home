@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Pill,
@@ -79,7 +79,9 @@ const faqs = [
 ];
 
 export default function PartD() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "part-d",
     title: "Medicare Part D Drug Coverage",
     description: "Medicare Part D involves different coverage phases. Learn how it works here and how to find the best plan for you.",
     canonical: "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/",

@@ -18,10 +18,12 @@ import ResourcesSection from "@/components/ResourcesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 
 export default function Home() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "home",
     title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
     description:
       "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",

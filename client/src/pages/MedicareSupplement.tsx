@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Shield,
@@ -78,7 +78,9 @@ const faqs = [
 ];
 
 export default function MedicareSupplement() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "medicare-supplement",
     title: "What Is a Medicare Supplement Plan? How Medigap Works",
     description: "Medicare Supplement (Medigap) plans help fill the gaps in Original Medicare. See how the plans work, what they cover, and how to choose the right one",
     canonical: "https://www.medicarefaq.com/medicare-supplements/",

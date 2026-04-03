@@ -5,7 +5,7 @@
  */
 
 import { useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   UserCheck,
@@ -82,7 +82,9 @@ const stats = [
 ];
 
 export default function AboutTeam() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "about-team",
     title: "About Us | MedicareFAQ",
     description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
     canonical: "https://www.medicarefaq.com/about-us/",

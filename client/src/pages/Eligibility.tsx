@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import {
@@ -191,7 +191,9 @@ const faqs = [
 /* ------------------------------------------------------------------ */
 
 export default function Eligibility() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "eligibility",
     title: "Medicare Eligibility | Who Qualifies for Medicare? | MedicareFAQ",
     description: "Find out if you qualify for Medicare. Learn about age requirements, disability eligibility, and how to enroll when you become eligible.",
     canonical: "https://www.medicarefaq.com/original-medicare/eligibility/",

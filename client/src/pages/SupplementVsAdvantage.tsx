@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   CheckCircle2,
@@ -101,7 +101,9 @@ const faqs = [
 ];
 
 export default function SupplementVsAdvantage() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "supplement-vs-advantage",
     title: "Medicare Supplement vs. Medicare Advantage | Which Is Better? | MedicareFAQ",
     description: "Should you choose Medicare Supplement (Medigap) or Medicare Advantage? Compare costs, coverage, flexibility, and networks to find the right plan for you.",
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/supplement-vs-advantage/",

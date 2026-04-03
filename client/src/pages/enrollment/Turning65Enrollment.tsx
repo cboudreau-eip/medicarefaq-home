@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import {
   Calendar,
@@ -89,7 +89,9 @@ const timelineSteps = [
 ];
 
 export default function Turning65Enrollment() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "enrollment-turning-65",
     title: "Turning 65 and Medicare: When and How to Enroll | MedicareFAQ",
     description: "Learn exactly when to enroll in Medicare when turning 65, what your Initial Enrollment Period covers, and how to avoid costly late penalties.",
     canonical: "https://www.medicarefaq.com/medicare-enrollment/turning-65/",

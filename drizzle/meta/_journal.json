@@ -8,6 +8,13 @@
       "when": 1775142430988,
       "tag": "0000_regular_red_ghost",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775217738008,
+      "tag": "0001_odd_typhoid_mary",
+      "breakpoints": true
     }
   ]
 }

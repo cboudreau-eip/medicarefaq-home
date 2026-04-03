@@ -5,7 +5,7 @@
  */
 
 import { useState, useMemo } from "react";
-import { useSEO } from "@/hooks/useSEO";
+import { useCMSSEO } from "@/hooks/useCMSSEO";
 import { Link } from "wouter";
 import { Clock, ArrowRight, User, Search, Shield, ChevronRight, Filter } from "lucide-react";
 import { motion } from "framer-motion";
@@ -44,7 +44,9 @@ function deriveCategories(articles: typeof coverageArticles) {
 }
 
 export default function Coverage() {
-  useSEO({
+  useCMSSEO({
+    contentType: "page",
+    slug: "faqs",
     title: "Medicare FAQs | Answers to Common Medicare Questions | MedicareFAQ",
     description: "Browse hundreds of Medicare FAQs covering plans, enrollment, costs, and coverage. Get clear, unbiased answers to your Medicare questions.",
     canonical: "https://www.medicarefaq.com/faqs/",
