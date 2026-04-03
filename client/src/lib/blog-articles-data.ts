@@ -617,7 +617,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
+    seo: {
+    title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained | MedicareFAQ",
+    description: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
+    canonical: "",
+    ogImage: "",
+  },
+  slug: "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
     title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
     excerpt: "Learn the key differences between automatic and manual Medicare enrollment, and find out which path applies to your situation.",
     category: "Enrollment",
@@ -677,7 +683,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
+    seo: {
+    title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained | MedicareFAQ",
+    description: "Explore the differences between Medicare Supplement and Medicare Advantage plans, focusing on coverage transparency, costs, benefits, and provider access to help you make informed healthcare decisions.",
+    canonical: "https://yourwebsite.com/medicare-advantage-vs-medigap",
+    ogImage: "https://example.com/path-to-image.jpg",
+  },
+  slug: "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
     title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained",
     excerpt: "Compare how Medicare Supplement and Medicare Advantage plans handle coverage transparency, costs, and provider access.",
     category: "Medicare Plans",
@@ -734,7 +746,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "how-the-medigap-free-look-period-protects-you",
+    seo: {
+    title: "Medigap Free Look Period: Your 30-Day Risk-Free Trial Guide",
+    description: "Discover exactly how the Medigap free look period protects you. Learn how to test a new Medicare Supplement policy for 30 days without losing your current coverage.",
+    canonical: "https://www.medicarefaq.com/blog/how-the-medigap-free-look-period-protects-you/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-the-Medigap-Free-Look-Period-Protects-You.jpg",
+  },
+  slug: "how-the-medigap-free-look-period-protects-you",
     title: "Understanding the Medigap Free Look Period: Your 30-Day Safety Net",
     excerpt: "The Medigap free look period gives you 30 days to try a new Medicare Supplement plan risk-free. Here's how it works.",
     category: "Medicare Supplement",
@@ -816,7 +834,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "medicare-part-b-annual-deductible-explained-what-youll-pay",
+    seo: {
+    title: "Medicare Part B Annual Deductible Explained: What You’ll Pay | MedicareFAQ",
+    description: "Discover how the [dc id='current-year'] Medicare Part B annual deductible works, what you will pay, and how Medicare Supplement plans protect your retirement savings.",
+    canonical: "https://www.medicarefaq.com/blog/medicare-part-b-annual-deductible-explained-what-youll-pay/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Part-B-Annual-Deductible-Explained-What-Youll-Pay.jpg",
+  },
+  slug: "medicare-part-b-annual-deductible-explained-what-youll-pay",
     title: "Medicare Part B Annual Deductible Explained: What You’ll Pay",
     excerpt: "The Medicare Part B deductible is the amount you pay each year for most outpatient services before Medicare starts paying its share. In 2026, you must first pay the annual Part B deductible (it resets every January 1) on Medicare-approved amounts.",
     category: "Medicare News",
@@ -991,7 +1015,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
+    seo: {
+    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know | MedicareFAQ",
+    description: "Learn everything you need to know about Medicare Supplement plans and pre-existing conditions. Discover enrollment timing, guaranteed issue rights, and how to protect your savings.",
+    canonical: "https://www.medicarefaq.com/blog/medicare-supplement-and-pre-existing-conditions-what-you-need-to-know/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-and-Pre-Existing-Conditions-What-You-Need-to-Know.jpg",
+  },
+  slug: "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
     title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know",
     excerpt: "A pre-existing condition is generally defined as a health problem or medical issue that you were diagnosed with or treated for before your new health insurance policy starts. When it comes to Medigap, having a pre-existing condition, such as diabetes, heart disease, or a previous cancer diagnosis, can sometimes complicate your enrollment process.",
     category: "Medicare News",
@@ -1044,7 +1074,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    seo: {
+    title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs | MedicareFAQ",
+    description: "Discover exactly how the Medicare Part B Giveback works to lower your monthly costs, who qualifies, and why Medicare Supplement plans often provide superior long-term protection.",
+    canonical: "https://www.medicarefaq.com/blog/how-the-medicare-part-b-giveback-can-lower-your-monthly-costs/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-the-Medicare-Part-B-Giveback-Can-Lower-Your-Monthly-Costs.jpg",
+  },
+  slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
     title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs",
     excerpt: "Managing your healthcare budget is a top priority for many older adults on a fixed income. As you explore your insurance options, you might encounter advertisements promising to put money back into your Social Security check.",
     category: "Medicare News",
@@ -1091,7 +1127,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "medicare-advantage-for-chronic-conditions-what-you-need-to-know",
+    seo: {
+    title: "Medicare Advantage for Chronic Conditions: What You Need to Know | MedicareFAQ",
+    description: "Discover what you need to know about Medicare Advantage for chronic conditions, Special Needs Plans, and why Medicare Supplement products offer the best freedom for your health.",
+    canonical: "https://www.medicarefaq.com/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Advantage-for-Chronic-Conditions-What-You-Need-to-Know.jpg",
+  },
+  slug: "medicare-advantage-for-chronic-conditions-what-you-need-to-know",
     title: "Medicare Advantage for Chronic Conditions: What You Need to Know",
     excerpt: "Managing a chronic health condition requires a reliable and stable healthcare strategy. As you review your medical coverage options, you might encounter Medicare Advantage plans that promise comprehensive benefits tailored to your needs.",
     category: "Medicare News",
@@ -1144,7 +1186,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "understanding-how-medicare-works-with-employer-health-plans",
+    seo: {
+    title: "Understanding How Medicare Works with Employer Health Plans | MedicareFAQ",
+    description: "Discover exactly how Medicare works with your employer health plan. Learn about primary and secondary payer rules, when to enroll, and how Medicare Supplement plans can protect your savings.",
+    canonical: "https://www.medicarefaq.com/blog/understanding-how-medicare-works-with-employer-health-plans/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-How-Medicare-Works-with-Employer-Health-Plans.jpg",
+  },
+  slug: "understanding-how-medicare-works-with-employer-health-plans",
     title: "Understanding How Medicare Works with Employer Health Plans",
     excerpt: "Navigating health insurance choices at age 65 is a major milestone in life. Many individuals are still working at this age and have reliable insurance through their jobs.",
     category: "Medicare News",
@@ -1194,7 +1242,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "why-medicare-supplements-offer-peace-of-mind",
+    seo: {
+    title: "Why Medicare Supplements Offer Peace of Mind | MedicareFAQ",
+    description: "Discover why Medicare Supplement plans offer ultimate peace of mind in retirement. Learn how Medigap provides predictable costs, nationwide doctor access, and lifestyle flexibility.",
+    canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-peace-of-mind/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Why-Medicare-Supplements-Offer-Peace-of-Mind.jpg",
+  },
+  slug: "why-medicare-supplements-offer-peace-of-mind",
     title: "Why Medicare Supplements Offer Peace of Mind",
     excerpt: "Entering retirement and navigating your Medicare coverage can sometimes feel overwhelming, but securing the correct policy brings immense comfort to your daily life.",
     category: "Medicare News",
@@ -1247,7 +1301,13 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "why-medicare-supplements-offer-network-free-healthcare",
+    seo: {
+    title: "Why Medicare Supplements Offer Network-Free Healthcare | MedicareFAQ",
+    description: "Discover the peace of mind that comes with network-free healthcare. Learn why Medicare Supplement plans offer ultimate freedom in choosing your doctors, specialists, and hospitals without restrictive networks.",
+    canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-network-free-healthcare/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Why-Medicare-Supplements-Offer-Network-Free-Healthcare.jpg",
+  },
+  slug: "why-medicare-supplements-offer-network-free-healthcare",
     title: "Why Medicare Supplements Offer Network-Free Healthcare",
     excerpt: "As you navigate your healthcare coverage in retirement, you might find yourself evaluating what matters most to your peace of mind. For many, the answer is the ability to choose their own medical providers without restriction.",
     category: "Medicare News",
