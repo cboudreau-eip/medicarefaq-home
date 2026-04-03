@@ -41,6 +41,8 @@ const STATIC_PAGES = [
   { slug: "about-team", label: "About the Team", path: "/library/about" },
   { slug: "faqs", label: "Coverage FAQs Index", path: "/faqs" },
   { slug: "search", label: "Search Results", path: "/search" },
+  { slug: "blog-medicare-part-b-deductible", label: "Blog: Medicare Part B Deductible", path: "/blog/medicare-part-b-annual-deductible-explained-what-youll-pay" },
+  { slug: "faqs-does-medicare-cover-medical-alert-systems", label: "Coverage: Medical Alert Systems", path: "/faqs/does-medicare-cover-medical-alert-systems" },
 ];
 
 // ── Types ─────────────────────────────────────────────────────────────────────

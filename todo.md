@@ -39,3 +39,8 @@
 ## In Progress
 
 _(none)_
+
+## In Progress
+
+- [x] Add 2 missing hardcoded standalone article pages to CMS admin panel: BlogArticle (/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) and CoverageArticle (/faqs/does-medicare-cover-medical-alert-systems)
+- [x] Seed their meta values into the database
