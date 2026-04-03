@@ -44,3 +44,7 @@ _(none)_
 
 - [x] Add 2 missing hardcoded standalone article pages to CMS admin panel: BlogArticle (/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) and CoverageArticle (/faqs/does-medicare-cover-medical-alert-systems)
 - [x] Seed their meta values into the database
+
+## In Progress
+
+- [x] Rebuild CMS admin panel with Option B layout: sidebar + card grid + slide-over drawer
