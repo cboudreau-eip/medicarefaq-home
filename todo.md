@@ -43,3 +43,11 @@
 - [ ] Add JSON-LD structured data (FAQPage schema for coverage articles, Article schema for blog posts)
 - [ ] Consider expanding CMS to manage article content (not just meta tags)
 - [ ] Astro migration (planned for production deployment)
+
+## In Progress
+
+- [x] Build AI-powered live chat widget (floating bottom-right corner)
+- [x] Create backend tRPC procedure for AI chat with Medicare-focused system prompt
+- [x] Build floating chat bubble UI component with message history
+- [x] Wire chat widget into app layout so it appears on every page
+- [x] Wrote and passed 6 vitest tests for chat router

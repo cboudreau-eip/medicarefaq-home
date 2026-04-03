@@ -4,6 +4,7 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { ChatWidget } from "./components/ChatWidget";
 import { ZipCodeModalProvider } from "./contexts/ZipCodeModalContext";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
@@ -106,6 +107,7 @@ function App() {
           <ZipCodeModalProvider>
             <Toaster />
             <Router />
+            <ChatWidget />
           </ZipCodeModalProvider>
         </TooltipProvider>
       </ThemeProvider>
