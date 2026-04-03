@@ -52,3 +52,4 @@
 - [x] Wire chat widget into app layout so it appears on every page
 - [x] Wrote and passed 6 vitest tests for chat router
 - [x] Fix chat widget: welcome message cut off at bottom, COMMON QUESTIONS label overlapping with message text
+- [x] Update chat button: red branding color (#C41230), larger size (64px), pulsing ring animation

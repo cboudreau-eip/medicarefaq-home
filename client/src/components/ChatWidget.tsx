@@ -268,27 +268,36 @@ export function ChatWidget() {
       </div>
 
       {/* Floating Action Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className={cn(
-          "fixed bottom-4 right-4 sm:right-6 z-[9999] w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95",
-          isOpen
-            ? "bg-gray-600 hover:bg-gray-700"
-            : "bg-[#0B2D48] hover:bg-[#0a2640]"
-        )}
-        aria-label={isOpen ? "Close chat" : "Open chat"}
-      >
-        {isOpen ? (
-          <X className="w-6 h-6 text-white" />
-        ) : (
+      <div className="fixed bottom-4 right-4 sm:right-6 z-[9999]">
+        {/* Pulse rings — only when chat is closed */}
+        {!isOpen && showPulse && (
           <>
-            <MessageCircle className="w-6 h-6 text-white" />
-            {showPulse && (
-              <span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 bg-[#0B8F8F] rounded-full border-2 border-white animate-pulse" />
-            )}
+            <span className="absolute inset-0 rounded-full bg-[#C41230]/30 animate-[chat-ping_2s_ease-out_infinite]" />
+            <span className="absolute inset-0 rounded-full bg-[#C41230]/20 animate-[chat-ping_2s_ease-out_infinite_0.6s]" />
           </>
         )}
-      </button>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className={cn(
+            "relative w-16 h-16 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95",
+            isOpen
+              ? "bg-gray-600 hover:bg-gray-700 shadow-lg"
+              : "bg-[#C41230] hover:bg-[#A30F28] shadow-[0_4px_20px_rgba(196,18,48,0.45)]"
+          )}
+          aria-label={isOpen ? "Close chat" : "Open chat"}
+        >
+          {isOpen ? (
+            <X className="w-7 h-7 text-white" />
+          ) : (
+            <>
+              <MessageCircle className="w-7 h-7 text-white" />
+              <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-white rounded-full border-2 border-[#C41230] flex items-center justify-center">
+                <span className="w-2 h-2 bg-[#0B8F8F] rounded-full animate-pulse" />
+              </span>
+            </>
+          )}
+        </button>
+      </div>
     </>
   );
 }
