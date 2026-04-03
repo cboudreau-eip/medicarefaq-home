@@ -143,9 +143,9 @@ export function ChatWidget() {
             className="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50"
           >
             {messages.length === 0 ? (
-              <div className="flex flex-col h-full">
+              <div className="flex flex-col gap-4">
                 {/* Welcome message */}
-                <div className="flex gap-2.5 mb-4">
+                <div className="flex gap-2.5">
                   <div className="w-7 h-7 rounded-full bg-[#0B2D48] flex items-center justify-center shrink-0 mt-0.5">
                     <Sparkles className="w-3.5 h-3.5 text-white" />
                   </div>
@@ -157,7 +157,7 @@ export function ChatWidget() {
                 </div>
 
                 {/* Suggested prompts */}
-                <div className="space-y-2 mt-auto">
+                <div className="space-y-2">
                   <p className="text-xs text-gray-400 font-medium uppercase tracking-wide px-1">
                     Common questions
                   </p>

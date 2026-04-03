@@ -51,3 +51,4 @@
 - [x] Build floating chat bubble UI component with message history
 - [x] Wire chat widget into app layout so it appears on every page
 - [x] Wrote and passed 6 vitest tests for chat router
+- [x] Fix chat widget: welcome message cut off at bottom, COMMON QUESTIONS label overlapping with message text
