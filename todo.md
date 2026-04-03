@@ -26,6 +26,8 @@
 - [x] Batch-updated all 29 standalone page files to use useCMSSEO (DB overrides take precedence)
 - [x] Wrote and passed 10 vitest tests for CMS router (get, list, upsert procedures)
 - [x] Verified database persistence: saved overrides survive page reload
+- [x] Seeded cmsMeta table with all 89 static meta values (29 pages, 40 coverage, 20 blog) from page files and data files
+- [x] Fixed Admin.tsx COVERAGE_SLUGS and BLOG_SLUGS to match actual data file slugs (was using placeholder/future slugs)
 
 ## Upcoming / Next Steps
 
@@ -33,3 +35,7 @@
 - [ ] Add JSON-LD structured data (FAQPage schema for coverage articles, Article schema for blog posts)
 - [ ] Consider expanding CMS to manage article content (not just meta tags)
 - [ ] Astro migration (planned for production deployment)
+
+## In Progress
+
+_(none)_
