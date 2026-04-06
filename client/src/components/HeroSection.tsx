@@ -63,8 +63,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
             className="text-white/80 text-lg md:text-xl leading-relaxed mb-8 max-w-xl"
           >
-            Whether you're approaching 65, still working, or already enrolled —
-            we'll help you understand your options with clear, unbiased guidance.
+            Whether you're approaching 65, still working, or already enrolled , we'll help you understand your options with clear, unbiased guidance.
           </motion.p>
 
           {/* 3 journey buttons — all on one row */}
