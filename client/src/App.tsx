@@ -40,6 +40,7 @@ import AboutTeam from "./pages/library/AboutTeam";
 import Contact from "./pages/Contact";
 import SearchResults from "./pages/SearchResults";
 import Admin from "./pages/Admin";
+import SEOAudit from "./pages/SEOAudit";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 
@@ -47,6 +48,7 @@ function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
+      <Route path={"/admin/seo-audit"} component={SEOAudit} />
       <Route path={"/admin"} component={Admin} />
       <Route path={"/"} component={Home} />
       <Route path={"/blog"} component={Blog} />

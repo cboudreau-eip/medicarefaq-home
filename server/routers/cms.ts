@@ -4,6 +4,7 @@ import { getDb } from "../db";
 import { cmsMeta } from "../../drizzle/schema";
 import { protectedProcedure, publicProcedure, router } from "../_core/trpc";
 import { TRPCError } from "@trpc/server";
+import { runFullAudit, type PageInput, type FullAuditResult } from "../../shared/seo-audit";
 
 const contentTypeSchema = z.enum(["page", "coverage", "blog"]);
 
@@ -14,6 +15,147 @@ const ownerProcedure = protectedProcedure.use(({ ctx, next }) => {
   }
   return next({ ctx });
 });
+
+// ── Page registry (mirrors Admin.tsx) ────────────────────────────────────────
+// This is the server-side source of truth for all registered pages.
+
+interface PageDef {
+  slug: string;
+  label: string;
+  path: string;
+  contentType: "page" | "coverage" | "blog";
+}
+
+const STATIC_PAGES: PageDef[] = [
+  { slug: "home", label: "Home", path: "/", contentType: "page" },
+  { slug: "about", label: "About Us", path: "/about", contentType: "page" },
+  { slug: "contact", label: "Contact", path: "/contact", contentType: "page" },
+  { slug: "blog", label: "Blog", path: "/blog", contentType: "page" },
+  { slug: "medicare-101", label: "Medicare 101", path: "/medicare-101", contentType: "page" },
+  { slug: "eligibility", label: "Eligibility", path: "/new-to-medicare/eligibility", contentType: "page" },
+  { slug: "turning-65", label: "Turning 65", path: "/new-to-medicare/turning-65", contentType: "page" },
+  { slug: "medicare-costs", label: "Medicare Costs", path: "/new-to-medicare/costs", contentType: "page" },
+  { slug: "checklist", label: "Checklist", path: "/new-to-medicare/checklist", contentType: "page" },
+  { slug: "original-medicare", label: "Original Medicare", path: "/medicare-plans/original-medicare", contentType: "page" },
+  { slug: "medicare-supplement", label: "Medicare Supplement", path: "/medicare-plans/medicare-supplement", contentType: "page" },
+  { slug: "medicare-advantage", label: "Medicare Advantage", path: "/medicare-plans/medicare-advantage", contentType: "page" },
+  { slug: "part-d", label: "Medicare Part D", path: "/medicare-plans/part-d", contentType: "page" },
+  { slug: "compare-plans", label: "Compare Plans", path: "/medicare-plans/compare", contentType: "page" },
+  { slug: "plan-costs", label: "Plan Costs", path: "/medicare-plans/costs", contentType: "page" },
+  { slug: "supplement-vs-advantage", label: "Supplement vs. Advantage", path: "/medicare-plans/supplement-vs-advantage", contentType: "page" },
+  { slug: "best-supplement-plans", label: "Best Supplement Plans", path: "/medicare-plans/best-supplement-plans", contentType: "page" },
+  { slug: "enrollment-turning-65", label: "Enrollment: Turning 65", path: "/enrollment/turning-65", contentType: "page" },
+  { slug: "working-past-65", label: "Working Past 65", path: "/enrollment/working-past-65", contentType: "page" },
+  { slug: "annual-changes", label: "Annual Changes", path: "/enrollment/annual-changes", contentType: "page" },
+  { slug: "late-penalties", label: "Late Penalties", path: "/enrollment/late-penalties", contentType: "page" },
+  { slug: "how-to-enroll", label: "How to Enroll", path: "/enrollment/how-to-enroll", contentType: "page" },
+  { slug: "enrollment-calculator", label: "Enrollment Calculator", path: "/tools/enrollment-timeline", contentType: "page" },
+  { slug: "guides", label: "Guides", path: "/library/guides", contentType: "page" },
+  { slug: "podcast", label: "Podcast", path: "/library/podcast", contentType: "page" },
+  { slug: "videos", label: "Videos", path: "/library/videos", contentType: "page" },
+  { slug: "about-team", label: "About the Team", path: "/library/about", contentType: "page" },
+  { slug: "faqs", label: "Coverage FAQs Index", path: "/faqs", contentType: "page" },
+  { slug: "search", label: "Search Results", path: "/search", contentType: "page" },
+  { slug: "blog-medicare-part-b-deductible", label: "Blog: Medicare Part B Deductible", path: "/blog/medicare-part-b-annual-deductible-explained-what-youll-pay", contentType: "page" },
+  { slug: "faqs-does-medicare-cover-medical-alert-systems", label: "Coverage: Medical Alert Systems", path: "/faqs/does-medicare-cover-medical-alert-systems", contentType: "page" },
+  { slug: "privacy-policy", label: "Privacy Policy", path: "/privacy-policy", contentType: "page" },
+  { slug: "terms-of-use", label: "Terms of Use", path: "/terms-of-use", contentType: "page" },
+];
+
+const COVERAGE_SLUGS = [
+  "does-medicare-cover-dental-implants",
+  "does-medicare-cover-glasses",
+  "does-medicare-cover-hearing-aids",
+  "does-medicare-cover-chiropractic-care",
+  "does-medicare-cover-acupuncture",
+  "does-medicare-cover-sleep-apnea",
+  "does-medicare-cover-cataract-surgery",
+  "does-medicare-cover-hospice",
+  "does-medicare-cover-dentures",
+  "does-medicare-cover-mental-health",
+  "does-medicare-cover-ozempic",
+  "does-medicare-cover-speech-therapy",
+  "does-medicare-cover-copd",
+  "does-medicare-cover-pre-existing-conditions",
+  "does-medicare-cover-prosthetic-devices",
+  "when-should-you-enroll-in-medicare-if-still-working",
+  "medicare-advantage-extra-benefits-explained-whats-really-included",
+  "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
+  "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
+  "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+  "does-medicare-cover-life-alert",
+  "is-medicare-free",
+  "25-medicare-qas-you-should-know",
+  "new-medicare-changes",
+  "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
+  "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management",
+  "does-medicare-cover-a-shower-transfer-bench",
+  "medicare-silversneakers-program",
+  "medicare-annual-notice-of-change-letter",
+  "medicare-give-back-benefit",
+  "why-medicare-advantage-plans-are-bad",
+  "medigap-vs-medicare-advantage",
+  "medicare-special-enrollment-period",
+  "medicare-advantage-open-enrollment-period",
+  "fehb-and-medicare",
+  "medicare-creditable-coverage",
+  "medicare-part-d-penalty",
+  "medicare-cost-sharing-plans",
+  "medicare-maximum-out-of-pocket",
+  "medicare-annual-enrollment-period",
+];
+
+const BLOG_SLUGS = [
+  "medicare-costs-2025",
+  "how-is-medicare-part-d-changing-in-2026",
+  "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+  "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+  "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
+  "key-questions-to-ask-when-comparing-medicare-advantage-plans",
+  "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
+  "new-in-2025-medicares-part-d-payment-plan-explained",
+  "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage",
+  "how-medigap-plans-affect-your-overall-medicare-costs",
+  "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
+  "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
+  "how-the-medigap-free-look-period-protects-you",
+  "medicare-part-b-annual-deductible-explained-what-youll-pay",
+  "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
+  "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+  "medicare-advantage-for-chronic-conditions-what-you-need-to-know",
+  "understanding-how-medicare-works-with-employer-health-plans",
+  "why-medicare-supplements-offer-peace-of-mind",
+  "why-medicare-supplements-offer-network-free-healthcare",
+];
+
+function slugToLabel(s: string) {
+  return s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+
+// Build the full page registry for audit
+function getAllPageDefs(): PageDef[] {
+  const pages: PageDef[] = [...STATIC_PAGES];
+
+  for (const slug of COVERAGE_SLUGS) {
+    pages.push({
+      slug,
+      label: slugToLabel(slug),
+      path: `/faqs/${slug}`,
+      contentType: "coverage",
+    });
+  }
+
+  for (const slug of BLOG_SLUGS) {
+    pages.push({
+      slug,
+      label: slugToLabel(slug),
+      path: `/blog/${slug}`,
+      contentType: "blog",
+    });
+  }
+
+  return pages;
+}
 
 export const cmsRouter = router({
   // Get all CMS overrides for a given content type
@@ -79,4 +221,39 @@ export const cmsRouter = router({
 
       return { success: true };
     }),
+
+  // ── SEO Audit ──────────────────────────────────────────────────────────────
+  // Returns a full site-wide SEO audit with per-page scores and a summary.
+  audit: ownerProcedure.query(async () => {
+    const db = await getDb();
+    if (!db) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "DB unavailable" });
+
+    // Fetch all CMS meta rows from the database
+    const allMeta = await db.select().from(cmsMeta);
+
+    // Build a lookup map: "contentType:slug" -> meta row
+    const metaMap = new Map<string, typeof allMeta[number]>();
+    for (const row of allMeta) {
+      metaMap.set(`${row.contentType}:${row.slug}`, row);
+    }
+
+    // Build PageInput array from the registry, merging DB data
+    const pageDefs = getAllPageDefs();
+    const inputs: PageInput[] = pageDefs.map((def) => {
+      const key = `${def.contentType}:${def.slug}`;
+      const meta = metaMap.get(key);
+      return {
+        slug: def.slug,
+        contentType: def.contentType,
+        label: def.label,
+        path: def.path,
+        metaTitle: meta?.metaTitle ?? "",
+        metaDescription: meta?.metaDescription ?? "",
+        ogImage: meta?.ogImage ?? "",
+        imageAltText: meta?.imageAltText ?? "",
+      };
+    });
+
+    return runFullAudit(inputs);
+  }),
 });

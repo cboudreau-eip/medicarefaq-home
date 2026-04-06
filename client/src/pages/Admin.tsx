@@ -599,6 +599,22 @@ export default function Admin() {
   // Drawer state
   const [activeCard, setActiveCard] = useState<PageCard | null>(null);
 
+  // Deep-link: open editor from ?edit=contentType:slug (e.g. from SEO Audit)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const editParam = params.get("edit");
+    if (editParam && allCards.length > 0) {
+      const [ct, ...slugParts] = editParam.split(":");
+      const slug = slugParts.join(":");
+      const card = allCards.find((c) => c.contentType === ct && c.slug === slug);
+      if (card) {
+        setActiveCard(card);
+        // Clean up the URL param
+        window.history.replaceState({}, "", "/admin");
+      }
+    }
+  }, [allCards]);
+
   // Filters
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
@@ -727,6 +743,15 @@ export default function Admin() {
 
           <div className="px-4 pb-4 space-y-1">
             <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 px-2 mb-2 mt-2">SEO Health</p>
+
+            <a
+              href="/admin/seo-audit"
+              className="w-full flex items-center gap-2 px-2.5 py-2 rounded-lg text-sm font-medium text-indigo-600 bg-indigo-50 hover:bg-indigo-100 transition-colors mb-1"
+            >
+              <LayoutGrid className="w-4 h-4 flex-shrink-0" />
+              <span className="flex-1 text-left text-[13px] font-semibold">SEO Audit Dashboard</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </a>
 
             <button
               onClick={() => { setStatusFilter("empty"); setSectionFilter("all"); }}

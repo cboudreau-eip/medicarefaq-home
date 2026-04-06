@@ -53,3 +53,20 @@
 - [x] Wrote and passed 6 vitest tests for chat router
 - [x] Fix chat widget: welcome message cut off at bottom, COMMON QUESTIONS label overlapping with message text
 - [x] Update chat button: red branding color (#C41230), larger size (64px), pulsing ring animation
+
+## SEO Audit Dashboard
+
+- [x] Add new tRPC procedure `cms.audit` that returns per-page SEO scores and issue flags
+- [x] Define SEO scoring rules: title length (30-60 chars), description length (120-160 chars), OG image present, alt text present, duplicate title detection
+- [x] Add "SEO Audit" tab/view to the CMS admin panel sidebar navigation
+- [x] Build site-wide SEO score summary with overall grade (A-F) and category breakdowns
+- [x] Build per-page issue cards showing specific problems with severity (error/warning/info)
+- [x] Add title length validation: flag too short (<30 chars) and too long (>60 chars)
+- [x] Add description length validation: flag too short (<120 chars) and too long (>160 chars)
+- [x] Add missing OG image detection with count and page list
+- [x] Add missing alt text detection with count and page list
+- [x] Add duplicate title detection across all pages
+- [x] Add one-click "Fix" actions: link to CMS editor for pages with issues
+- [x] Build visual score distribution chart (how many pages at each score level)
+- [x] Add export audit report functionality (CSV download)
+- [x] Write vitest tests for cms.audit procedure and scoring logic (35 tests, all passing)
