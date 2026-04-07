@@ -62,6 +62,23 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "faqs-does-medicare-cover-medical-alert-systems", label: "Coverage: Medical Alert Systems", path: "/faqs/does-medicare-cover-medical-alert-systems" },
   { slug: "privacy-policy", label: "Privacy Policy", path: "/privacy-policy" },
   { slug: "terms-of-use", label: "Terms of Use", path: "/terms-of-use" },
+  // Medigap plan letter pages
+  { slug: "medigap-plan-a", label: "Medigap Plan A", path: "/medicare-supplements/plan-a" },
+  { slug: "medigap-plan-b", label: "Medigap Plan B", path: "/medicare-supplements/plan-b" },
+  { slug: "medigap-plan-c", label: "Medigap Plan C", path: "/medicare-supplements/plan-c" },
+  { slug: "medigap-plan-d", label: "Medigap Plan D", path: "/medicare-supplements/plan-d" },
+  { slug: "medigap-plan-f", label: "Medigap Plan F", path: "/medicare-supplements/plan-f" },
+  { slug: "medigap-plan-g", label: "Medigap Plan G", path: "/medicare-supplements/plan-g" },
+  { slug: "medigap-plan-k", label: "Medigap Plan K", path: "/medicare-supplements/plan-k" },
+  { slug: "medigap-plan-l", label: "Medigap Plan L", path: "/medicare-supplements/plan-l" },
+  { slug: "medigap-plan-m", label: "Medigap Plan M", path: "/medicare-supplements/plan-m" },
+  { slug: "medigap-plan-n", label: "Medigap Plan N", path: "/medicare-supplements/plan-n" },
+  { slug: "medigap-high-deductible-plan-g", label: "High Deductible Plan G", path: "/medicare-supplements/high-deductible-plan-g" },
+  { slug: "medigap-high-deductible-plan-f", label: "High Deductible Plan F", path: "/medicare-supplements/high-deductible-plan-f" },
+  // Medigap special pages
+  { slug: "medigap-compare", label: "Compare Medigap Plans", path: "/medicare-supplements/compare" },
+  { slug: "medigap-eligibility", label: "Medigap Eligibility", path: "/medicare-supplements/medigap-eligibility" },
+  { slug: "medicare-supplement-plans-2026", label: "Medicare Supplement Plans 2026", path: "/medicare-supplements/medicare-supplement-plans-2026" },
 ];
 
 const COVERAGE_SLUGS = [

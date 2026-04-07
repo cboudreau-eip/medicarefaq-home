@@ -61,6 +61,23 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "faqs-does-medicare-cover-medical-alert-systems", label: "Coverage: Medical Alert Systems", path: "/faqs/does-medicare-cover-medical-alert-systems", contentType: "page" },
   { slug: "privacy-policy", label: "Privacy Policy", path: "/privacy-policy", contentType: "page" },
   { slug: "terms-of-use", label: "Terms of Use", path: "/terms-of-use", contentType: "page" },
+  // Medigap plan letter pages
+  { slug: "medigap-plan-a", label: "Medigap Plan A", path: "/medicare-supplements/plan-a", contentType: "page" },
+  { slug: "medigap-plan-b", label: "Medigap Plan B", path: "/medicare-supplements/plan-b", contentType: "page" },
+  { slug: "medigap-plan-c", label: "Medigap Plan C", path: "/medicare-supplements/plan-c", contentType: "page" },
+  { slug: "medigap-plan-d", label: "Medigap Plan D", path: "/medicare-supplements/plan-d", contentType: "page" },
+  { slug: "medigap-plan-f", label: "Medigap Plan F", path: "/medicare-supplements/plan-f", contentType: "page" },
+  { slug: "medigap-plan-g", label: "Medigap Plan G", path: "/medicare-supplements/plan-g", contentType: "page" },
+  { slug: "medigap-plan-k", label: "Medigap Plan K", path: "/medicare-supplements/plan-k", contentType: "page" },
+  { slug: "medigap-plan-l", label: "Medigap Plan L", path: "/medicare-supplements/plan-l", contentType: "page" },
+  { slug: "medigap-plan-m", label: "Medigap Plan M", path: "/medicare-supplements/plan-m", contentType: "page" },
+  { slug: "medigap-plan-n", label: "Medigap Plan N", path: "/medicare-supplements/plan-n", contentType: "page" },
+  { slug: "medigap-high-deductible-plan-g", label: "High Deductible Plan G", path: "/medicare-supplements/high-deductible-plan-g", contentType: "page" },
+  { slug: "medigap-high-deductible-plan-f", label: "High Deductible Plan F", path: "/medicare-supplements/high-deductible-plan-f", contentType: "page" },
+  // Medigap special pages
+  { slug: "medigap-compare", label: "Compare Medigap Plans", path: "/medicare-supplements/compare", contentType: "page" },
+  { slug: "medigap-eligibility", label: "Medigap Eligibility", path: "/medicare-supplements/medigap-eligibility", contentType: "page" },
+  { slug: "medicare-supplement-plans-2026", label: "Medicare Supplement Plans 2026", path: "/medicare-supplements/medicare-supplement-plans-2026", contentType: "page" },
 ];
 
 const COVERAGE_SLUGS = [

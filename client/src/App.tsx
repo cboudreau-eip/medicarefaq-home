@@ -42,6 +42,10 @@ import SearchResults from "./pages/SearchResults";
 import Admin from "./pages/Admin";
 import SEOAudit from "./pages/SEOAudit";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import MedigapPlanTemplate from "./pages/MedigapPlanTemplate";
+import MedigapCompare from "./pages/MedigapCompare";
+import MedigapEligibility from "./pages/MedigapEligibility";
+import MedigapPlans2026 from "./pages/MedigapPlans2026";
 import TermsOfUse from "./pages/TermsOfUse";
 
 function Router() {
@@ -66,6 +70,12 @@ function Router() {
       <Route path={"/new-to-medicare/checklist"} component={Checklist} />
       <Route path={"/original-medicare"} component={OriginalMedicare} />
       <Route path={"/medicare-supplements"} component={MedicareSupplement} />
+      {/* Medigap plan letter pages */}
+      <Route path={"/medicare-supplements/compare"} component={MedigapCompare} />
+      <Route path={"/medicare-supplements/medigap-eligibility"} component={MedigapEligibility} />
+      <Route path={"/medicare-supplements/medicare-supplement-plans-2026"} component={MedigapPlans2026} />
+      {/* Data-driven plan letter pages: plan-a, plan-b, ..., plan-n, high-deductible-plan-g, high-deductible-plan-f */}
+      <Route path={"/medicare-supplements/:planSlug"} component={MedigapPlanTemplate} />
       <Route path={"/medicare-part-c/medicare-advantage-plans"} component={MedicareAdvantage} />
       <Route path={"/original-medicare/medicare-parts/medicare-part-d"} component={PartD} />
       <Route path={"/compare-rates"} component={ComparePlans} />

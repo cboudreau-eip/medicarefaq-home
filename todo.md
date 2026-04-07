@@ -95,3 +95,102 @@
 - [x] Registered 202 SimpleFAQ slugs in CMS admin panel (Admin.tsx) and server-side CMS router (cms.ts)
 - [x] SEO audit now includes all 202 SimpleFAQ articles via shared SIMPLE_FAQ_SLUGS registry
 - [x] Write vitest tests for SimpleFAQ data integrity (8 tests, all passing)
+
+## Missing Pages — Batch Build (161 pages from Pages to Keep doc)
+
+### Medicare Supplement Plan Pages (15 pages)
+- [x] /medicare-supplements/plan-g
+- [x] /medicare-supplements/plan-f
+- [x] /medicare-supplements/plan-n
+- [x] /medicare-supplements/high-deductible-plan-g
+- [x] /medicare-supplements/plan-c
+- [x] /medicare-supplements/plan-d
+- [x] /medicare-supplements/high-deductible-plan-f
+- [x] /medicare-supplements/plan-b
+- [x] /medicare-supplements/plan-a
+- [x] /medicare-supplements/plan-l
+- [x] /medicare-supplements/plan-k
+- [x] /medicare-supplements/plan-m
+- [x] /medicare-supplements/compare
+- [x] /medicare-supplements/medigap-eligibility
+- [x] /medicare-supplements/medicare-supplement-plans-2026
+
+### Medigap by Carrier Pages (15 pages)
+- [ ] /medicare-supplements/medigap-by-carrier (index)
+- [ ] /medicare-supplements/medigap-by-carrier/accendo-medicare-supplement-plans
+- [ ] /medicare-supplements/medigap-by-carrier/medico-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/bankers-fidelity-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/united-american-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/blue-cross-blue-shield-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/cigna-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans
+- [ ] /medicare-supplements/medigap-by-carrier/humana-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/gpm-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/gerber-life-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/national-general
+- [ ] /medicare-supplements/medigap-by-carrier/manhattan-life-medigap-plans
+- [ ] /medicare-supplements/medigap-by-carrier/oxford-life-medigap-plans
+
+### Medigap by State Pages (21 pages)
+- [ ] /medicare-supplements/medigap-by-state (index)
+- [ ] /medicare-supplements/medigap-by-state/massachusetts-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/wisconsin-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/minnesota-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/florida-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/new-jersey-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/texas-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/california-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/connecticut-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/arizona-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/georgia-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/pennsylvania-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/oklahoma-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/vermont-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/new-york-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/louisiana-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/kentucky-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/michigan-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/mississippi-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/oregon-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/tennessee-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/ohio-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/virginia-medigap-plans
+- [ ] /medicare-supplements/medigap-by-state/new-mexico-medigap-plans
+
+### Original Medicare Sub-Pages (15 pages)
+- [ ] /original-medicare/medicare-parts/medicare-part-a
+- [ ] /original-medicare/medicare-parts/medicare-part-b
+- [ ] /original-medicare/medicare-parts/medicare-part-d/silverscript
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy
+- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals
+
+### Caregiver Guide (6 pages)
+- [ ] /guide-to-being-a-caregiver (index)
+- [ ] /guide-to-being-a-caregiver/caregiver-assistance
+- [ ] /guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules
+- [ ] /guide-to-being-a-caregiver/how-to-become-a-caregiver
+- [ ] /guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers
+- [ ] /guide-to-being-a-caregiver/what-is-a-caregiver
+
+### Medicare Advantage Sub-Pages (9 pages)
+- [ ] /medicare-part-c (index)
+- [ ] /medicare-part-c/medicare-advantage-plan-hmo-pos
+- [ ] /medicare-part-c/medicare-advantage-eligibility
+- [ ] /medicare-part-c/medicare-advantage-enrollment-periods
+- [ ] /medicare-part-c/medicare-advantage-plan-snp
+- [ ] /medicare-part-c/medicare-advantage-plan-pffs
+- [ ] /medicare-part-c/medicare-advantage-plan-ppo
+- [ ] /medicare-part-c/medicare-advantage-costs
+- [ ] /medicare-part-c/medicare-advantage-vs-original-medicare
