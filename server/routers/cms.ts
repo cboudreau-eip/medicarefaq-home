@@ -5,6 +5,7 @@ import { cmsMeta } from "../../drizzle/schema";
 import { protectedProcedure, publicProcedure, router } from "../_core/trpc";
 import { TRPCError } from "@trpc/server";
 import { runFullAudit, type PageInput, type FullAuditResult } from "../../shared/seo-audit";
+import { SIMPLE_FAQ_SLUGS } from "../../shared/simple-faq-slugs";
 
 const contentTypeSchema = z.enum(["page", "coverage", "blog"]);
 
@@ -136,7 +137,7 @@ function slugToLabel(s: string) {
 function getAllPageDefs(): PageDef[] {
   const pages: PageDef[] = [...STATIC_PAGES];
 
-  for (const slug of COVERAGE_SLUGS) {
+  for (const slug of [...COVERAGE_SLUGS, ...SIMPLE_FAQ_SLUGS]) {
     pages.push({
       slug,
       label: slugToLabel(slug),

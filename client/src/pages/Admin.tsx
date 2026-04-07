@@ -25,6 +25,8 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
+import { SIMPLE_FAQ_SLUGS } from "@shared/simple-faq-slugs";
+
 // ── Slug registries ───────────────────────────────────────────────────────────
 const STATIC_PAGES: PageDef[] = [
   { slug: "home", label: "Home", path: "/" },
@@ -544,7 +546,7 @@ export default function Admin() {
 
   // Build all cards once
   const coverageCards: PageCard[] = useMemo(() =>
-    COVERAGE_SLUGS.map((s) => ({
+    [...COVERAGE_SLUGS, ...SIMPLE_FAQ_SLUGS].map((s) => ({
       slug: s,
       label: slugToLabel(s),
       path: `/faqs/${s}`,

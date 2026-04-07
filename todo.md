@@ -92,6 +92,6 @@
 - [x] Batch 3: Added next 50 FAQ articles (1,553 sessions/mo)
 - [x] Batch 4: Added next 50 FAQ articles (771 sessions/mo)
 - [x] Batch 5: Added final 2 FAQ articles (21 sessions/mo)
-- [ ] Seed CMS meta for all new SimpleFAQ articles
-- [ ] Update SEO audit to include SimpleFAQ articles
-- [ ] Write vitest tests for SimpleFAQ routing
+- [x] Registered 202 SimpleFAQ slugs in CMS admin panel (Admin.tsx) and server-side CMS router (cms.ts)
+- [x] SEO audit now includes all 202 SimpleFAQ articles via shared SIMPLE_FAQ_SLUGS registry
+- [x] Write vitest tests for SimpleFAQ data integrity (8 tests, all passing)
