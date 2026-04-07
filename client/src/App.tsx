@@ -54,6 +54,8 @@ import TermsOfUse from "./pages/TermsOfUse";
 import PartA from "./pages/PartA";
 import PartB from "./pages/PartB";
 import PartDSubTemplate from "./pages/PartDSubTemplate";
+import CaregiverGuideTemplate from "./pages/CaregiverGuideTemplate";
+import MedicareAdvantageSubTemplate from "./pages/MedicareAdvantageSubTemplate";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -96,6 +98,12 @@ function Router() {
       <Route path={"/original-medicare/medicare-parts/medicare-part-d"} component={PartD} />
       {/* Part D sub-pages — must come before the wildcard */}
       <Route path={"/original-medicare/medicare-parts/medicare-part-d/:slug"} component={PartDSubTemplate} />
+      {/* Caregiver Guide pages */}
+      <Route path={"/guide-to-being-a-caregiver"} component={CaregiverGuideTemplate} />
+      <Route path={"/guide-to-being-a-caregiver/:slug"} component={CaregiverGuideTemplate} />
+      {/* Medicare Advantage sub-pages */}
+      <Route path={"/medicare-part-c"} component={MedicareAdvantageSubTemplate} />
+      <Route path={"/medicare-part-c/:slug"} component={MedicareAdvantageSubTemplate} />
       <Route path={"/compare-rates"} component={ComparePlans} />
       <Route path={"/medicare-plans/costs"} component={PlanCosts} />
       <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />

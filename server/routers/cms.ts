@@ -137,6 +137,23 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "part-d-medicare-part-d-prior-authorization", label: "Part D Prior Authorization", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization", contentType: "page" },
   { slug: "part-d-medicare-part-d-step-therapy", label: "Part D Step Therapy", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy", contentType: "page" },
   { slug: "part-d-medicare-part-d-exceptions-and-appeals", label: "Part D Exceptions & Appeals", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals", contentType: "page" },
+  // Caregiver Guide pages
+  { slug: "caregiver-guide", label: "Caregiver Guide (Index)", path: "/guide-to-being-a-caregiver", contentType: "page" },
+  { slug: "caregiver-caregiver-assistance", label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance", contentType: "page" },
+  { slug: "caregiver-who-qualifies-as-a-caregiver-under-medicare-rules", label: "Who Qualifies as a Caregiver", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules", contentType: "page" },
+  { slug: "caregiver-how-to-become-a-caregiver", label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver", contentType: "page" },
+  { slug: "caregiver-what-are-the-4-types-of-caregivers", label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers", contentType: "page" },
+  { slug: "caregiver-what-is-a-caregiver", label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver", contentType: "page" },
+  // Medicare Advantage sub-pages
+  { slug: "medicare-advantage", label: "Medicare Advantage (Index)", path: "/medicare-part-c", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-plan-hmo-pos", label: "Medicare Advantage HMO/POS", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-eligibility", label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-enrollment-periods", label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-plan-snp", label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-plan-pffs", label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-plan-ppo", label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-costs", label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs", contentType: "page" },
+  { slug: "medicare-advantage-medicare-advantage-vs-original-medicare", label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare", contentType: "page" },
 ];
 
 const COVERAGE_SLUGS = [

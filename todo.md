@@ -177,20 +177,20 @@
 - [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals
 
 ### Caregiver Guide (6 pages)
-- [ ] /guide-to-being-a-caregiver (index)
-- [ ] /guide-to-being-a-caregiver/caregiver-assistance
-- [ ] /guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules
-- [ ] /guide-to-being-a-caregiver/how-to-become-a-caregiver
-- [ ] /guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers
-- [ ] /guide-to-being-a-caregiver/what-is-a-caregiver
+- [x] /guide-to-being-a-caregiver (index)
+- [x] /guide-to-being-a-caregiver/caregiver-assistance
+- [x] /guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules
+- [x] /guide-to-being-a-caregiver/how-to-become-a-caregiver
+- [x] /guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers
+- [x] /guide-to-being-a-caregiver/what-is-a-caregiver
 
 ### Medicare Advantage Sub-Pages (9 pages)
-- [ ] /medicare-part-c (index)
-- [ ] /medicare-part-c/medicare-advantage-plan-hmo-pos
-- [ ] /medicare-part-c/medicare-advantage-eligibility
-- [ ] /medicare-part-c/medicare-advantage-enrollment-periods
-- [ ] /medicare-part-c/medicare-advantage-plan-snp
-- [ ] /medicare-part-c/medicare-advantage-plan-pffs
-- [ ] /medicare-part-c/medicare-advantage-plan-ppo
-- [ ] /medicare-part-c/medicare-advantage-costs
-- [ ] /medicare-part-c/medicare-advantage-vs-original-medicare
+- [x] /medicare-part-c (index)
+- [x] /medicare-part-c/medicare-advantage-plan-hmo-pos
+- [x] /medicare-part-c/medicare-advantage-eligibility
+- [x] /medicare-part-c/medicare-advantage-enrollment-periods
+- [x] /medicare-part-c/medicare-advantage-plan-snp
+- [x] /medicare-part-c/medicare-advantage-plan-pffs
+- [x] /medicare-part-c/medicare-advantage-plan-ppo
+- [x] /medicare-part-c/medicare-advantage-costs
+- [x] /medicare-part-c/medicare-advantage-vs-original-medicare
