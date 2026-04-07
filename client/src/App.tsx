@@ -85,7 +85,7 @@ function Router() {
       <Route path={"/library/about"} component={AboutTeam} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />
-      <Route path={"/coverage"} component={Coverage} />
+      {/* /coverage redirects handled by server-side 301 */}
       {/* Original hardcoded coverage article */}
       <Route path={"/faqs/does-medicare-cover-medical-alert-systems"} component={CoverageArticle} />
       {/* Data-driven coverage articles */}

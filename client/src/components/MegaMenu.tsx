@@ -9,7 +9,6 @@ const liveRoutes = new Set([
   "/",
   "/blog",
   "/faqs",
-  "/coverage",
   "/about-us",
   "/medicare-101",
   "/tools/enrollment-timeline",
