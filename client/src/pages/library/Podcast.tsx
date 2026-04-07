@@ -148,7 +148,7 @@ function getCategoryColor(cat: string): string {
 export default function Podcast() {
   useCMSSEO({
     contentType: "page",
-    slug: "podcast",
+    slug: "podcasts",
     title: "Medicare Podcasts | Listen & Learn About Medicare | MedicareFAQ",
     description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
     canonical: "https://www.medicarefaq.com/podcasts/",

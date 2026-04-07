@@ -995,7 +995,7 @@ export default function BlogArticle() {
                       Call Us Now
                     </a>
                     <a
-                      href="/medicare-plans/compare"
+                      href="/compare-rates"
                       className="inline-flex items-center gap-2 bg-white/10 text-white font-bold px-6 py-3 rounded-lg border border-white/20 hover:bg-white/20 transition-colors"
                     >
                       Get Started Online
@@ -1037,7 +1037,7 @@ export default function BlogArticle() {
                       (888) 335-8996
                     </p>
                     <a
-                      href="/medicare-plans/compare"
+                      href="/compare-rates"
                       className="block w-full bg-[#C41230] text-white font-bold text-sm py-2.5 rounded-lg hover:bg-[#A30F28] transition-colors"
                     >
                       Compare Plans

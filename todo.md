@@ -70,3 +70,14 @@
 - [x] Build visual score distribution chart (how many pages at each score level)
 - [x] Add export audit report functionality (CSV download)
 - [x] Write vitest tests for cms.audit procedure and scoring logic (35 tests, all passing)
+
+## URL Restructure — Match Live Site URLs
+
+- [x] Batch 1: Restructure Standalone/Other page URLs to match live site (/about→/about-us, /medicare-plans/compare→/compare-rates, /library/podcast→/podcasts)
+- [ ] Batch 2: Restructure Blog post URLs to match live site
+- [ ] Batch 3: Restructure Coverage/FAQ page URLs to match live site (move from /coverage/ to /faqs/)
+- [ ] Batch 4: Restructure Medicare Plans page URLs to match live site
+- [ ] Add 301 redirect map for old rebuild URLs
+- [ ] Update all internal links (nav, mega menu, footer, CTAs, cross-references)
+- [ ] Update data files with new slugs
+- [ ] Update CMS slug references

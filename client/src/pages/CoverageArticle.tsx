@@ -1202,7 +1202,7 @@ export default function CoverageArticle() {
                 Call (888) 335-8996
               </a>
               <a
-                href="/medicare-plans/compare"
+                href="/compare-rates"
                 className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
               >
                 Compare Plans

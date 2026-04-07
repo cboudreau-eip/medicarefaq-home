@@ -28,7 +28,7 @@ interface PageDef {
 
 const STATIC_PAGES: PageDef[] = [
   { slug: "home", label: "Home", path: "/", contentType: "page" },
-  { slug: "about", label: "About Us", path: "/about", contentType: "page" },
+  { slug: "about-us", label: "About Us", path: "/about-us", contentType: "page" },
   { slug: "contact", label: "Contact", path: "/contact", contentType: "page" },
   { slug: "blog", label: "Blog", path: "/blog", contentType: "page" },
   { slug: "medicare-101", label: "Medicare 101", path: "/medicare-101", contentType: "page" },
@@ -40,7 +40,7 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "medicare-supplement", label: "Medicare Supplement", path: "/medicare-plans/medicare-supplement", contentType: "page" },
   { slug: "medicare-advantage", label: "Medicare Advantage", path: "/medicare-plans/medicare-advantage", contentType: "page" },
   { slug: "part-d", label: "Medicare Part D", path: "/medicare-plans/part-d", contentType: "page" },
-  { slug: "compare-plans", label: "Compare Plans", path: "/medicare-plans/compare", contentType: "page" },
+  { slug: "compare-rates", label: "Compare Plans", path: "/compare-rates", contentType: "page" },
   { slug: "plan-costs", label: "Plan Costs", path: "/medicare-plans/costs", contentType: "page" },
   { slug: "supplement-vs-advantage", label: "Supplement vs. Advantage", path: "/medicare-plans/supplement-vs-advantage", contentType: "page" },
   { slug: "best-supplement-plans", label: "Best Supplement Plans", path: "/medicare-plans/best-supplement-plans", contentType: "page" },
@@ -51,7 +51,7 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "how-to-enroll", label: "How to Enroll", path: "/enrollment/how-to-enroll", contentType: "page" },
   { slug: "enrollment-calculator", label: "Enrollment Calculator", path: "/tools/enrollment-timeline", contentType: "page" },
   { slug: "guides", label: "Guides", path: "/library/guides", contentType: "page" },
-  { slug: "podcast", label: "Podcast", path: "/library/podcast", contentType: "page" },
+  { slug: "podcasts", label: "Podcast", path: "/podcasts", contentType: "page" },
   { slug: "videos", label: "Videos", path: "/library/videos", contentType: "page" },
   { slug: "about-team", label: "About the Team", path: "/library/about", contentType: "page" },
   { slug: "faqs", label: "Coverage FAQs Index", path: "/faqs", contentType: "page" },

@@ -52,13 +52,13 @@ const journeyPaths = [
     color: "#4F46E5",
     image: JOURNEY_ENROLLED,
     links: [
-      { label: "Compare Your Plan Options", href: "/medicare-plans/compare" },
+      { label: "Compare Your Plan Options", href: "/compare-rates" },
       { label: "Annual Enrollment Guide", href: "/enrollment/annual-changes" },
       { label: "Switch Plans: When & How", href: "/enrollment/how-to-enroll" },
       { label: "Lower Your Costs", href: "/medicare-plans/costs" },
       { label: "Coverage Gaps to Watch", href: "/faqs" },
     ] as JourneyLink[],
-    href: "/medicare-plans/compare",
+    href: "/compare-rates",
   },
 ];
 

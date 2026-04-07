@@ -24,7 +24,7 @@ const footerColumns = [
       { label: "Medicare Supplement", href: "/medicare-plans/medicare-supplement" },
       { label: "Medicare Advantage", href: "/medicare-plans/medicare-advantage" },
       { label: "Part D (Rx Plans)", href: "/medicare-plans/part-d" },
-      { label: "Compare All Plans", href: "/medicare-plans/compare" },
+      { label: "Compare All Plans", href: "/compare-rates" },
       { label: "Medicare Costs", href: "/medicare-plans/costs" },
     ],
   },
@@ -56,7 +56,7 @@ const footerColumns = [
     links: [
       { label: "Blog", href: "/blog" },
       { label: "Guides", href: "/library/guides" },
-      { label: "Podcast", href: "/library/podcast" },
+      { label: "Podcast", href: "/podcasts" },
       { label: "Videos", href: "/library/videos" },
       { label: "FAQs", href: "/faqs" },
       { label: "About Team", href: "/library/about" },

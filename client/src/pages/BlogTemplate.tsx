@@ -460,7 +460,7 @@ export default function BlogTemplate() {
             <p className="text-white/80 mb-8 max-w-xl mx-auto">Our licensed agents can help you compare Medicare plans and find the best coverage for your needs — at no cost to you.</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:8883358996" className="flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3 rounded-lg hover:bg-white/90 transition-colors">Call (888) 335-8996</a>
-              <Link href="/medicare-plans/compare" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
+              <Link href="/compare-rates" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
                 Get Started Free <ArrowRight className="w-5 h-5" />
               </Link>
             </div>

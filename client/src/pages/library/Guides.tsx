@@ -127,7 +127,7 @@ const topicGuides = [
     title: "Compare All Medicare Plans",
     description: "Original Medicare, Medigap, Medicare Advantage, and Part D compared.",
     icon: FileText,
-    href: "/medicare-plans/compare",
+    href: "/compare-rates",
     category: "Comparison",
   },
   {

@@ -13,7 +13,7 @@ const liveRoutes = new Set([
   "/blog",
   "/faqs",
   "/coverage",
-  "/about",
+  "/about-us",
   "/medicare-101",
   "/tools/enrollment-timeline",
   "/new-to-medicare/eligibility",
@@ -24,7 +24,7 @@ const liveRoutes = new Set([
   "/medicare-plans/medicare-supplement",
   "/medicare-plans/medicare-advantage",
   "/medicare-plans/part-d",
-  "/medicare-plans/compare",
+  "/compare-rates",
   "/medicare-plans/costs",
   "/medicare-plans/supplement-vs-advantage",
   "/medicare-plans/best-supplement-plans",
@@ -34,7 +34,7 @@ const liveRoutes = new Set([
   "/enrollment/late-penalties",
   "/enrollment/how-to-enroll",
   "/library/guides",
-  "/library/podcast",
+  "/podcasts",
   "/library/videos",
   "/library/about",
   "/contact",
@@ -102,7 +102,7 @@ export default function MobileNav() {
             >
               <div className="p-4">
                 <a
-                  href="/medicare-plans/compare"
+                  href="/compare-rates"
                   className="block w-full bg-[#C41230] text-white text-center font-bold py-3 rounded-lg mb-4"
                 >
                   Get Started Free

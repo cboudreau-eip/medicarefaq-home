@@ -854,7 +854,7 @@ export default function CoverageTemplate() {
               <a href="tel:8883358996" className="flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3 rounded-lg hover:bg-white/90 transition-colors">
                 <Phone className="w-5 h-5" /> Call (888) 335-8996
               </a>
-              <a href="/medicare-plans/compare" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
+              <a href="/compare-rates" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
                 Compare Plans <ArrowRight className="w-5 h-5" />
               </a>
             </div>

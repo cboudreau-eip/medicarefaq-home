@@ -18,7 +18,7 @@ const topics = [
     icon: BarChart3,
     color: "#1B2A4A",
     articles: "12 articles",
-    href: "/medicare-plans/compare",
+    href: "/compare-rates",
   },
   {
     title: "Coverage & Benefits",

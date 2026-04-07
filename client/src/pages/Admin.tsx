@@ -28,7 +28,7 @@ import {
 // ── Slug registries ───────────────────────────────────────────────────────────
 const STATIC_PAGES: PageDef[] = [
   { slug: "home", label: "Home", path: "/" },
-  { slug: "about", label: "About Us", path: "/about" },
+  { slug: "about-us", label: "About Us", path: "/about-us" },
   { slug: "contact", label: "Contact", path: "/contact" },
   { slug: "blog", label: "Blog", path: "/blog" },
   { slug: "medicare-101", label: "Medicare 101", path: "/medicare-101" },
@@ -40,7 +40,7 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "medicare-supplement", label: "Medicare Supplement", path: "/medicare-plans/medicare-supplement" },
   { slug: "medicare-advantage", label: "Medicare Advantage", path: "/medicare-plans/medicare-advantage" },
   { slug: "part-d", label: "Medicare Part D", path: "/medicare-plans/part-d" },
-  { slug: "compare-plans", label: "Compare Plans", path: "/medicare-plans/compare" },
+  { slug: "compare-rates", label: "Compare Plans", path: "/compare-rates" },
   { slug: "plan-costs", label: "Plan Costs", path: "/medicare-plans/costs" },
   { slug: "supplement-vs-advantage", label: "Supplement vs. Advantage", path: "/medicare-plans/supplement-vs-advantage" },
   { slug: "best-supplement-plans", label: "Best Supplement Plans", path: "/medicare-plans/best-supplement-plans" },
@@ -51,7 +51,7 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "how-to-enroll", label: "How to Enroll", path: "/enrollment/how-to-enroll" },
   { slug: "enrollment-calculator", label: "Enrollment Calculator", path: "/tools/enrollment-timeline" },
   { slug: "guides", label: "Guides", path: "/library/guides" },
-  { slug: "podcast", label: "Podcast", path: "/library/podcast" },
+  { slug: "podcasts", label: "Podcast", path: "/podcasts" },
   { slug: "videos", label: "Videos", path: "/library/videos" },
   { slug: "about-team", label: "About the Team", path: "/library/about" },
   { slug: "faqs", label: "Coverage FAQs Index", path: "/faqs" },

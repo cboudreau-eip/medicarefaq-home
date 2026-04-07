@@ -56,7 +56,7 @@ function Router() {
       <Route path={"/blog/medicare-part-b-annual-deductible-explained-what-youll-pay"} component={BlogArticle} />
       {/* Data-driven blog articles */}
       <Route path={"/blog/:slug"} component={BlogTemplate} />
-      <Route path={"/about"} component={About} />
+      <Route path={"/about-us"} component={About} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/search"} component={SearchResults} />
       <Route path={"/medicare-101"} component={Medicare101} />
@@ -68,7 +68,7 @@ function Router() {
       <Route path={"/medicare-plans/medicare-supplement"} component={MedicareSupplement} />
       <Route path={"/medicare-plans/medicare-advantage"} component={MedicareAdvantage} />
       <Route path={"/medicare-plans/part-d"} component={PartD} />
-      <Route path={"/medicare-plans/compare"} component={ComparePlans} />
+      <Route path={"/compare-rates"} component={ComparePlans} />
       <Route path={"/medicare-plans/costs"} component={PlanCosts} />
       <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />
       <Route path={"/medicare-plans/best-supplement-plans"} component={BestSupplementPlans} />
@@ -80,7 +80,7 @@ function Router() {
       <Route path={"/tools/enrollment-timeline"} component={EnrollmentCalculator} />
       {/* Medicare Library pages */}
       <Route path={"/library/guides"} component={Guides} />
-      <Route path={"/library/podcast"} component={Podcast} />
+      <Route path={"/podcasts"} component={Podcast} />
       <Route path={"/library/videos"} component={Videos} />
       <Route path={"/library/about"} component={AboutTeam} />
       {/* Coverage landing page */}

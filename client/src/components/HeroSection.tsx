@@ -90,7 +90,7 @@ export default function HeroSection() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </a>
             <a
-              href="/medicare-plans/compare"
+              href="/compare-rates"
               className="group inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-4 py-3 rounded-lg transition-all duration-150 border border-white/20 whitespace-nowrap text-sm"
             >
               Already Enrolled

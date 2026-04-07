@@ -7,7 +7,7 @@ interface ComparePlansLinkProps {
 }
 
 /**
- * Drop-in replacement for <a href="/medicare-plans/compare"> links.
+ * Drop-in replacement for <a href="/compare-rates"> links.
  * Opens the ZIP code modal instead of navigating to the compare page.
  */
 export default function ComparePlansLink({ children, className }: ComparePlansLinkProps) {
@@ -20,7 +20,7 @@ export default function ComparePlansLink({ children, className }: ComparePlansLi
 
   return (
     <a
-      href="/medicare-plans/compare"
+      href="/compare-rates"
       onClick={handleClick}
       className={className}
     >

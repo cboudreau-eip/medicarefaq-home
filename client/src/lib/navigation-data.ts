@@ -129,7 +129,7 @@ export const navigationData: NavCategory[] = [
         title: "Compare Medicare Plans",
         description: "Side-by-side comparison of every plan type",
         icon: BarChart3,
-        href: "/medicare-plans/compare",
+        href: "/compare-rates",
       },
       {
         title: "Medicare Costs",
@@ -285,7 +285,7 @@ export const navigationData: NavCategory[] = [
         title: "Podcast",
         description: "Medicare explained in audio format",
         icon: Headphones,
-        href: "/library/podcast",
+        href: "/podcasts",
       },
       {
         title: "Videos",
@@ -329,7 +329,7 @@ export const navigationData: NavCategory[] = [
 ];
 
 export const utilityLinks = [
-  { title: "About Us", href: "/about" },
+  { title: "About Us", href: "/about-us" },
   { title: "Blog", href: "/blog" },
   { title: "Coverage FAQs", href: "/faqs" },
   { title: "Contact", href: "/contact" },

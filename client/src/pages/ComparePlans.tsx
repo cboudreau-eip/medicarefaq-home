@@ -106,10 +106,10 @@ const faqs = [
 export default function ComparePlans() {
   useCMSSEO({
     contentType: "page",
-    slug: "compare-plans",
+    slug: "compare-rates",
     title: "Compare Medicare Plans | Supplement vs. Advantage | MedicareFAQ",
     description: "Compare Medicare Supplement and Medicare Advantage plans side by side. Find out which type of coverage is right for your health needs and budget.",
-    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/compare/",
+    canonical: "https://www.medicarefaq.com/compare-rates/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "article",
   });

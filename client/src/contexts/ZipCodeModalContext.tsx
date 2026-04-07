@@ -107,7 +107,7 @@ export function ZipCodeModalProvider({ children }: { children: ReactNode }) {
       const target = (e.target as HTMLElement).closest("a");
       if (!target) return;
       const href = target.getAttribute("href");
-      if (href === "/medicare-plans/compare") {
+      if (href === "/compare-rates") {
         e.preventDefault();
         e.stopPropagation();
         openZipModal();

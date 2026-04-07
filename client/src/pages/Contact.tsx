@@ -51,7 +51,7 @@ const hours = [
 const quickLinks = [
   { label: "Medicare 101 Guide", href: "/medicare-101", icon: "📘" },
   { label: "Am I Eligible?", href: "/new-to-medicare/eligibility", icon: "✅" },
-  { label: "Compare Plans", href: "/medicare-plans/compare", icon: "📊" },
+  { label: "Compare Plans", href: "/compare-rates", icon: "📊" },
   { label: "Coverage FAQs", href: "/faqs", icon: "❓" },
 ];
 
@@ -346,7 +346,7 @@ export default function Contact() {
                     {/* Disclaimer */}
                     <p className="text-xs text-slate-400 leading-relaxed">
                       By clicking "Send Message" you consent to receive emails, text messages, and/or phone calls from representatives or licensed insurance agents of Elite Insurance Partners LLC regarding Medicare Supplement Insurance, Medicare Advantage, Medicare Part D, and/or other insurance plans. Your consent is not a condition of purchase. This is a solicitation for insurance.{" "}
-                      <Link href="/about" className="text-teal-600 hover:underline">Privacy Policy</Link>
+                      <Link href="/privacy-policy" className="text-teal-600 hover:underline">Privacy Policy</Link>
                     </p>
 
                     {/* Submit */}
