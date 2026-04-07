@@ -48,6 +48,8 @@ import MedigapEligibility from "./pages/MedigapEligibility";
 import MedigapPlans2026 from "./pages/MedigapPlans2026";
 import MedigapByCarrier from "./pages/MedigapByCarrier";
 import MedigapCarrierTemplate from "./pages/MedigapCarrierTemplate";
+import MedigapByState from "./pages/MedigapByState";
+import MedigapStateTemplate from "./pages/MedigapStateTemplate";
 import TermsOfUse from "./pages/TermsOfUse";
 
 function Router() {
@@ -79,6 +81,9 @@ function Router() {
       {/* Medigap by-carrier pages */}
       <Route path={"/medicare-supplements/medigap-by-carrier"} component={MedigapByCarrier} />
       <Route path={"/medicare-supplements/medigap-by-carrier/:carrierSlug"} component={MedigapCarrierTemplate} />
+      {/* Medigap by-state pages */}
+      <Route path={"/medicare-supplements/medigap-by-state"} component={MedigapByState} />
+      <Route path={"/medicare-supplements/medigap-by-state/:stateSlug"} component={MedigapStateTemplate} />
       {/* Data-driven plan letter pages: plan-a, plan-b, ..., plan-n, high-deductible-plan-g, high-deductible-plan-f */}
       <Route path={"/medicare-supplements/:planSlug"} component={MedigapPlanTemplate} />
       <Route path={"/medicare-part-c/medicare-advantage-plans"} component={MedicareAdvantage} />

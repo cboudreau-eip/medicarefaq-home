@@ -134,30 +134,30 @@
 - [x] /medicare-supplements/medigap-by-carrier/oxford-life-medigap-plans
 
 ### Medigap by State Pages (21 pages)
-- [ ] /medicare-supplements/medigap-by-state (index)
-- [ ] /medicare-supplements/medigap-by-state/massachusetts-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/wisconsin-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/minnesota-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/florida-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/new-jersey-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/texas-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/california-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/connecticut-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/arizona-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/georgia-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/pennsylvania-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/oklahoma-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/vermont-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/new-york-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/louisiana-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/kentucky-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/michigan-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/mississippi-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/oregon-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/tennessee-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/ohio-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/virginia-medigap-plans
-- [ ] /medicare-supplements/medigap-by-state/new-mexico-medigap-plans
+- [x] /medicare-supplements/medigap-by-state (index)
+- [x] /medicare-supplements/medigap-by-state/massachusetts-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/wisconsin-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/minnesota-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/florida-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/new-jersey-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/texas-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/california-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/connecticut-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/arizona-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/georgia-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/pennsylvania-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/oklahoma-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/vermont-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/new-york-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/louisiana-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/kentucky-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/michigan-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/mississippi-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/oregon-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/tennessee-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/ohio-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/virginia-medigap-plans
+- [x] /medicare-supplements/medigap-by-state/new-mexico-medigap-plans
 
 ### Original Medicare Sub-Pages (15 pages)
 - [ ] /original-medicare/medicare-parts/medicare-part-a
