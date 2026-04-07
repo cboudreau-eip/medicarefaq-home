@@ -188,7 +188,7 @@ export default function SupplementVsAdvantage() {
                   </div>
                 ))}
               </div>
-              <Link href="/medicare-plans/medicare-supplement" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 mt-6 hover:text-blue-900 transition-colors">
+              <Link href="/medicare-supplements" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 mt-6 hover:text-blue-900 transition-colors">
                 Learn more about Medigap <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -225,7 +225,7 @@ export default function SupplementVsAdvantage() {
                   </div>
                 ))}
               </div>
-              <Link href="/medicare-plans/medicare-advantage" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 mt-6 hover:text-teal-900 transition-colors">
+              <Link href="/medicare-part-c/medicare-advantage-plans" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 mt-6 hover:text-teal-900 transition-colors">
                 Learn more about Medicare Advantage <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

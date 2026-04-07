@@ -64,10 +64,10 @@ function Router() {
       <Route path={"/new-to-medicare/turning-65"} component={Turning65} />
       <Route path={"/new-to-medicare/costs"} component={MedicareCosts} />
       <Route path={"/new-to-medicare/checklist"} component={Checklist} />
-      <Route path={"/medicare-plans/original-medicare"} component={OriginalMedicare} />
-      <Route path={"/medicare-plans/medicare-supplement"} component={MedicareSupplement} />
-      <Route path={"/medicare-plans/medicare-advantage"} component={MedicareAdvantage} />
-      <Route path={"/medicare-plans/part-d"} component={PartD} />
+      <Route path={"/original-medicare"} component={OriginalMedicare} />
+      <Route path={"/medicare-supplements"} component={MedicareSupplement} />
+      <Route path={"/medicare-part-c/medicare-advantage-plans"} component={MedicareAdvantage} />
+      <Route path={"/original-medicare/medicare-parts/medicare-part-d"} component={PartD} />
       <Route path={"/compare-rates"} component={ComparePlans} />
       <Route path={"/medicare-plans/costs"} component={PlanCosts} />
       <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />
@@ -81,7 +81,7 @@ function Router() {
       {/* Medicare Library pages */}
       <Route path={"/library/guides"} component={Guides} />
       <Route path={"/podcasts"} component={Podcast} />
-      <Route path={"/library/videos"} component={Videos} />
+      <Route path={"/videos"} component={Videos} />
       <Route path={"/library/about"} component={AboutTeam} />
       {/* Coverage landing page */}
       <Route path={"/faqs"} component={Coverage} />

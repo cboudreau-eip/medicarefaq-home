@@ -105,25 +105,25 @@ export const navigationData: NavCategory[] = [
         title: "Original Medicare (Parts A & B)",
         description: "Hospital and medical insurance basics",
         icon: Shield,
-        href: "/medicare-plans/original-medicare",
+        href: "/original-medicare",
       },
       {
         title: "Medicare Supplement",
         description: "Fill the gaps in Original Medicare coverage",
         icon: Heart,
-        href: "/medicare-plans/medicare-supplement",
+        href: "/medicare-supplements",
       },
       {
         title: "Medicare Advantage (Part C)",
         description: "All-in-one alternative to Original Medicare",
         icon: Users,
-        href: "/medicare-plans/medicare-advantage",
+        href: "/medicare-part-c/medicare-advantage-plans",
       },
       {
         title: "Medicare Part D (Prescription Drug Plans)",
         description: "Prescription drug coverage options",
         icon: Pill,
-        href: "/medicare-plans/part-d",
+        href: "/original-medicare/medicare-parts/medicare-part-d",
       },
       {
         title: "Compare Medicare Plans",
@@ -291,7 +291,7 @@ export const navigationData: NavCategory[] = [
         title: "Videos",
         description: "Visual explanations of Medicare concepts",
         icon: Video,
-        href: "/library/videos",
+        href: "/videos",
       },
       {
         title: "FAQs",
@@ -310,7 +310,7 @@ export const navigationData: NavCategory[] = [
     sidebarItems: [
       {
         title: "Medicare Supplement Guide 2026",
-        href: "/medicare-plans/medicare-supplement",
+        href: "/medicare-supplements",
       },
       {
         title: "Understanding Medicare Costs",

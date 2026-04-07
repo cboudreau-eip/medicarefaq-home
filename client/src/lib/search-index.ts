@@ -34,7 +34,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#7C3AED",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-plans/medicare-supplement",
+    href: "/medicare-supplements",
     readTime: "15 min read",
   },
   {
@@ -78,7 +78,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#1B2A4A",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-plans/original-medicare",
+    href: "/original-medicare",
   },
   {
     id: "guide-advantage",
@@ -88,7 +88,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#0D9488",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-plans/medicare-advantage",
+    href: "/medicare-part-c/medicare-advantage-plans",
   },
   {
     id: "guide-part-d",
@@ -98,7 +98,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#C41230",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-plans/part-d",
+    href: "/original-medicare/medicare-parts/medicare-part-d",
   },
   {
     id: "guide-medigap-vs-ma",

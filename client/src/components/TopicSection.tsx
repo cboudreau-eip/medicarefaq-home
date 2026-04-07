@@ -54,7 +54,7 @@ const topics = [
     icon: Heart,
     color: "#4F46E5",
     articles: "14 articles",
-    href: "/medicare-plans/medicare-supplement",
+    href: "/medicare-supplements",
   },
   {
     title: "Medicare Advantage",
@@ -63,7 +63,7 @@ const topics = [
     icon: Users,
     color: "#0D9488",
     articles: "11 articles",
-    href: "/medicare-plans/medicare-advantage",
+    href: "/medicare-part-c/medicare-advantage-plans",
   },
 ];
 

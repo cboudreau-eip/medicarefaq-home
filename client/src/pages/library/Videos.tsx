@@ -136,7 +136,7 @@ export default function Videos() {
     slug: "videos",
     title: "Medicare Videos | Watch & Learn About Medicare | MedicareFAQ",
     description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
-    canonical: "https://www.medicarefaq.com/library/videos/",
+    canonical: "https://www.medicarefaq.com/videos/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     ogType: "website",
   });

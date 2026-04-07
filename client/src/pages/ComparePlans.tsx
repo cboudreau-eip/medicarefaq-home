@@ -222,10 +222,10 @@ export default function ComparePlans() {
           {/* Quick Links */}
           <div className="grid md:grid-cols-4 gap-4 mb-16">
             {[
-              { title: "Original Medicare", href: "/medicare-plans/original-medicare", icon: Shield, color: "text-blue-600" },
-              { title: "Medicare Supplement", href: "/medicare-plans/medicare-supplement", icon: Shield, color: "text-teal-600" },
-              { title: "Medicare Advantage", href: "/medicare-plans/medicare-advantage", icon: Heart, color: "text-teal-600" },
-              { title: "Part D Drug Plans", href: "/medicare-plans/part-d", icon: Pill, color: "text-purple-600" },
+              { title: "Original Medicare", href: "/original-medicare", icon: Shield, color: "text-blue-600" },
+              { title: "Medicare Supplement", href: "/medicare-supplements", icon: Shield, color: "text-teal-600" },
+              { title: "Medicare Advantage", href: "/medicare-part-c/medicare-advantage-plans", icon: Heart, color: "text-teal-600" },
+              { title: "Part D Drug Plans", href: "/original-medicare/medicare-parts/medicare-part-d", icon: Pill, color: "text-purple-600" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl border border-slate-200 hover:border-teal-300 hover:bg-teal-50/30 transition-colors group">
                 <link.icon className={`w-6 h-6 ${link.color}`} />

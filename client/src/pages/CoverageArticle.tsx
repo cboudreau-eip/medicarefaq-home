@@ -1143,8 +1143,8 @@ export default function CoverageArticle() {
                       {[
                         { label: "Medicare Dental Coverage", href: "/faqs/does-medicare-cover-dental-implants" },
                         { label: "Medicare Vision Coverage", href: "/faqs" },
-                        { label: "Medicare Advantage Plans", href: "/medicare-plans/medicare-advantage" },
-                        { label: "Medicare Supplement Plans", href: "/medicare-plans/medicare-supplement" },
+                        { label: "Medicare Advantage Plans", href: "/medicare-part-c/medicare-advantage-plans" },
+                        { label: "Medicare Supplement Plans", href: "/medicare-supplements" },
                         { label: "Medicare Guide & FAQs", href: "/faqs" },
                       ].map((topic, i) => (
                         <li key={i}>
