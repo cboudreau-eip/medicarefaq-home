@@ -6,7 +6,9 @@
 import type { SimpleFAQArticleData } from "@/lib/article-types";
 
 import { simpleFAQBatch1 } from "./simple-faq-data-batch1";
+import { simpleFAQBatch2 } from "./simple-faq-data-batch2";
 
 export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch1,
+  ...simpleFAQBatch2,
 ];
