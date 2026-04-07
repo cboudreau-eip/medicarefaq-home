@@ -55,6 +55,8 @@ import type {
   QuickReferenceItem,
 } from "@/lib/article-types";
 import { coverageArticles } from "@/lib/coverage-data";
+import { simpleFAQArticles } from "@/lib/simple-faq-data";
+import SimpleFAQTemplate from "@/pages/SimpleFAQTemplate";
 import PodcastPlayer from "@/components/PodcastPlayer";
 
 /* ─── Icon Map ─── */
@@ -301,6 +303,13 @@ export default function CoverageTemplate() {
     ogImage: article?.seo?.ogImage,
     ogType: "article",
   });
+
+  // Check SimpleFAQ articles as fallback
+  const simpleFAQ = !article ? simpleFAQArticles.find((a) => a.slug === params.slug) : null;
+
+  if (!article && simpleFAQ) {
+    return <SimpleFAQTemplate article={simpleFAQ} />;
+  }
 
   if (!article) {
     return (

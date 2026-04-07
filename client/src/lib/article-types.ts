@@ -169,6 +169,28 @@ export interface CoverageArticleData {
   };
 }
 
+/* ─── Simple FAQ Article Schema (scraped from live site) ─── */
+
+export interface SimpleFAQSection {
+  heading: string;
+  paragraphs: string[];
+  listItems?: string[];
+}
+
+export interface SimpleFAQArticleData {
+  slug: string;
+  seo: ArticleSEO;
+  title: string;
+  summary: string;
+  category: string;
+  dateUpdated: string;
+  author: string;
+  reviewer: string;
+  readTime: string;
+  sections: SimpleFAQSection[];
+  relatedSlugs?: string[];
+}
+
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
