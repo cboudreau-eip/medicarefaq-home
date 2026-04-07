@@ -89,7 +89,7 @@
 - [x] Wired SimpleFAQTemplate into CoverageTemplate routing (fallback lookup)
 - [x] Batch 1: Added top 50 FAQ articles by traffic (14,038 sessions/mo)
 - [x] Batch 2: Added next 50 FAQ articles (3,259 sessions/mo)
-- [ ] Batch 3: Add next 50 FAQ articles (1,553 sessions/mo)
+- [x] Batch 3: Added next 50 FAQ articles (1,553 sessions/mo)
 - [ ] Batch 4: Add next 50 FAQ articles (771 sessions/mo)
 - [ ] Batch 5: Add final 2 FAQ articles (21 sessions/mo)
 - [ ] Seed CMS meta for all new SimpleFAQ articles
