@@ -78,6 +78,23 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "medigap-compare", label: "Compare Medigap Plans", path: "/medicare-supplements/compare", contentType: "page" },
   { slug: "medigap-eligibility", label: "Medigap Eligibility", path: "/medicare-supplements/medigap-eligibility", contentType: "page" },
   { slug: "medicare-supplement-plans-2026", label: "Medicare Supplement Plans 2026", path: "/medicare-supplements/medicare-supplement-plans-2026", contentType: "page" },
+  // Medigap by-carrier pages
+  { slug: "medigap-by-carrier", label: "Medigap by Carrier (Index)", path: "/medicare-supplements/medigap-by-carrier", contentType: "page" },
+  { slug: "medigap-carrier-accendo-medicare-supplement-plans", label: "Accendo Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/accendo-medicare-supplement-plans", contentType: "page" },
+  { slug: "medigap-carrier-medico-medigap-plans", label: "Medico Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/medico-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-bankers-fidelity-medigap-plans", label: "Bankers Fidelity Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/bankers-fidelity-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-united-american-medigap-plans", label: "United American Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/united-american-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-united-healthcare-medigap-plans", label: "UnitedHealthcare Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-blue-cross-blue-shield-medigap-plans", label: "Blue Cross Blue Shield Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/blue-cross-blue-shield-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-cigna-medigap-plans", label: "Cigna Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/cigna-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-aetna-medicare-supplement-plans", label: "Aetna Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans", contentType: "page" },
+  { slug: "medigap-carrier-humana-medigap-plans", label: "Humana Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/humana-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-mutual-of-omaha-medigap-plans", label: "Mutual of Omaha Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-gpm-medigap-plans", label: "GPM Life Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/gpm-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-gerber-life-medigap-plans", label: "Gerber Life Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/gerber-life-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-national-general", label: "National General Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/national-general", contentType: "page" },
+  { slug: "medigap-carrier-manhattan-life-medigap-plans", label: "Manhattan Life Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/manhattan-life-medigap-plans", contentType: "page" },
+  { slug: "medigap-carrier-oxford-life-medigap-plans", label: "Oxford Life Medigap Plans", path: "/medicare-supplements/medigap-by-carrier/oxford-life-medigap-plans", contentType: "page" },
 ];
 
 const COVERAGE_SLUGS = [

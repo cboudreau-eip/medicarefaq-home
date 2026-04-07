@@ -116,22 +116,22 @@
 - [x] /medicare-supplements/medicare-supplement-plans-2026
 
 ### Medigap by Carrier Pages (15 pages)
-- [ ] /medicare-supplements/medigap-by-carrier (index)
-- [ ] /medicare-supplements/medigap-by-carrier/accendo-medicare-supplement-plans
-- [ ] /medicare-supplements/medigap-by-carrier/medico-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/bankers-fidelity-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/united-american-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/blue-cross-blue-shield-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/cigna-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans
-- [ ] /medicare-supplements/medigap-by-carrier/humana-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/gpm-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/gerber-life-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/national-general
-- [ ] /medicare-supplements/medigap-by-carrier/manhattan-life-medigap-plans
-- [ ] /medicare-supplements/medigap-by-carrier/oxford-life-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier (index)
+- [x] /medicare-supplements/medigap-by-carrier/accendo-medicare-supplement-plans
+- [x] /medicare-supplements/medigap-by-carrier/medico-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/bankers-fidelity-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/united-american-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/blue-cross-blue-shield-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/cigna-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans
+- [x] /medicare-supplements/medigap-by-carrier/humana-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/gpm-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/gerber-life-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/national-general
+- [x] /medicare-supplements/medigap-by-carrier/manhattan-life-medigap-plans
+- [x] /medicare-supplements/medigap-by-carrier/oxford-life-medigap-plans
 
 ### Medigap by State Pages (21 pages)
 - [ ] /medicare-supplements/medigap-by-state (index)
