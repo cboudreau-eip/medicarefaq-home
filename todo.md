@@ -160,21 +160,21 @@
 - [x] /medicare-supplements/medigap-by-state/new-mexico-medigap-plans
 
 ### Original Medicare Sub-Pages (15 pages)
-- [ ] /original-medicare/medicare-parts/medicare-part-a
-- [ ] /original-medicare/medicare-parts/medicare-part-b
-- [ ] /original-medicare/medicare-parts/medicare-part-d/silverscript
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy
-- [ ] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals
+- [x] /original-medicare/medicare-parts/medicare-part-a
+- [x] /original-medicare/medicare-parts/medicare-part-b
+- [x] /original-medicare/medicare-parts/medicare-part-d/silverscript
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy
+- [x] /original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals
 
 ### Caregiver Guide (6 pages)
 - [ ] /guide-to-being-a-caregiver (index)

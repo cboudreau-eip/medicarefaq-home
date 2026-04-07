@@ -120,6 +120,23 @@ const STATIC_PAGES: PageDef[] = [
   { slug: "medigap-state-ohio-medigap-plans", label: "Ohio Medigap Plans", path: "/medicare-supplements/medigap-by-state/ohio-medigap-plans", contentType: "page" },
   { slug: "medigap-state-virginia-medigap-plans", label: "Virginia Medigap Plans", path: "/medicare-supplements/medigap-by-state/virginia-medigap-plans", contentType: "page" },
   { slug: "medigap-state-new-mexico-medigap-plans", label: "New Mexico Medigap Plans", path: "/medicare-supplements/medigap-by-state/new-mexico-medigap-plans", contentType: "page" },
+  // Original Medicare sub-pages
+  { slug: "part-a", label: "Medicare Part A", path: "/original-medicare/medicare-parts/medicare-part-a", contentType: "page" },
+  { slug: "part-b", label: "Medicare Part B", path: "/original-medicare/medicare-parts/medicare-part-b", contentType: "page" },
+  // Part D sub-pages
+  { slug: "part-d-silverscript", label: "Part D: SilverScript", path: "/original-medicare/medicare-parts/medicare-part-d/silverscript", contentType: "page" },
+  { slug: "part-d-medicare-part-d-plans-2026", label: "Part D Plans 2026", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026", contentType: "page" },
+  { slug: "part-d-medicare-part-d-enrollment-periods", label: "Part D Enrollment Periods", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods", contentType: "page" },
+  { slug: "part-d-medicare-part-d-eligibility", label: "Part D Eligibility", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility", contentType: "page" },
+  { slug: "part-d-medicare-part-d-coverage-gap", label: "Part D Coverage Gap", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap", contentType: "page" },
+  { slug: "part-d-medicare-part-d-formulary", label: "Part D Formulary", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary", contentType: "page" },
+  { slug: "part-d-medicare-part-d-late-enrollment-penalty", label: "Part D Late Enrollment Penalty", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty", contentType: "page" },
+  { slug: "part-d-medicare-part-d-deductible", label: "Part D Deductible", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible", contentType: "page" },
+  { slug: "part-d-medicare-part-d-cost", label: "Part D Costs", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost", contentType: "page" },
+  { slug: "part-d-medicare-part-d-drug-tiers", label: "Part D Drug Tiers", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers", contentType: "page" },
+  { slug: "part-d-medicare-part-d-prior-authorization", label: "Part D Prior Authorization", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization", contentType: "page" },
+  { slug: "part-d-medicare-part-d-step-therapy", label: "Part D Step Therapy", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy", contentType: "page" },
+  { slug: "part-d-medicare-part-d-exceptions-and-appeals", label: "Part D Exceptions & Appeals", path: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals", contentType: "page" },
 ];
 
 const COVERAGE_SLUGS = [

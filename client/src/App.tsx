@@ -51,6 +51,9 @@ import MedigapCarrierTemplate from "./pages/MedigapCarrierTemplate";
 import MedigapByState from "./pages/MedigapByState";
 import MedigapStateTemplate from "./pages/MedigapStateTemplate";
 import TermsOfUse from "./pages/TermsOfUse";
+import PartA from "./pages/PartA";
+import PartB from "./pages/PartB";
+import PartDSubTemplate from "./pages/PartDSubTemplate";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -87,7 +90,12 @@ function Router() {
       {/* Data-driven plan letter pages: plan-a, plan-b, ..., plan-n, high-deductible-plan-g, high-deductible-plan-f */}
       <Route path={"/medicare-supplements/:planSlug"} component={MedigapPlanTemplate} />
       <Route path={"/medicare-part-c/medicare-advantage-plans"} component={MedicareAdvantage} />
+      {/* Original Medicare sub-pages */}
+      <Route path={"/original-medicare/medicare-parts/medicare-part-a"} component={PartA} />
+      <Route path={"/original-medicare/medicare-parts/medicare-part-b"} component={PartB} />
       <Route path={"/original-medicare/medicare-parts/medicare-part-d"} component={PartD} />
+      {/* Part D sub-pages — must come before the wildcard */}
+      <Route path={"/original-medicare/medicare-parts/medicare-part-d/:slug"} component={PartDSubTemplate} />
       <Route path={"/compare-rates"} component={ComparePlans} />
       <Route path={"/medicare-plans/costs"} component={PlanCosts} />
       <Route path={"/medicare-plans/supplement-vs-advantage"} component={SupplementVsAdvantage} />
