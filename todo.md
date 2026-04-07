@@ -77,7 +77,7 @@
 - [x] Batch 2: Restructure Blog post URLs to match live site (no changes needed — 19 of 20 are new content, 1 exact match already correct)
 - [x] Batch 3: Restructure Coverage/FAQ page URLs to match live site (removed duplicate /coverage route, 20 of 40 already match spreadsheet exactly, 20 are new content at /faqs/)
 - [x] Batch 4: Restructure Medicare Plans page URLs to match live site (/original-medicare, /medicare-supplements, /medicare-part-c/medicare-advantage-plans, /original-medicare/medicare-parts/medicare-part-d, /videos)
-- [ ] Add 301 redirect map for old rebuild URLs
+- [x] Add 301 redirect map for old rebuild URLs (9 redirects, all verified with curl returning 301)
 - [x] Update all internal links (nav, mega menu, footer, CTAs, cross-references)
 - [x] Update data files with new slugs
 - [x] Update CMS slug references
