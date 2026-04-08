@@ -759,4 +759,202 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" },
     ],
   },
+  {
+    slug: "part-d-costs",
+    title: "Medicare Part D Costs",
+    metaTitle: "Medicare Part D Costs 2026 | Premiums, Deductibles & Copays",
+    metaDescription: "Understand all Medicare Part D costs in 2026: monthly premiums, annual deductibles, copays by drug tier, the $2,000 out-of-pocket cap, and IRMAA surcharges for higher-income beneficiaries.",
+    heroSubtitle: "Medicare Part D prescription drug coverage comes with several cost components. Understanding each one helps you budget accurately and choose the right plan for your medications.",
+    heroIcon: "DollarSign",
+    sections: [
+      {
+        id: "overview",
+        heading: "The Four Main Part D Cost Components",
+        content: "Medicare Part D costs consist of four main components that work together to determine your total annual spending on prescription drugs:",
+        bullets: [
+          "Monthly premium — paid to your plan every month regardless of drug use",
+          "Annual deductible — amount you pay before the plan starts covering drugs (up to $590 in 2026)",
+          "Copays and coinsurance — your share of each prescription based on the drug's tier",
+          "IRMAA surcharge — additional amount for higher-income beneficiaries",
+        ],
+      },
+      {
+        id: "premiums",
+        heading: "2026 Part D Premiums",
+        content: "Part D premiums vary widely by plan and region. The national average in 2026 is approximately $46/month, but individual plans range from $0 to over $100/month.",
+        table: {
+          headers: ["Premium Range", "Plan Type"],
+          rows: [
+            ["$0 – $15/mo", "Basic plans with higher cost-sharing"],
+            ["$15 – $50/mo", "Mid-tier plans with moderate coverage"],
+            ["$50 – $100+/mo", "Enhanced plans with lower copays and broader formularies"],
+          ],
+        },
+        callout: { type: "tip", text: "A $0 premium plan is not always the cheapest option. If your medications are on a higher tier, a plan with a slightly higher premium but lower copays may cost less overall." },
+      },
+      {
+        id: "deductible",
+        heading: "2026 Part D Deductible",
+        content: "The maximum Part D deductible in 2026 is $590. Many plans charge less than the maximum, and some waive the deductible entirely for Tier 1 and Tier 2 (generic) drugs. You pay the full cost of your medications until you meet your deductible.",
+        callout: { type: "info", text: "Plans cannot charge more than $590 for the 2026 deductible, but they can charge less. Always check whether your specific medications are subject to the deductible before choosing a plan." },
+      },
+      {
+        id: "copays",
+        heading: "Copays and Coinsurance by Drug Tier",
+        content: "After meeting your deductible, you pay a copay or coinsurance for each prescription based on the drug's tier:",
+        table: {
+          headers: ["Tier", "Drug Type", "Typical Cost-Sharing"],
+          rows: [
+            ["Tier 1", "Preferred Generic", "$0 – $15 copay"],
+            ["Tier 2", "Generic", "$5 – $25 copay"],
+            ["Tier 3", "Preferred Brand", "$25 – $60 copay"],
+            ["Tier 4", "Non-Preferred Brand", "$60 – $150 copay"],
+            ["Tier 5", "Specialty", "25% – 33% coinsurance"],
+          ],
+        },
+      },
+      {
+        id: "oop-cap",
+        heading: "$2,000 Out-of-Pocket Cap (2025 and Beyond)",
+        content: "Starting in 2025, Medicare Part D has a $2,000 annual out-of-pocket cap on covered drug costs. Once you reach $2,000 in cost-sharing (deductibles, copays, and coinsurance), you pay $0 for covered drugs for the rest of the year. This cap does not include premiums or IRMAA surcharges.",
+        callout: { type: "info", text: "The Medicare Prescription Payment Plan (M3P) lets you spread your out-of-pocket costs evenly across the year in monthly installments rather than paying large amounts at once." },
+      },
+      {
+        id: "irmaa",
+        heading: "IRMAA: Income-Related Part D Surcharges",
+        content: "Higher-income beneficiaries pay an additional monthly surcharge on top of their plan premium. IRMAA is based on your income from two years prior.",
+        table: {
+          headers: ["Individual Income (2024)", "Monthly IRMAA Surcharge (2026)"],
+          rows: [
+            ["$106,000 or less", "$0"],
+            ["$106,001 – $133,000", "$13.70"],
+            ["$133,001 – $167,000", "$35.30"],
+            ["$167,001 – $200,000", "$57.00"],
+            ["$200,001 – $500,000", "$78.60"],
+            ["Above $500,000", "$85.80"],
+          ],
+        },
+      },
+    ],
+    faqs: [
+      { q: "What is the average Part D premium in 2026?", a: "The national average is approximately $46/month, but premiums range from $0 to over $100/month depending on the plan and your location." },
+      { q: "Does the $2,000 out-of-pocket cap include premiums?", a: "No. The $2,000 cap applies only to cost-sharing (deductibles, copays, coinsurance) for covered drugs. Premiums and IRMAA surcharges do not count toward the cap." },
+      { q: "Can I get help paying Part D costs?", a: "Yes. The Extra Help program (Low Income Subsidy) helps people with limited income pay Part D premiums, deductibles, and copays. In 2026, individuals with income up to 150% of the federal poverty level may qualify." },
+    ],
+    relatedLinks: [
+      { label: "Part D Deductible", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible" },
+      { label: "Part D Drug Tiers", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers" },
+      { label: "Extra Help Program", href: "/faqs/medicare-extra-help-program" },
+    ],
+  },
+  {
+    slug: "medicare-donut-hole",
+    title: "Medicare Donut Hole (Coverage Gap)",
+    metaTitle: "Medicare Donut Hole 2026 | Is the Coverage Gap Gone?",
+    metaDescription: "The Medicare donut hole (coverage gap) was officially eliminated in 2025. Learn what the donut hole was, how it worked, and what the new $2,000 out-of-pocket cap means for your drug costs in 2026.",
+    heroSubtitle: "The Medicare donut hole was a coverage gap in Part D where beneficiaries paid a higher share of drug costs. The Inflation Reduction Act eliminated the donut hole starting in 2025, replacing it with a $2,000 annual out-of-pocket cap.",
+    heroIcon: "CircleDashed",
+    sections: [
+      {
+        id: "what-was-it",
+        heading: "What Was the Medicare Donut Hole?",
+        content: "The Medicare donut hole (officially called the coverage gap) was a temporary limit on what Medicare Part D plans would cover for prescription drugs. Once you and your plan spent a certain amount on covered drugs, you entered the coverage gap and paid a higher percentage of drug costs until you reached catastrophic coverage.",
+        callout: { type: "info", text: "The donut hole was created when Medicare Part D launched in 2006 as a cost-control measure. It was gradually reduced over the years through the Affordable Care Act and was fully eliminated by the Inflation Reduction Act." },
+      },
+      {
+        id: "history",
+        heading: "How the Donut Hole Was Phased Out",
+        content: "The Affordable Care Act (2010) began phasing out the donut hole by requiring drug manufacturers to provide discounts on brand-name drugs in the gap. The Inflation Reduction Act (2022) finished the job by capping out-of-pocket costs at $2,000 starting in 2025.",
+        table: {
+          headers: ["Year", "Brand Drug Cost in Gap", "Generic Drug Cost in Gap"],
+          rows: [
+            ["2010", "100%", "100%"],
+            ["2020", "25%", "25%"],
+            ["2024", "25%", "25%"],
+            ["2025+", "Eliminated ($2,000 OOP cap)", "Eliminated ($2,000 OOP cap)"],
+          ],
+        },
+      },
+      {
+        id: "new-structure",
+        heading: "The New 2025-2026 Part D Structure",
+        content: "Starting in 2025, Medicare Part D has a simpler two-phase structure:",
+        bullets: [
+          "Phase 1: Deductible phase — You pay 100% of drug costs until you meet your deductible (up to $590 in 2026)",
+          "Phase 2: Coverage phase — You pay your plan's copays/coinsurance until you reach $2,000 in out-of-pocket costs",
+          "Phase 3: Catastrophic phase — After $2,000 OOP, you pay $0 for covered drugs for the rest of the year",
+        ],
+        callout: { type: "tip", text: "The $2,000 cap is a major improvement for people with high drug costs, particularly those on specialty medications. In prior years, beneficiaries could spend $5,000+ before reaching catastrophic coverage." },
+      },
+      {
+        id: "m3p",
+        heading: "Medicare Prescription Payment Plan (M3P)",
+        content: "The Inflation Reduction Act also created the Medicare Prescription Payment Plan (M3P), which lets you spread your out-of-pocket drug costs evenly across the year in monthly installments. This prevents large upfront costs early in the year when you are in the deductible phase.",
+        callout: { type: "info", text: "M3P is optional and must be elected each year. It does not reduce your total costs — it only smooths out when you pay them. Contact your Part D plan to enroll." },
+      },
+    ],
+    faqs: [
+      { q: "Is the Medicare donut hole gone in 2026?", a: "Yes. The coverage gap (donut hole) was eliminated starting January 1, 2025. In 2026, once you spend $2,000 out-of-pocket on covered drugs, you pay $0 for the rest of the year." },
+      { q: "What replaced the donut hole?", a: "The $2,000 annual out-of-pocket cap replaced the donut hole. This cap applies to cost-sharing (deductibles, copays, coinsurance) but not to monthly premiums or IRMAA surcharges." },
+      { q: "Did the donut hole affect generic drugs?", a: "Yes. Before 2025, beneficiaries in the coverage gap paid 25% of the cost for both brand-name and generic drugs. The $2,000 cap now applies to all covered drugs regardless of type." },
+    ],
+    relatedLinks: [
+      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
+      { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
+      { label: "Part D Deductible", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible" },
+    ],
+  },
+  {
+    slug: "mutual-of-omaha",
+    title: "Mutual of Omaha Medicare Part D Plans",
+    metaTitle: "Mutual of Omaha Part D Plans 2026 | Review & Costs",
+    metaDescription: "Review Mutual of Omaha Medicare Part D prescription drug plans for 2026. Compare premiums, formularies, and how Mutual of Omaha Part D plans stack up against other options.",
+    heroSubtitle: "Mutual of Omaha offers Medicare Part D prescription drug plans in select states. Known primarily for Medicare Supplement insurance, their Part D plans provide an option for beneficiaries who want to keep their coverage under one carrier.",
+    heroIcon: "Shield",
+    sections: [
+      {
+        id: "overview",
+        heading: "Mutual of Omaha Part D Overview",
+        content: "Mutual of Omaha is best known as one of the most popular Medicare Supplement (Medigap) carriers in the country. They also offer Medicare Part D prescription drug plans in select states, allowing beneficiaries to bundle their Medigap and Part D coverage with the same insurer.",
+        callout: { type: "info", text: "Mutual of Omaha Part D plans are not available in all states. Check plan availability in your area during the Annual Enrollment Period (Oct 15 – Dec 7)." },
+      },
+      {
+        id: "plans",
+        heading: "Mutual of Omaha Part D Plan Options",
+        content: "Mutual of Omaha typically offers one or two Part D plan options per region, focusing on straightforward coverage rather than a wide variety of tiers. Their plans generally include:",
+        bullets: [
+          "Coverage for all five drug tiers (preferred generics through specialty drugs)",
+          "Standard deductible up to the Medicare maximum ($590 in 2026)",
+          "Mail-order pharmacy option for 90-day supplies at reduced cost",
+          "Access to a broad pharmacy network including major chains",
+        ],
+      },
+      {
+        id: "compare",
+        heading: "How Mutual of Omaha Part D Compares",
+        content: "When comparing Mutual of Omaha Part D to other carriers, consider:",
+        table: {
+          headers: ["Factor", "Mutual of Omaha", "Larger Carriers (CVS/UHC)"],
+          rows: [
+            ["Plan variety", "1-2 options per region", "3-5 options per region"],
+            ["Premium range", "Competitive", "$0 to $100+"],
+            ["Formulary size", "Standard", "Varies widely"],
+            ["Brand recognition", "Strong (Medigap)", "Strong"],
+            ["Availability", "Select states", "Nationwide"],
+          ],
+        },
+        callout: { type: "tip", text: "The best Part D plan depends on your specific medications. Use Medicare.gov Plan Finder to compare plans based on your actual drug list before enrolling." },
+      },
+    ],
+    faqs: [
+      { q: "Does Mutual of Omaha offer Medicare Part D?", a: "Yes, Mutual of Omaha offers Medicare Part D prescription drug plans in select states. Availability varies by region, so check during the Annual Enrollment Period." },
+      { q: "Should I get Mutual of Omaha Part D if I have their Medigap plan?", a: "Having the same carrier for Medigap and Part D can simplify billing, but it is not required. Always compare Part D plans based on your specific medications and costs, not just carrier preference." },
+      { q: "How do I enroll in Mutual of Omaha Part D?", a: "You can enroll during your Initial Enrollment Period, Annual Enrollment Period (Oct 15 – Dec 7), or a qualifying Special Enrollment Period. Visit MutualofOmaha.com or call their Medicare helpline." },
+    ],
+    relatedLinks: [
+      { label: "Mutual of Omaha Medigap Plans", href: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
+      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
+      { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" },
+    ],
+  },
 ];

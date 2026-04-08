@@ -56,6 +56,17 @@ import PartB from "./pages/PartB";
 import PartDSubTemplate from "./pages/PartDSubTemplate";
 import CaregiverGuideTemplate from "./pages/CaregiverGuideTemplate";
 import MedicareAdvantageSubTemplate from "./pages/MedicareAdvantageSubTemplate";
+import ScholarshipOpportunities from "./pages/ScholarshipOpportunities";
+import Testimonials from "./pages/Testimonials";
+import MeetTheEditorialTeam from "./pages/MeetTheEditorialTeam";
+import JaggerEsch from "./pages/JaggerEsch";
+import ClientCareTeam from "./pages/ClientCareTeam";
+import ThirdPartyPartners from "./pages/ThirdPartyPartners";
+import SitemapPage from "./pages/SitemapPage";
+import MedicareGovToolsGuide from "./pages/MedicareGovToolsGuide";
+import MedicareAdvantagePlanTypes from "./pages/medicare-advantage/MedicareAdvantagePlanTypes";
+import MutualOfOmahaPartD from "./pages/original-medicare/MutualOfOmahaPartD";
+import ApplyForMedicarePartB from "./pages/original-medicare/ApplyForMedicarePartB";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -97,6 +108,7 @@ function Router() {
       <Route path={"/original-medicare/medicare-parts/medicare-part-b"} component={PartB} />
       <Route path={"/original-medicare/medicare-parts/medicare-part-d"} component={PartD} />
       {/* Part D sub-pages — must come before the wildcard */}
+      <Route path={"/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha"} component={MutualOfOmahaPartD} />
       <Route path={"/original-medicare/medicare-parts/medicare-part-d/:slug"} component={PartDSubTemplate} />
       {/* Caregiver Guide pages */}
       <Route path={"/guide-to-being-a-caregiver"} component={CaregiverGuideTemplate} />
@@ -126,8 +138,21 @@ function Router() {
       <Route path={"/faqs/does-medicare-cover-medical-alert-systems"} component={CoverageArticle} />
       {/* Data-driven coverage articles */}
       <Route path={"/faqs/:slug"} component={CoverageTemplate} />
-      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
-      <Route path={"/terms-of-use"} component={TermsOfUse} />
+       <Route path={"privacy-policy"} component={PrivacyPolicy} />
+      <Route path={"terms-of-use"} component={TermsOfUse} />
+      {/* Informational / static pages */}
+      <Route path={"/scholarship-opportunities"} component={ScholarshipOpportunities} />
+      <Route path={"/testimonials"} component={Testimonials} />
+      <Route path={"/meet-the-editorial-team"} component={MeetTheEditorialTeam} />
+      <Route path={"/about-us/jagger-esch"} component={JaggerEsch} />
+      <Route path={"/client-care-team"} component={ClientCareTeam} />
+      <Route path={"/third-party-partners"} component={ThirdPartyPartners} />
+      <Route path={"/sitemap"} component={SitemapPage} />
+      <Route path={"/seniors-guide-to-medicare-gov/tools-and-resources"} component={MedicareGovToolsGuide} />
+      {/* Medicare Advantage plan types */}
+      <Route path={"/medicare-part-c/medicare-advantage-plan-types"} component={MedicareAdvantagePlanTypes} />
+      {/* Original Medicare sub-pages */}
+      <Route path={"/original-medicare/medicare-parts/apply-for-medicare-part-b"} component={ApplyForMedicarePartB} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

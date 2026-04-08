@@ -261,3 +261,19 @@
 - [x] medicare-news
 - [x] virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice
 - [x] understanding-cobra-and-medigap-coverage-costs-and-key-differences
+
+## "Other" Pages — Remaining from MedicareFAQ_Pages_to_Keep.xlsx
+- [x] /scholarship-opportunities (ScholarshipOpportunities.tsx)
+- [x] /testimonials (Testimonials.tsx)
+- [x] /meet-the-editorial-team (MeetTheEditorialTeam.tsx)
+- [x] /about-us/jagger-esch (JaggerEsch.tsx)
+- [x] /client-care-team (ClientCareTeam.tsx)
+- [x] /third-party-partners (ThirdPartyPartners.tsx)
+- [x] /sitemap (SitemapPage.tsx)
+- [x] /seniors-guide-to-medicare-gov/tools-and-resources (MedicareGovToolsGuide.tsx)
+- [x] /medicare-part-c/medicare-advantage-plan-types (MedicareAdvantagePlanTypes.tsx)
+- [x] /original-medicare/medicare-parts/apply-for-medicare-part-b (ApplyForMedicarePartB.tsx)
+- [x] /original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha (MutualOfOmahaPartD.tsx)
+- [x] All routes registered in App.tsx
+- [x] TypeScript: 0 errors
+- [x] Tests: 60/60 passing
