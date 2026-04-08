@@ -194,3 +194,70 @@
 - [x] /medicare-part-c/medicare-advantage-plan-ppo
 - [x] /medicare-part-c/medicare-advantage-costs
 - [x] /medicare-part-c/medicare-advantage-vs-original-medicare
+
+## Missing Blog Articles — 57 Articles to Write
+
+### Batch 1 (articles 1-15)
+- [x] medicare-flex-card
+- [x] can-you-get-medicare-without-receiving-social-security-benefits
+- [x] medicare-and-hsa-rules-what-happens-when-you-turn-65
+- [x] full-retirement-age
+- [x] medicare-parts-a-b-c-and-d-explained-simply
+- [x] transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide
+- [x] understanding-medicare-part-b-premiums-deductibles-and-whats-covered
+- [x] what-happens-to-your-medicare-when-you-move-states
+- [x] amazon-rx-pass
+- [x] does-medicare-offer-a-grocery-allowance
+- [x] the-hidden-trade-offs-of-0-premium-medicare-advantage-plans
+- [x] understanding-medicare-assignment-what-it-means-and-why-it-matters
+- [x] illinois-birthday-rule
+- [x] discounts-for-seniors
+- [x] understanding-the-intersection-of-tricare-va-benefits-and-medicare
+
+### Batch 2 (articles 16-30)
+- [x] medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses
+- [x] medicare-and-vision-dental-and-hearing-what-are-your-options
+- [x] 5-government-benefits-for-seniors
+- [x] 5-things-to-do-after-you-receive-your-medicare-card
+- [x] eligibility-for-special-enrollment-period-after-medicare-coverage-loss
+- [x] medicare-advantage-denied-claims-crisis
+- [x] how-medicare-handles-skilled-nursing-vs-custodial-care
+- [x] laws-against-taking-advantage-of-the-elderly
+- [x] married-divorced-widowed-how-relationship-status-affects-medicare
+- [x] making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan
+- [x] care-compare-tool
+- [x] switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know
+- [x] top-free-computer-classes-for-seniors
+- [x] step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know
+- [x] medicare-for-all
+
+### Batch 3 (articles 31-45)
+- [x] understanding-medigaps-foreign-travel-benefits-whats-really-covered
+- [x] complications-of-shingles-in-the-elderly
+- [x] the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters
+- [x] medicare-at-60
+- [x] medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it
+- [x] louisiana-birthday-rule
+- [x] observation-vs-inpatient-why-it-can-affect-your-medicare-bill
+- [x] kentucky-birthday-rule
+- [x] senior-loneliness-statistics
+- [x] protect-yourself-from-medicare-penalties-key-tips-and-deadlines
+- [x] coverage-gap-discount-program
+- [x] medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job
+- [x] why-some-drugs-are-covered-under-part-b-instead-of-part-d
+- [x] the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever
+- [x] medicare-and-alternative-therapies-whats-covered-and-whats-not
+
+### Batch 4 (articles 46-57)
+- [x] retirement-regrets-of-seniors
+- [x] maryland-medicare-supplement-birthday-rule
+- [x] joe-namath-medicare-commericals
+- [x] oklahoma-birthday-rule
+- [x] medigap-underwriting-how-preexisting-conditions-still-matter
+- [x] inpatient-only-list
+- [x] medicare-whats-covered-app
+- [x] exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g
+- [x] guide-to-retirement-planning
+- [x] medicare-news
+- [x] virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice
+- [x] understanding-cobra-and-medigap-coverage-costs-and-key-differences
